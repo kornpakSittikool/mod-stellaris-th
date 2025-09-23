@@ -564,6 +564,7 @@
  POP_GROWTH_TITLE: "Monthly Pop Growth"
  POP_GROWTH: "Monthly Pop Growth: $VALUE|Y$"
  POP_GROWTH_LAST_MONTH: "Population Change Last Month: $VALUE|Y$"
+ POP_GROWTH_CATEGORY_LAST_MONTH: "$CATEGORY$ Last Month: $VALUE|Y$"
  POP_GROWTH_NEXT_MONTH: "Estimated Growth Next Month: $VALUE|2Y$"
  POP_ASSEMBLY_NEXT_MONTH: "Estimated Assembly Next Month: $VALUE|2Y$"
  POP_DECLINE_NEXT_MONTH: "Estimated Decline Next Month: $VALUE|2R$"
