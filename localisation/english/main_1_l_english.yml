@@ -3082,7 +3082,7 @@
  pc_asteroid:0 "ดาวเคราะห์น้อย"
  pc_asteroid_desc:0 "A larger asteroid or planetoid standing out in the dense cluster of smaller bodies."
  pc_molten:0 "ดาวหลอมเหลว"
- pc_molten_desc:0 "Rocky world that is scorching hot. The atmosphere is thin or non-existent, and lava from the interior flows freely due to constant volcanic eruptions. This type of planet cannot sustain organic life."
+ pc_molten_desc:0 "โลกที่เต็มไปด้วยหินร้อนระอุ บรรยากาศเบาบางหรือแทบไม่มีเลย และลาวาจากภายในก็ไหลออกมาอย่างอิสระเนื่องจากการปะทุของภูเขาไฟอย่างต่อเนื่อง ดาวเคราะห์ประเภทนี้ไม่สามารถดำรงชีวิตอยู่ได้"
  pc_frozen:0 "ดาวน้ำแข็ง"
  pc_frozen_desc:1 "Rocky world covered in a thick layer of permanently frozen ice. Low temperatures and a very thin atmosphere preclude the existence of life on the surface."
  pc_broken:0 "ดาวแตก"
