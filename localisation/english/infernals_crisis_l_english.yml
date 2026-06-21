@@ -1,0 +1,448 @@
+﻿l_english:
+
+# Ascension Perk
+ ap_galactic_hyperthermia: "ภาวะโลกร้อนระดับดาราจักร(Galactic Hypermia)"
+ ap_galactic_hyperthermia_desc: "จักรวาลเริ่มต้นขึ้นในกองเพลิง แต่กลับหนาวเย็นลงจนกลายเป็นสถานที่ที่มืดมิดและโหดร้าย เพื่อที่จะเจริญรุ่งเรือง เราจำเป็นต้องเพิ่มความร้อนขึ้น แม้ว่าผู้อื่นจะต้องพินาศก็ตาม"
+ must_be_infernals: "$TRIGGER_FAIL$ต้องการให้ประชากรของเราประกอบด้วยชาวเทอร์โมไฟล์(ผี)"
+
+# UI
+ entropy_crystals: "เอนโทรปีผลึก(Crystallized Entropy)"
+ entropy_crystals_name: "$entropy_crystals$:"
+ entropy_crystals_value: "£entropy_crystals£ $VAL|0$"
+ entropy_crystals_gaining: "ทำ §Hเป้าหมายวิกฤต(พระคริสตศักราช)§! ให้สำเร็จเพื่อรับ £entropy_crystals£ §Y$entropy_crystals$§! เพิ่มเติม"
+ entropy_crystals_desc: "โครงข่ายพลังงานดิบที่แหลมคมและแวววาวนี้มีเสถียรภาพในระดับหนึ่ง เพียงพอที่จะขนส่งเป็นเชื้อเพลิงหรือฝังเข้าไปในอุปกรณ์ได้"
+ mod_country_base_entropy_crystals_produces_add: "ผลผลิต £entropy_crystals£ $entropy_crystals$ รายเดือน"
+ entropy_crystals_crisis_objective: "$menace_crisis_objective$"
+ entropy_crystals_crisis_objective_gained: "ได้รับ £entropy_crystals£"
+ entropy_crystals_crisis_objective_reward: "$REWARD$"
+ entropy_crystals_crisis_objective_progress: "เราได้กําไรแล้ว£entropy_crystals£ $AMOUNT$จากวิกฤตการณ์นี้"
+ entropy_crystals_crisis_level_locked: "ต้องการปลดล็อคระดับนี้:\n" # remove?
+ entropy_crystals_crisis_level_unlocked: "ที่$LEVEL$คุณจะได้รับรางวัล :\n"
+ entropy_crystals_crisis_level_desc: "เพื่อให้ผ่านระดับวิกฤต สะสม$entropy_crystals$และสร้าง§Y$galactic_crucible_4$§!."
+ entropy_crystals_crisis_level_unlock: "เคย£entropy_crystals£ §Y$CURRENCY$§! $entropy_crystals$"
+ entropy_crystals_current_value: "ค่าปัจจุบัน:§Y$VALUE|0$§!"
+ entropy_crystals_crisis_description_title: "$ap_galactic_hyperthermia$"
+ entropy_crystals_crisis_description: "$menace_crisis_description_intro$\n\nวิธีการใหม่ในการควบคุมพลังงานจะช่วยให้เราเพิ่มพลังของเราได้อย่างมหาศาล เราจำเป็นต้องควบคุมไฟของดวงดาวเองเพื่อจุดชนวนยุคนี้"
+ entropy_crystals_crisis_howto_title: "แหล่งพลังงาน"
+ entropy_crystals_crisis_howto: "การทำเป้าหมายวิกฤต §Hวิกฤตวัตถุ§! จะสร้าง £entropy_crystals£ §H$entropy_crystals$§! ซึ่งสามารถนำมาใช้ในการอัปเกรด $galactic_crucible_4$ และปลดล็อกเลเวลวิกฤตถัดไปได้"
+
+# Level
+ crisis_hyperthermia_already_ongoing: "จักรวรรดิอื่นกำลังเข้าควบคุมแกนกลางดาราจักรแล้ว"
+ crisis_hyperthermia_already_happened: "จักรวรรดิอื่นได้ควบคุมแกนกลางดาราจักรและปรับเปลี่ยนดาราจักรเรียบร้อยแล้ว"
+ crisis_hyperthermia_level_1: "§Rความกังวล§!"
+ crisis_hyperthermia_level_1_desc: "$crisis_level_1_desc$"
+ crisis_hyperthermia_lv1_tt: "£trigger_yes£ เสร็จสิ้นโครงการพิเศษ §Y$INF_CRISIS_ENTROPY$§!"
+ crisis_hyperthermia_lv1_req_tt: "£trigger_no£ เสร็จสิ้นโครงการพิเศษ §Y$INF_CRISIS_ENTROPY$§!"
+ crisis_hyperthermia_level_2: "§Rความเสี่ยง§!"
+ crisis_hyperthermia_level_2_desc: "$crisis_level_2_desc$"
+ crisis_hyperthermia_lv2_tt: "£trigger_yes£ สร้างสิ่งก่อสร้างยักษ์ใหญ่ §Y$galactic_crucible_0$§! และอัปเกรดเป็น §Y$galactic_crucible_1$§! แล้ว"
+ crisis_hyperthermia_lv2_req_tt: "£trigger_no£ สร้างสิ่งก่อสร้างยักษ์ใหญ่ §Y$galactic_crucible_0$§! และอัปเกรดเป็น §Y$galactic_crucible_1$§! แล้ว"
+ crisis_hyperthermia_level_3: "§Rอันตราย§!"
+ crisis_hyperthermia_level_3_desc: "$crisis_level_3_desc$"
+ crisis_hyperthermia_lv3_tt: "£trigger_yes£ อัปเกรดสิ่งก่อสร้างยักษ์ใหญ่ §Y$galactic_crucible_1$§! แล้ว"
+ crisis_hyperthermia_lv3_req_tt: "£trigger_no£ อัปเกรดสิ่งก่อสร้างยักษ์ใหญ่ §Y$galactic_crucible_1$§! แล้ว"
+ crisis_hyperthermia_level_4: "§Rมหันตภัย§!"
+ crisis_hyperthermia_level_4_desc: "$crisis_level_4_desc$"
+ crisis_hyperthermia_lv4_tt: "£trigger_yes£ อัปเกรดสิ่งก่อสร้างยักษ์ใหญ่ §Y$galactic_crucible_2$§! แล้ว"
+ crisis_hyperthermia_lv4_req_tt: "£trigger_no£ อัปเกรดสิ่งก่อสร้างยักษ์ใหญ่ §Y$galactic_crucible_2$§! แล้ว"
+ crisis_hyperthermia_dec_lv4_tt: "£trigger_yes£ เสร็จสิ้นโครงการพิเศษ §Y$INF_CRISIS_ENTROPY_EVIL$§!"
+ crisis_hyperthermia_lv4_dec_req_tt: "£trigger_no£ เสร็จสิ้นโครงการพิเศษ §Y$INF_CRISIS_ENTROPY_EVIL$§!"
+ crisis_hyperthermia_level_5: "§Rภัยคุกคามต่อการดำรงอยู่§!"
+ crisis_hyperthermia_level_5_desc: "$crisis_level_5_desc$"
+ crisis_hyperthermia_lv5_tt: "£trigger_yes£ อัปเกรดสิ่งก่อสร้างยักษ์ใหญ่ §Y$galactic_crucible_3$§! แล้ว"
+ crisis_hyperthermia_lv5_req_tt: "£trigger_no£ อัปเกรดสิ่งก่อสร้างยักษ์ใหญ่ §Y$galactic_crucible_3$§! แล้ว"
+
+# MPerks Level 1
+ menp_hyperthermia_crystals: "$entropy_crystals$"
+ menp_hyperthermia_crystals_desc: "§Y$entropy_crystals$§! แสดงถึงความก้าวหน้าในการควบคุมความไม่เสถียรของพลังงาน ด้วยทรัพยากรที่ผันผวนนี้ภายใต้การควบคุมของเรา เราสามารถเปลี่ยนโฉมระเบียบของดาราจักรได้"
+ unlocks_entropy_objectives: "อนุญาตให้สะสม £entropy_crystals£ §Y$entropy_crystals$§! โดยการทำ §Hเป้าหมายวิกฤต(พระคริสตศักราช)§! ให้สำเร็จ"
+ menp_hyperthermia_harnessing: "การควบคุมเอนโทรปี"
+ menp_hyperthermia_harnessing_desc: "การผสมผสานการสังเคราะห์ §Y$entropy_crystals$§! เข้ากับอุตสาหกรรมของเราช่วยให้การใช้ทรัพยากรที่ผันผวนนี้มีประสิทธิภาพมากขึ้น สอดคล้องกับจุดเน้นทางเทคนิคของเราและเป้าหมายเชิงกลยุทธ์"
+ unlocks_entropy_edict: "§Hปลดล็อกพระราชกฤษฎีกา:§! $edict_entropy_harnessing$"
+ menp_hyperthermia_crucible: "เบ้าหลอมดาราจักร"
+ menp_hyperthermia_crucible_desc: "เบ้าหลอมที่เสนอนี้จะทำหน้าที่เป็นเครื่องยนต์หลักในการควบคุมเอนโทรปีของดวงดาว ด้วยความสามารถในการตกผลึกและขนส่งมัน เบ้าหลอมนี้สามารถกลายเป็นประภาคารแห่งพลังไฟของเรา และแผ่ขยายมันออกไปทั่วห้วงดาราจักร"
+ unlocks_galactic_crucible: "§Hปลดล็อกสิ่งก่อสร้างยักษ์ใหญ่:§! $galactic_crucible_0$"
+
+# MPerks Level 2
+ menp_hyperthermia_conc_entropy: "เอนโทรปีเข้มข้น"
+ menp_hyperthermia_conc_entropy_desc: "$entropy_conduit_plural$ มีความสำคัญต่อการขยายอำนาจของเราในขั้นนี้ การเพิ่มผลผลิตของเบ้าหลอมจะช่วยเร่งการก้าวไปสู่อนาคตที่สดใสและลุกโชนของเรา"
+ unlocks_conduit_spawn: "§H$UNLOCKS_SHIP_TYPE$:§! $entropy_conduit$ \n- §Y$entropy_conduit_plural$§! จะถูกสร้างขึ้นโดยอัตโนมัติโดย §Y$galactic_crucible_4$§! และจะเดินทางไปยังระบบดาวใกล้เคียง \n- อาณานิคมภายในระบบเป้าหมายจะได้รับโบนัส \n- ติดตั้งอาวุธ £ship_xl_slot£ §Y$LENS_FLARE_BEAM$§! ซึ่งจะปิดการใช้งานศัตรูเมื่อปะทะเป็นเวลาหลายวัน \n\n"
+ menp_hyperthermia_radiant: "ความทะยานอยากอันเจิดจ้า"
+ menp_hyperthermia_radiant_desc: "การเป็นจุดประกายที่จุดชนวนดาราจักรทำให้ไม่มีเวลาสำหรับการตั้งข้อสงสัยหรือระบบราชการ เราไม่สามารถเสียเวลาในการปรับเปลี่ยนระบบดวงดาวนับไม่ถ้วนได้ เพื่อให้บรรลุเป้าหมาย เราต้องเพิ่มขีดความสามารถในการก่อสร้างของเราอย่างมหาศาล"
+ menp_hyperthermia_ignition: "การจุดชนวนโดยบังคับ"
+ menp_hyperthermia_ignition_desc: "บางครั้ง การพยายามผลักดันให้หนักขึ้นก็ยังไม่เพียงพอ เราจำเป็นต้องนำเทคโนโลยีของเราไปสู่อีกระดับและใช้ประโยชน์จากศักยภาพสูงสุดของมัน ถึงเวลาลดระบบป้องกันภัยและเพิ่มผลผลิตสูงสุดแล้ว"
+ unlocks_crucible_overclocking: "เปิดใช้งานการ 'โอเวอร์คล็อก' ของ §Y$galactic_crucible_1$§! §Hโครงสร้างเมกะ§!"
+
+# MPerks Level 3
+ menp_hyperthermia_cruiser: "$ember_cruiser$"
+ menp_hyperthermia_cruiser_desc: "เรือเหล่านี้ติดตั้งเทคโนโลยีล้ำสมัย ทำหน้าที่แปลงกระแสความร้อนที่ผันผวนให้กลายเป็นการทำลายล้างแบบพุ่งเป้า ลดขนาดศัตรูของเราให้กลายเป็นเถ้าถ่านที่ไหม้เกรียม"
+ unlocks_ember_cruiser: "§H$UNLOCKS_SHIP_TYPE$:§! $ember_cruiser$"
+ menp_hyperthermia_flames: "เปลวเพลิงที่โหมกระหน่ำ"
+ menp_hyperthermia_flames_desc: "ยูโทเปียที่เราจินตนาการไว้ไม่มีที่ว่างสำหรับการต่อต้านเป้าหมายของเรา ใครก็ตามที่พยายามหยุดยั้งเราจะได้เรียนรู้อย่างรวดเร็วว่าการต่อต้านจะถูกพบด้วยสายฝนแห่งไฟที่เทลงบนโลกบ้านเกิดของพวกเขา"
+ unlocks_firestorm_stance: "§Hปลดล็อกการปรับปรุงสภาพดาว:§! $pc_volcanic$ \n§Hปลดล็อกท่าระดมยิง:§! $bombardment_firestorm$\n\n"
+ menp_hyperthermia_coronal: "การระบายความร้อนโคโรนา"
+ menp_hyperthermia_coronal_desc: "$entropy_conduit_plural$ ของเราในปัจจุบันต้องระบายความร้อนจำนวนมหาศาลเพื่อให้คงตัว การระบายความร้อนนั้นออกสู่พื้นที่รอบข้างจะทำให้ $entropy_conduit_plural$ กลายเป็นอาวุธทำลายล้างที่รุนแรงต่อศัตรูของเรา"
+ unlocks_conduit_damage: "§Y$entropy_conduit_plural$§! สร้างความเสียหายแบบพาสซีฟแก่ยานและสถานีที่เป็นปฏิปักษ์ \n\n"
+
+# MPerks Level 4
+ menp_hyperthermia_reactors: "เครื่องปฏิกรณ์เฮลิโอฟิวชัน"
+ menp_hyperthermia_reactors_desc: "การควบคุม §Y$entropy_crystals$§! ในเทคโนโลยีทางทหารช่วยปลดล็อกระบบขับเคลื่อนที่มีพลังงานสูงเป็นประวัติการณ์ ยานเรือของเราจะทะยานข้ามดวงดาวอย่างรวดเร็วอย่างที่ไม่เคยมีมาก่อน"
+ menp_hyperthermia_solarflare: "พายุสุริยะประดิษฐ์"
+ menp_hyperthermia_solarflare_desc: "เคยมีช่วงเวลาที่บางส่วนของดาราจักรอยู่นอกเหนือการเอื้อมถึงของเรา ภาพลวงตานั้นกำลังจะสิ้นสุดลง ในไม่ช้า ฝูงของ $entropy_conduit_plural$ จะเข้ามาเต็มระบบดาว นำพาความเสียหายที่ผ่านการคำนวณมาสู่ทุกคนที่ต่อต้านเรา"
+ unlocks_conduit_borders: "§Y$entropy_conduit_plural$§! จะข้ามพรมแดนเข้าสู่ดินแดนศัตรูโดยอัตโนมัติ \n\n"
+ menp_hyperthermia_armada: "กองเรือเพลิงพิโรธ"
+ menp_hyperthermia_armada_desc: "เนื่องจากดาราจักรรวมตัวกันเพื่อต่อต้านเรา การระดมพลจึงเป็นเรื่องหลีกเลี่ยงไม่ได้ พลเมืองทุกคนต้องมีส่วนร่วมในการสนับสนุนแนวรบด้านพลังงาน โหมกระพือเปลวไฟแห่งความยิ่งใหญ่ของเรา"
+ unlocks_blazing_navalcap: "§Y[GetAlloyProducerPlural]§! และ §Y[GetResearcherPlural]§! เพิ่มค่าพิกัดขนาดกองทัพเรือ £navy_size£ §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§!.\n\n"
+
+# MPerks Level 5
+ menp_hyperthermia_battleship: "$ember_battleship$"
+ menp_hyperthermia_battleship_desc: "ด้วยลำกล้องปืนที่ร้อนแรงราวกับพายุไฟที่กำลังจะครอบคลุมดาราจักร ยานรบขนาดใหญ่เหล่านี้จะประกอบกันเป็นกองกำลังป้องกันหลักรอบ ๆ เบ้าหลอม"
+ unlocks_ember_battleship: "§H$UNLOCKS_SHIP_TYPE$:§! $ember_battleship$ \n- สามารถติดตั้งอาวุธ £ship_xl_slot£ §Y$LENS_FLARE_BEAM$§! ได้"
+ menp_hyperthermia_critical_mass: "มวลวิกฤต"
+ menp_hyperthermia_critical_mass_desc: "การเพิ่มกิจกรรมเอนโทรปีในเปลือกนอกของดาวฤกษ์ทำให้ดาวฤกษ์ปล่อยรังสีออกมาเป็นระลอก สิ่งนี้ทำให้ระบบดาวทั้งหมดร้อนขึ้นอย่างรวดเร็ว"
+ unlocks_conduit_boost: "§Y$entropy_conduit_plural$§! จะแข็งแกร่งขึ้นตามจำนวนระบบดาวที่ถูกยึดครอง\n\n$hyperthermia_map_perc$\n\n"
+ hyperthermia_map_perc: "§G20%§! ของดาราจักร: $TABBED_NEW_LINE$- $entropy_conduit_plural$ สร้างความเสียหายอย่างรุนแรงแก่รัฐบริวารและอาณานิคมใกล้เคียง $TABBED_NEW_LINE$- อาณานิคมที่ได้รับผลกระทบจะค่อย ๆ สูญเสียประชากร £pop£ $POPS$ $TABBED_NEW_LINE$- ส่งผลกระทบเฉพาะจักรวรรดิของสปีชีส์ที่ไม่ใช่ §Yเท อร์ โม ฟี เลีย§! $TABBED_NEW_LINE$- ระบบที่ต้องการ: §Y[root.hyperthermia_own_systems_var]§!/§Y[root.hyperthermia_systems_var]§!"
+ menp_hyperthermia_ammunition: "กระสุนบรรจุพลังงาน"
+ menp_hyperthermia_ammunition_desc: "การปรับปรุงการออกแบบกระสุนปืน: อาวุธยุทโธปกรณ์มาตรฐานได้รับการเสริมด้วยแกนเอนโทรปีขนาดเล็ก ปล่อยคลื่นความร้อนที่ไม่เสถียรเมื่อปะทะ ผลลัพธ์คือการทำลายล้างที่เพิ่มขึ้นอย่างชัดเจน"
+
+# Misc
+ entropy_crystals_deficit: "การขาดแคลน $entropy_crystals$"
+ edict_entropy_harnessing: "การควบคุมเอนโทรปี"
+ edict_entropy_harnessing_desc: "การผสมผสานการผลิต $entropy_crystals$ เข้ากับโครงสร้างพื้นฐานของเราช่วยให้เราสามารถใช้ประโยชน์จากความกล้าหาญทางเทคนิคของเราได้อย่างเต็มที่ และแสวงประโยชน์จากทรัพยากรใหม่ที่ผันผวนนี้ได้อย่างเต็มศักยภาพสูงสุด"
+ mod_planet_technician_entropy_crystals_produces_add: "£entropy_crystals£ §Y$entropy_crystals$§! จาก £job_technician£ [GetTechnician]"
+ mod_shipsize_ember_cruiser_weapon_damage: "$MOD_SHIP_WEAPON_DAMAGE$ ($ember_cruiser$)"
+ mod_shipsize_ember_battleship_weapon_damage: "$MOD_SHIP_WEAPON_DAMAGE$ ($ember_battleship$)"
+ mod_conduit_spawnrate_add: "เวลาในการสร้าง £time£ $entropy_conduit$"
+ mod_conduit_spawnrate_switch: "การสร้าง $entropy_conduit$: §Rปิดใช้งาน§!"
+ mod_conduit_spawnrate_switch_short: "§Rปิดการสร้าง $entropy_conduit$§!"
+ mod_shipsize_ember_cruiser_speed_mult: "$MOD_SHIP_SPEED_MULT$ ($ember_cruiser$)"
+ mod_shipsize_ember_battleship_speed_mult: "$MOD_SHIP_SPEED_MULT$ ($ember_battleship$)"
+ ENTROPY_WORMHOLE: "$NATURAL_WORMHOLE_GALACTIC$"
+ BYPASS_ENTROPY_WORMHOLE: "$ENTROPY_WORMHOLE_GALACTIC$"
+ BYPASS_DESC_UNKNOWN_ENTROPY_WORMHOLE: "เราไม่เคยเห็นการก่อตัวแบบนี้มาก่อน"
+ ENTROPY_WORMHOLE_GALACTIC: "รูหนอนที่แปลกประหลาด"
+ ENTROPY_WORMHOLE_DESC: "ระบบนี้มี §Yรูหนอน§! ที่เชื่อมต่อกับ $DEST|Y$"
+ ENTROPY_WORMHOLE_DESC_UNEXPLORED: "ระบบนี้มี §Yรูหนอน§! ที่ §Rยังไม่ได้สำรวจ§!"
+ ENTRY_BYPASS_ENTROPY_WORMHOLE: "$BYPASS_TYPE$"
+ EXIT_BYPASS_ENTROPY_WORMHOLE: "ออกพ้น $BYPASS_TYPE$"
+ personality_hyperthermia_empire: "ระบอบจอมเผาผลาญ(เสียงม้า)"
+ personality_hyperthermia_empire_desc: "จักรวรรดิระบอบจอมเผาผลาญถูกปกครองโดยอุดมการณ์ที่ยกย่องพลังงาน เอนโทรปี และเปลวเพลิงดวงดาว พวกเขาไม่ชนะผ่านการยึดครอง แต่ทำการเผาทำลายเพื่อปรับแต่งดาราจักรด้วยความร้อนและความจำนงค์"
+ triggered_opinion_hyperthermia_empire: "จักรวรรดิ $personality_hyperthermia_empire$"
+ mod_job_metallurgist_naval_cap_add: "£mod_country_naval_cap_add£ $MOD_COUNTRY_NAVAL_CAP_ADD$ จากงาน £job_foundry£ [GetAlloyProducer]"
+ crisis_thermophile_adaptation: "การปรับตัวทนความร้อน(การปรับตัวของวิญญาณ)"
+ crisis_thermophile_adaptation_desc: ""
+ crisis_conduit_stop: "$mod_conduit_spawnrate_switch$" # modifier is hidden
+ crisis_conduit_stop_desc: ""
+
+ sm_gravitational_centrifuge: "เครื่องหมุนเหวี่ยงแรงโน้มถ่วง(เสียงแหลม)"
+ sm_gravitational_centrifuge_desc: "โครงสร้างนี้ใช้ประโยชน์จากความลาดชันของแรงโน้มถ่วงที่รุนแรงเพื่อสลายขยะบนระดับโมเลกุล สร้างพลาสมาเอนโทรปีที่สามารถตกผลึกเพื่อใช้ต่อไปได้"
+ gravitational_centrifuge_tt: "เป้าหมายวิกฤตสำเร็จ §H$crisobj_entropy_starbase_name$§!"
+ requires_multiple_stars_or_or_bh: "§Rต้องการระบบดาว §Yคู่§!, §Yสามดวง§! หรือ §Y$pc_black_hole$§! เท่านั้น§!"
+
+# Conduit Starforming
+ crisis_conduit_buff: "การควบคุมดูแลของดวงดาว"
+ crisis_conduit_buff_desc: "ชั้นบรรมยากาศของดาวฤกษ์ในท้องถิ่นกำลังเผชิญกับการเปลี่ยนแปลงอย่างรวดเร็ว ก่อให้เกิดการปะทุของพายุสุริยะที่แผดเผาทั่วทั้งระบบ แม้ว่าสิ่งนี้จะเป็นภัยพิบัติสำหรับผู้อื่น แต่มันก็สมบูรณ์แบบสำหรับเราในการเจริญเติบโต"
+ TERRAFORM_ORDER: "แปลงสภาพดาวฤกษ์"
+ TERRAFORM_ORDER_DESC: "จะค่อย ๆ เปลี่ยนดาวฤกษ์เป้าหมายให้กลายเป็น §Y$pc_m_giant_star$§!."
+ TERRAFORM_ORDER_RESEARCH: "การใช้ศักยภาพพลังงานที่เพิ่มขึ้นของเอนโทรปีผลึก ช่วยให้ดาวฤกษ์ขนาดเล็กสามารถขยายตัวเป็นดาวยักษ์แดงที่ยิ่งใหญ่ได้"
+ FLEETORDER_TERRAFORM_BUTTON: "$TERRAFORM_ORDER$"
+ FLEETORDER_TERRAFORM: "การปรับแต่งดวงดาว $PLANET|Y$ ($PROGRESS|Y%0$)"
+ FLEETORDER_BOOST_STAR: "จุดชนวนดาวฤกษ์"
+ CAN_NOT_TERRAFORM_STAR: "$TRIGGER_FAIL$ต้องเป็นดาวฤกษ์หลักเท่านั้น."
+ CAN_NOT_CRISIS_TERRAFORM_STAR_CLASS: "$TRIGGER_FAIL$คลาสของดาวฤกษ์ไม่ถูกต้องสำหรับการแปลงสภาพ."
+ CAN_NOT_CRISIS_TERRAFORM_STAR_MEGASTRUCTURE: "$TRIGGER_FAIL$สิ่งก่อสร้างยักษ์ใหญ่ที่โคจรอยู่ขัดขวางการแปลงสภาพ."
+ VALID_TERRAFORM_STAR: "ดาวฤกษ์สามารถแปลงสภาพได้."
+ STATION_CAN_NOT_TERRAFORM_STAR: "สถานีท่อส่งพลังงาน(สถานีรถไฟ)ต้องโคจรอยู่โดยรอบ."
+
+# Objectives
+ crisobj_own_volcanics_name: "ครอบครองโลกภูเขาไฟ"
+ crisobj_own_volcanics_desc: "ความร้อนของระบบที่เพิ่มขึ้นช่วยกระตุ้นการปะทุของภูเขาไฟ เหมาะอย่างยิ่งสำหรับการผลักดันภารกิจอันร้อนแรงของเรา เราควรให้ความสำคัญกับการตั้งถิ่นฐานใน §Yโลกภูเขาไฟ(Volcanic Worlds)§! เพื่อรักษาความก้าวหน้า\n\nมอบรายได้แบบพาสซีฟจาก §Y$entropy_crystals$§! ในแต่ละปี โดยปรับขนาดตามจำนวนอาณานิคมบน §Y$pc_volcanic$§!."
+ crisobj_create_volcanics_name: "สร้างโลกภูเขาไฟ"
+ crisobj_create_volcanics_desc: "การแพร่กระจายของภูเขาไฟระดับดาวเคราะห์ทั่วกาแล็กซีจะช่วยเติมเชื้อเพลิงให้แก่ระบบเศรษฐกิจผลึกเอนโทรปีของเรา ด้วยเทคนิคการปรับปรุงสภาพดาวที่ถูกต้อง เราสามารถกระตุ้นกิจกรรมภูเขาไฟอย่างต่อเนื่องได้ทุกที่ที่เราต้องการ\n\nปรับสภาพดาวเคราะห์ให้กลายเป็น §Y$pc_volcanic$§!"
+ crisobj_own_red_stars_name: "ครอบครองดาวสีแดง"
+ crisobj_own_red_stars_desc: "เราควรให้ความสำคัญกับการตั้งถิ่นฐานในระบบดาวรอบดาวสีแดง พื้นผิวการแผ่รังสีขนาดใหญ่ของพวกมันเหมาะอย่างยิ่งสำหรับการเก็บเกี่ยวพลังงานความร้อน\n\nมอบรายได้แบบพาสซีฟจาก §Y$entropy_crystals$§! ในแต่ละเดือน ปรับขนาดตามแต่ละ §Y$pc_m_star$§! หรือ §Y$pc_m_giant_star$§! ภายในพรมแดนของเรา."
+ crisobj_create_red_stars_name: "สร้างดาวสีแดง"
+ crisobj_create_red_stars_desc: "ด้วยการส่งผ่านผลึกเอนโทรปี เราสามารถทำให้ดาวฤกษ์พองตัวเป็นดาวยักษ์แดง ช่วยจุดเชื้อเพลิงการเติบโตของจักรวรรดิเพลิงพิโรธของเรา\n\nดาวฤกษ์ที่ถูกแปลงสภาพโดย §Y$entropy_conduit_plural$§! จะกลายเป็น §Y$pc_m_giant_star$§!"
+ crisobj_planet_firestorm_name: "การวางเพลิงระดับดาวเคราะห์"
+ crisobj_planet_firestorm_desc: "ได้เวลาสอนให้คู่แข่งของเราเข้าใจความหมายที่แท้จริงของความเหนือกว่า ด้วยการระดมยิงพายุไฟที่จะเปลี่ยนโลกของพวกเขาให้กลายเป็นเถ้าถ่าน\n\nถล่มอาณานิคมด้วยระเบิดพายุเพลิง §Y$bombardment_firestorm$§! เพื่อสร้างความเสียหายแก่ดาวเคราะห์ §R100%§!."
+ crisobj_lens_beam_impact_name: "ก่อกวนยานรบ"
+ crisobj_lens_beam_impact_desc: "โลกที่หนาวเย็นและอบอุ่นไม่มีประโยชน์สำหรับเรา เราต้องเปลี่ยนโฉมพวกมันโดยการหลอมเหลวพื้นผิวให้กลายเป็นรูปแบบที่เหมาะสมกับความต้องการของเรา\n\nใช้อาวุธช่อง £ship_xl_slot£ §Y$LENS_FLARE_BEAM$§! ที่ติดตั้งบน §Y$entropy_conduit_plural$§! และ §Y$ember_battleship_plural$§! เพื่อถล่มโลกของศัตรู."
+ crisobj_entropy_starbase_name: "ครอบครองเครื่องหมุนเหวี่ยงแรงโน้มถ่วง"
+ crisobj_entropy_starbase_desc: "เครื่องหมุนเหวี่ยงแรงโน้มถ่วงจะช่วยให้เราสะสม $entropy_crystals$ ได้มากขึ้น. \n\nสร้างสิ่งปลูกสร้างสถานีอวกาศ §Y$sm_gravitational_centrifuge$§! ในระบบดาว §Yคู่ (binary)§!, §Yสามดวง (trinary)§! หรือระบบที่มี §Y$pc_black_hole$§!."
+
+# Ships
+ NAME_Ember_Cruiser: "Fiery Devastator"
+ ember_cruiser_cap: "$ember_cruiser$"
+ ember_cruiser: "เอ็มเบอร์$cruiser$"
+ ember_cruiser_plural: "เอ็มเบอร์$cruiser_plural$"
+ EMBER_CRUISER_BOW_L1: "$CRUISER_BOW_L1$"
+ EMBER_CRUISER_BOW_M1S2: "$CRUISER_BOW_M1S2$"
+ EMBER_CRUISER_BOW_M2: "$CRUISER_BOW_M2$"
+ EMBER_CRUISER_MID_S2HB: "$CRUISER_MID_S2HB$"
+ EMBER_CRUISER_MID_L1M1: "$CRUISER_MID_L1M1$"
+ EMBER_CRUISER_MID_M3: "$CRUISER_MID_M3$"
+ EMBER_CRUISER_MID_M2S2: "$CRUISER_MID_M2S2$"
+ EMBER_CRUISER_STERN_M1: "$CRUISER_STERN_M1$"
+ EMBER_CRUISER_STERN_S2: "$CRUISER_STERN_S2$"
+
+ NAME_Ember_Battleship: "Flaming Smelter"
+ ember_battleship_cap: "$ember_battleship$"
+ ember_battleship: "เอ็มเบอร์$battleship$"
+ ember_battleship_plural: "เอ็มเบอร์$battleship_plural$"
+ EMBER_BATTLESHIP_BOW_L1M1S2: "$BATTLESHIP_BOW_L1M1S2$"
+ EMBER_BATTLESHIP_BOW_L2: "$BATTLESHIP_BOW_L2$"
+ EMBER_BATTLESHIP_BOW_M1S2SHB: "$BATTLESHIP_BOW_M1S2SHB$"
+ EMBER_BATTLESHIP_BOW_XL: "$BATTLESHIP_BOW_M2S4$"
+ EMBER_BATTLESHIP_MID_L2M2: "$BATTLESHIP_MID_L2M2$"
+ EMBER_BATTLESHIP_MID_L3: "$BATTLESHIP_MID_L3$"
+ EMBER_BATTLESHIP_MID_M4SHB: "$BATTLESHIP_MID_M4SHB$"
+ EMBER_BATTLESHIP_MID_S4LHB: "$BATTLESHIP_MID_S4LHB$"
+ EMBER_BATTLESHIP_STERN_L1: "$BATTLESHIP_STERN_L1$"
+ EMBER_BATTLESHIP_STERN_M2: "$BATTLESHIP_STERN_M2$"
+
+ conduit_station_cap: "$entropy_conduit$"
+ conduit_station: "$entropy_conduit$"
+ conduit_station_plural: "$entropy_conduit_plural$"
+ NAME_Conduit_Station: "$NAME_Entropy_Conduit$" 
+ entropy_conduit_cap: "$entropy_conduit$"
+ entropy_conduit: "เส้นพริ้วไหว"
+ entropy_conduit_plural: "ผู้สมรู้ร่วมคิด"
+ entropy_conduit_key: "แกนกลาง"
+ NAME_Entropy_Conduit: "Entropy Conduit"
+
+# Weapon
+ LENS_FLARE_BEAM: "เครื่องสะกดจิตผ่านเลนส์(พาราไลเซอร์)"
+ LENS_FLARE_BEAM_DESC: "ลำแสงของอาวุธนี้ได้รับการเทียบมาตรฐานเพื่อรบกวนระบบควบคุมที่สำคัญ ทำให้เกิดโอกาสจำกัดสำหรับการโจมตีโดยไร้การต่อต้าน"
+ lfb_on_hit_stun_tt: "§Yปิดการทำงาน§! เป้าหมายเป็นเวลา §G7§! วัน ทำให้ไม่สามารถเคลื่อนที่หรือยิงโต้ตอบได้"
+ lf_weapon_stun_effect: "§Rผลกระทบจากการปะทะของ $LENS_FLARE_BEAM$§!"
+ lf_weapon_stun_effect_desc: " " # not visible
+
+# Megastructure
+ galactic_crucible_0: "โครงสร้างเบ้าหลอมดาราจักร"
+ galactic_crucible_0_DESC: "กรอบฐานรากของ $galactic_crucible_4$ สร้างขึ้นเพื่อรองรับและนำทางการก่อสร้างส่วนที่เหลือของสถานี"
+ galactic_crucible_0_MEGASTRUCTURE_DETAILS: "สถานีขนาดใหญ่นี้จะสูบพลังงานจากดาวฤกษ์เจ้าบ้าน ขับเคลื่อนอู่ต่อเรืออัตโนมัติที่ผลิต §Y$entropy_conduit_plural$§!; ยานรบที่มีความสามารถในการเปลี่ยนโฉมชะตากรรมของดวงดาว"
+ galactic_crucible_1: "ตัวเครื่อง $galactic_crucible_4$"
+ galactic_crucible_1_DESC: "ด้วยโครงสร้างพื้นฐานหลักที่เสร็จสมบูรณ์ บัดนี้ $galactic_crucible_4$ เป็นสถานีที่ทำงานได้แล้ว การก่อสร้างระบบเอนโทรปีผลึกกำลังดำเนินอยู่"
+ galactic_crucible_2: "แกนของ $galactic_crucible_4$"
+ galactic_crucible_2_DESC: "$galactic_crucible_4$ เปิดใช้งานอย่างสมบูรณ์แล้วและพร้อมที่จะขยายการใช้งานของ §Y$entropy_crystals$§! การอัปเกรดในอนาคตทั้งหมดจะขึ้นอยู่กับรากฐานนี้\n\n§Hทำโครงการพิเศษให้เสร็จเพื่อปลดล็อกขั้นต่อไป§!"
+ galactic_crucible_3: "ศูนย์กลาง $galactic_crucible_4$"
+ galactic_crucible_3_DESC: "$galactic_crucible_4$ ที่กำลังขยายตัวมีระบบเอนโทรปีแบบแยกส่วน ออกแบบมาเพื่อการปรับโครงสร้างและการเติบโตที่ราบรื่น วิศวกรสามารถเพิ่มขีดความสามารถขณะที่ลดความไร้ประสิทธิภาพให้น้อยที่สุด"
+ galactic_crucible_4: "เบ้าหลอมดาราจักร"
+ galactic_crucible_4_DESC: "เบ้าหลอมดาราจักร $galactic_crucible_4$ ที่ติดอาวุธและทำงานได้อย่างสมบูรณ์ พร้อมที่จะปลดปล่อยการกวาดล้างเพลิงพิโรธข้ามดาราจักร ระบบการไหลเวียนของเอนโทรปีทำงานด้วยประสิทธิภาพสูงสุดตามทฤษฎี"
+ galactic_crucible_5: "สถาบันเบ้าหลอมดาราจักร"
+ galactic_crucible_5_DESC: "$galactic_crucible_4$ ได้รับการออกแบบทางวิศวกรรมใหม่โดยไม่สามารถยกเลิกได้ เพื่อป้องกันผลผลิตพลังงานที่สูงอย่างเป็นอันตราย มันจะยังคงเป็นแหล่งความมั่งคั่งที่มั่นคงและปลอดภัยสำหรับจักรวรรดิ"
+ galactic_crucible_ruined: "ซากปรักหักพังของ $galactic_crucible_4$"
+ galactic_crucible_ruined_DESC: "อู่ต่อเรือที่พังยับเยิน ครั้งหนึ่งเคยถูกสร้างขึ้นเพื่อรับใช้ความทะยานอยากอันลุกโชนของจักรวรรดิที่ล่มสลาย"
+ galactic_crucible_ruined_MEGASTRUCTURE_DETAILS: "ซากปรักหักพังขนาดใหญ่นี้ยังคงแผ่รังสีความร้อนที่ระยิบระยับออกมา ชีพจรทำงานอย่างคาดเดาไม่ได้ข้ามส่วนที่เหลือที่แตกสลาย"
+ SPAWN_CONDUITS: "$entropy_conduit_plural$"
+ SPAWN_CONDUITS_DESC: "$galactic_crucible_4$ สร้าง $entropy_conduit_plural$ โดยอัตโนมัติ พวกมันจะเดินทางไปยังดาวฤกษ์ที่สามารถเปลี่ยนเป็น §Y$pc_m_giant_star$§! ได้"
+ megastructure_overclocking_desc: "ด้วยการโอเวอร์คล็อกเชิงกลยุทธ์ สิ่งก่อสร้างยักษ์ใหญ่นี้อาจทำงานเกินขีดจำกัดการทำงานมาตรฐานและปลดล็อกผลกระทบที่เป็นเอกลักษณ์"
+ overclock_mode: "โหมด:"
+ overclock_gc_default: "$overclock_mode$ §Hค่าเริ่มต้น§!"
+ overclock_gc_default_desc: "สร้างผลผลิตเอนโทรปีผลึกในอัตราที่คงที่และปานกลาง\n"
+ overclock_gc_high: "$overclock_mode$ §Hโอเวอร์ชาร์จ§!"
+ overclock_gc_high_desc: "ใช้พลังงานสำรองจำนวนมหาศาลเพื่อขับเคลื่อนการสร้างท่อส่งพลังงาน(คอนดูท)\n"
+ overclock_gc_eco: "$overclock_mode$ §Hกำลังการผลิตพิเศษ§!"
+ overclock_gc_eco_desc: "การลงทุนแร่โลหะผสมจำนวนมากช่วยให้เอนโทรปีผลึกสามารถผลิตได้ในอัตราที่สูงขึ้น\n"
+ overclock_gc_war: "$overclock_mode$ §Hศูนย์ประสานงานสงคราม§!"
+ overclock_gc_war_desc: "$galactic_crucible_4$ สามารถใช้เพื่อจัดหาพลังงานสำรองจำนวนมากให้กับยานรบใกล้เคียง ช่วยเพิ่มพละกำลังในการรบของกองเรือป้องกันอย่างสูงสุด\n"
+
+# Event Chain
+ galactic_hyperthermia_chain_title: "$ap_galactic_hyperthermia$"
+ galactic_hyperthermia_chain_desc: "เราตัดสินใจแล้วว่าอนาคตจะห้อมล้อมด้วยกองเพลิง และกำลังดำเนินการเพื่อตั้งระบบไฟแผดเผาทั่วทั้งดาราจักร"
+
+# Special Projects
+ INF_CRISIS_ENTROPY: "แหล่งพลังงานใหม่"
+ INF_CRISIS_ENTROPY_DESC: "ไฟมีบทบาทสำคัญในสังคมของเรามานานแล้ว แต่บัดนี้เราอาจควบคุมพลังที่โกลาหลของมันในวิธีการใหม่ ๆ นี่อาจเป็นสิ่งที่นักวิทยาศาสตร์ฝันถึงมาแสนนาน: แหล่งพลังงานที่ก้าวข้ามการขับเคลื่อนอารยธรรมปัจจุบันของเรา และสามารถส่งเราข้ามผ่านดวงดาวได้\n\n§Hผลกระทบ:§! ปลดล็อกทรัพยากรใหม่ £entropy_crystals£ §Y$entropy_crystals$§!"
+ INF_CRISIS_ENTROPY_EVIL: "การตั้งระบบพายุเพลิง"
+ INF_CRISIS_ENTROPY_EVIL_DESC: "เบ้าหลอมได้แสดงให้เราเห็นเส้นทางใหม่สำหรับสปีชีส์ของเรา มันคงจะโง่เขลาหากไม่ยอมรับมัน และเราไม่ควรยอมทนต่อผู้ใด ถึงเวลาที่จะสร้างดาราจักรขึ้นใหม่ในรูปของเปลวเพลิง และแผดเผาใครก็ตามที่ปฏิเสธนิมิตของเรา\n\n§Hผลกระทบ:§!\n- ปลดล็อกการอัปเกรดขั้นต่อไปของ §Y$galactic_crucible_4$§!.\n- บัดนี้ §Y$entropy_conduit_plural$§! สามารถแปลงสภาพดาวฤกษ์ในอาณาเขตศัตรูได้\n\n" # Crystallized Entropy is used to its full potential
+ INF_CRISIS_ENTROPY_GOOD: "ความสัมพันธ์ที่คาดไม่ถึง"
+ INF_CRISIS_ENTROPY_GOOD_DESC: "แม้ว่าพลังของเบ้าหลอมจะมหาศาล แต่มันก็มีความผันผวนเช่นกัน หากเราจำกัดขีดความสามารถของมันอย่างถาวร เราจะรับประกันแหล่งความเจริญรุ่งเรืองที่ปานกลางสำหรับตนเองโดยไม่ทำให้ดาราจักรตกอยู่ในอันตรายหรือสูญเสียเจตนารมณ์ที่ดีของเพื่อนบ้าน" # Crystallized Entropy can be used for the economy
+
+# Countdown Situation
+ situation_galactic_hyperthermia_timer: "การระดมพล"
+ situation_galactic_hyperthermia_timer_type: "$situation_galactic_hyperthermia_timer$"
+ situation_galactic_hyperthermia_timer_desc: "ความเชี่ยวชาญใน §Y$entropy_crystals$§! ของเราจะช่วยให้เราเริ่มการแปลงสภาพทางภูมิศาสตร์ของดาราจักรได้อย่างสิ้นเชิงในเร็ว ๆ นี้ เราได้เปิดรูหนอนเชื่อมต่อไปยังระบบดาวหกแห่งรอบแกนดาราจักร\nหากเราติดตั้ง §Y$entropy_conduit_plural$§! ในแต่ละระบบเหล่านี้ และปกป้องพวกมันจากใครก็ตามที่ต้องการแทรกแซงแผนการของเรา เราจะสามารถแผดเผาดาราจักรได้สำเร็จ"
+ situation_galactic_hyperthermia_timer_monthly_change_tooltip: "ระดับปัจจุบันของเอนโทรปีที่แผ่รังสีเข้าสู่แกนดาราจักร เมื่อมันถึงจุดสูงสุด ดาราจักรจะลุกไหม้"
+ situation_gh_timer_outcome: "รายงานข่าวกรองระบุว่าชาติต่าง ๆ กำลังเตรียมการสำหรับสงครามเพื่อทำลายแผนการของเรา หากเราเผชิญหน้าพวกเขาโดยไม่มีการเตรียมตัว ปฏิบัติการของเราจะล้มเหลวก่อนจะเริ่มต้นขึ้นเสียอีก"
+ situation_gh_approach_timer: "เผชิญกับผลพวงสงคราม"
+ situation_gh_approach_timer_tt: "เวลานั้นมาถึงแล้ว ความขัดแย้งที่หลีกเลี่ยงไม่ได้กำลังจะกลืนกินดาราจักรในสงครามสัดส่วนมหากาพย์"
+ situation_gh_difficulty_progress: "ระดับความยาก"
+ situation_gh_opponent_progress: "§G-0.1§! ต่อจักรวรรดิที่เป็นปฏิปักษ์"
+
+# Crisis Situation
+ situation_galactic_hyperthermia: "พายุเพลิงดาราจักร"
+ situation_galactic_hyperthermia_type: "$situation_galactic_hyperthermia$"
+ situation_galactic_hyperthermia_monthly_change_tooltip: "อัตราความเร็วที่ดาราจักรเข้าใกล้การจุดชนวนโดยสมบูรณ์"
+ situation_hyperthermia_desc_perp: "§Lเราจินตนาการถึงยูโทเปียที่ลุกโชน แต่ในการสร้างมันขึ้นมา เราต้องเผาทำลายทุกสิ่งบนทางผ่านของเรา เราได้จุดประกายแรกแล้ว และตอนนี้ต้องจุดไฟให้โหมกระหน่ำจนกระทั่งทุกซอกมุมของดาราจักรถูกกลืนกิน§!\n\n$situation_hyperthermia_stats$"
+ situation_hyperthermia_desc: "§L§Y[event_target:hyperthermia_empire.GetName]§! ได้จุดชนวนแผดเผาดวงดาว บัดนี้ถึงตาของเราที่จะต่อสู้กับไฟป่าที่ยิ่งใหญ่ที่สุดที่ดาราจักรเคยเผชิญหน้า ไม่มีโอกาสครั้งที่สอง หากเราล้มเหลว ทุกสิ่งที่เราบรรลุจะกลายเป็นเถ้าถ่าน§!\n\n$situation_hyperthermia_stats$"
+ situation_hyperthermia_stats: "§Hระบบดาวแกนกลางที่ถูกยึดครอง:§! [event_target:hyperthermia_empire.gh_crisis_core_var]"
+
+ situation_galactic_hyperthermia_outcome: "[GetHyperthermiaOutcome]"
+ situation_gh_outcome_perp: "หากเราประสบความสำเร็จ สายฝนแห่งไฟจะแผดเผาดาราจักร ทิ้งไว้เพียงผู้ที่ยอมรับความร้อนที่ยังคงหยัดยืนอยู่ท่ามกลางเถ้าถ่าน แม้แต่ดวงดาวก็ไม่มีข้อยกเว้น หลังจากหลายพันล้านปี พวกมันจะถูกสร้างขึ้นใหม่ในรูปของดาวฤกษ์บ้านเกิดของเรา"
+ situation_gh_outcome_other: "หาก §Y[hyperthermia_empire.GetName]§! ประสบความสำเร็จ ดาราจักรทั้งหมดจะถูกแผดเผาเป็นเถ้าถ่าน สร้างดินแดนที่สิ่งมีชีวิตสายพันธุ์ทนความร้อน(ผี)เท่านั้นที่จะอยู่รอด"
+
+ situation_galactic_hyperthermia_progress: "จำนวนระบบดาวแกนดาราจักรที่ยึดครองโดย §Y$entropy_conduit_plural$§! จะกำหนดความคืบหน้ารายเดือน \n$TABBED_NEW_LINE$- น้อยกว่า §Y3§! ระบบดาว: §R-3§! $TABBED_NEW_LINE$- ยึดครอง §Y3§! ระบบดาว: §Y0§! $TABBED_NEW_LINE$- มากกว่า §Y3§! ระบบดาว: §G+3§! \n\nความคืบหน้าปัจจุบัน"
+ situation_galactic_hyperthermia_stage1: "ถึงขั้นต่ำแล้ว ($stage_1$)"
+
+ situation_gh_approach_perp: "เติมเชื้อเพลิงให้กองไฟ"
+ situation_gh_approach_perp_tt: "ตอนนี้หรือไม่มีวัน เราต้องประสบความสำเร็จ หรือยอมรับความเสี่ยงที่จะสูญเสียทุกสิ่งที่เราบรรลุมา"
+ situation_gh_approach_other: "ดับดวงไฟ"
+ situation_gh_approach_other_tt: "จักรวรรดินี้แสดงถึงภัยคุกคามต่อความเสถียรของดาราจักร การเข้าร่วมรบอย่างเต็มพิกัดไม่ใช่ทางเลือกอีกต่อไป แต่เป็นความจำเป็นอย่างยิ่ง"
+
+# Events
+ infernals.1000.name: "พลังงานใหม่"
+ infernals.1000.desc: "[GetHyperthermiaIntroIfRedGiant]"
+ infernals.1000.descNormal: "[GetScientistPlural] ของเรารายงานวิธีการใหม่ในการเก็บเกี่ยวและจัดเก็บเอนโทรปีโดยการจับยึดมันเข้ากับโครงข่ายผลึกพลังงานสูง §Y$entropy_crystals$§! นี้สามารถจัดเก็บและขนส่งพลังงานความร้อนที่สำคัญได้ ซึ่งสามารถนำมาใช้งานข้ามภาคอุตสาหกรรม เศรษฐกิจ และปฏิบัติการระหว่างดวงดาว\n\nแบบจำลองชี้ให้เห็นว่ามันอาจถูกใช้เพื่อปรับสภาพดาวเคราะห์ให้เป็นภูมิอากาศที่ร้อนขึ้น หรือแม้กระทั่งเร่งวิวัฒนาการดวงดาวเข้าสู่ดาวยักษ์แดง ในหลักการแล้ว เอนโทรปีที่เล็ดลอดออกไปทั่วดาราจักรสามารถดึงกลับคืนมาและแปลงเป็นความร้อนที่ใช้งานได้ ผลักดันการขยายตัวทางความร้อนในระดับดาราจักร\n\n§Hเสนอโครงการพิเศษ:§! §Y$INF_CRISIS_ENTROPY$§!" 
+ infernals.1000.descRedGiant: "[GetScientistPlural] ของเราได้วิเคราะห์ §Y$entropy_crystals$§! ที่ครั้งหนึ่งเคยถูกใช้เพื่อจุดชนวนดาวยักษ์แดง การกระทำที่เกือบจะยุติอารยธรรมของเราก่อนที่จะเริ่มต้นด้วยซ้ำ ตอนนี้เราสามารถนำสารที่ผันผวนนี้กลับมาวิเคราะห์วิศวกรรมใหม่เพื่อจับยึดและขนส่งพลังงานความร้อนจำนวนมหาศาลสำหรับการใช้งานระดับอุตสาหกรรม เศรษฐกิจ และระดับดาราจักร\n\nการจำลองชี้ให้เห็นว่ามันอาจเปิดใช้งานการปรับสภาพดาวให้ร้อนขึ้น หรือกระตุ้นการวิวัฒนาการดวงดาวเป็นดาวยักษ์แดง ในทฤษฎีแล้ว เอนโทรปีระดับดาราจักรสามารถกู้คืนและแปลงเป็นความร้อนได้ ผลักดันการขยายตัวทางความร้อนเชิงระบบ\n\n§Hเสนอโครงการพิเศษ:§! §Y$INF_CRISIS_ENTROPY$§!" # Intro if you've learned about entropy from the Red Giant Miners
+
+ infernals.1005.name: "ความสำเร็จในการตกผลึก"
+ infernals.1005.desc1: "เราได้เสร็จสิ้นโครงสร้างพื้นฐานแรกในการทำงานสำหรับการเก็บเกี่ยวพลังงานและแปลงมันเป็น §Y$entropy_crystals$§! ผลึกเหล่านี้เก็บกักพลังงานความร้อนมหาศาลและได้ช่วยให้อุตสาหกรรมของเราจัดเก็บและขนส่งพลังงานได้อย่างมีประสิทธิภาพมากกว่าวิธีการดั้งเดิมอย่างมาก\n\nดาวยักษ์แดง ด้วยพื้นผิวการแผ่รังสีและพลังความร้อนมหาศาล เป็นเป้าหมายที่สมบูรณ์แบบสำหรับกระบวนการนี้ และเราพร้อมที่จะปรับใช้เทคโนโลยีนี้ในระบบดาวใด ๆ ภายใต้การควบคุมของเรา\n\nวิศวกรของเรายังเริ่มปรับแต่งกระบวนการสำหรับการใช้งานระดับอุตสาหกรรม โดยทดลองศึกษาวิธีการสังเคราะห์ $entropy_crystals$ ด้วยการควบคุมเอนโทรปีโดยรอบ เมื่อเศรษฐกิจรูปแบบใหม่นี้เริ่มต้นขึ้น ความมั่งคั่งและพลังย่อมจะตามมาอย่างแน่นอน [GetScientistPlural] ของเรากำลังวิจัยวิธีการขยายขนาดการผลิตเพิ่มเติมแล้ว\n\n§Hปลดล็อกสิ่งก่อสร้างยักษ์ใหญ่:§! §Y$galactic_crucible_0$§!" # Reaching lv1
+ infernals.1005.desc2: "ด้วยตัวอย่างที่มีอยู่ของ §Y$entropy_crystals$§! เราสามารถเก็บเกี่ยวและสังเคราะห์พวกมันได้โดยไม่ทำให้ดาวบ้านเกิดของเราตกอยู่ในอันตราย ผลึกเหล่านี้เก็บพลังงานความร้อนมหาศาล ช่วยให้อุตสาหกรรมของเราจัดเก็บและขนส่งพลังงานได้อย่างมีประสิทธิภาพมากกว่าวิธีการดั้งเดิมอย่างมาก\n\nดาวยักษ์แดง ด้วยพื้นผิวการแผ่รังสีและพลังความร้อนมหาศาล เป็นเป้าหมายที่สมบูรณ์แบบสำหรับกระบวนการนี้ และเราพร้อมที่จะปรับใช้เทคโนโลยีนี้ในระบบดาวใด ๆ ภายใต้การควบคุมของเรา\n\nวิศวกรของเรายังเริ่มปรับแต่งกระบวนการสำหรับการใช้งานระดับอุตสาหกรรม โดยทดลองศึกษาวิธีการสังเคราะห์ $entropy_crystals$ ด้วยการควบคุมเอนโทรปีโดยรอบ เมื่อเศรษฐกิจรูปแบบใหม่นี้เริ่มต้นขึ้น ความมั่งคั่งและพลังย่อมจะตามมาอย่างแน่นอน [GetScientistPlural] ของเรากำลังวิจัยวิธีการขยายขนาดการผลิตเพิ่มเติมแล้ว\n\n§Hปลดล็อกสิ่งก่อสร้างยักษ์ใหญ่:§! §Y$galactic_crucible_0$§!" # Reaching lv1
+ infernals.1005.a: "เราต้องเริ่มการก่อสร้าง"
+ infernals.1005.a.tt: "ใช้ยานก่อสร้าง $constructor$ เพื่อสร้าง §Y$galactic_crucible_0$§! รอบดาวฤกษ์"
+ infernals.1005.b: "สั่งให้โดรนเริ่มดำเนินการก่อสร้าง"
+ infernals.1005.b.tt: "ใช้ยานก่อสร้าง $constructor$ เพื่อสร้าง §Y$galactic_crucible_0$§! รอบดาวฤกษ์"
+
+ infernals.1006.name: "วิวัฒนาการทนความร้อน"
+ infernals.1006.desc: "เราเริ่มต้นเส้นทางเพื่อแผดเผากาแล็กซี แต่ร่างกายของเราต้องเตรียมพร้อมเผชิญหน้ากับความร้อน การปรับตัวประชากรให้เข้ากับอุณหภูมิที่สูงขึ้นจะช่วยให้เราเติบโตในอนาคตอันร้อนแรง"
+ infernals.1006.descRedGiant: "ขณะที่เราทำงานอย่างไม่รู้จักเหน็ดเหนื่อยเพื่อย้อนคืนการเปลี่ยนแปลงของดาวฤกษ์ ร่างกายของเราต้องเตรียมพร้อมเผชิญหน้ากับความร้อน การปรับตัวประชากรให้เข้ากับอุณหภูมิที่สูงขึ้นจะช่วยให้เราเติบโตไปพร้อมกับอนาคตที่ลุกเป็นไฟของดาวฤกษ์"
+
+ infernals.1010.name: "ปล่อย $entropy_conduit_plural$"
+ infernals.1010.desc: "ตัวเครื่อง $galactic_crucible_1$ พร้อมแล้วที่จะใช้งาน §Y$entropy_conduit_plural$§!: ระบบอัตโนมัติที่ออกแบบมาเพื่อดึงและขยายเอนโทรปีดวงดาว เมื่อถูกส่งตัวไปแล้ว พวกมันจะรีไซเคิลและเพิ่มผลผลิตพลังงานของดาวฤกษ์ เปลี่ยนมันให้กลายเป็นดาวยักษ์แดง แผ่ความร้อนไปทั่วระบบเพื่อสนับสนุนโครงสร้างพื้นฐานที่กำลังขยายตัวของจักรวรรดิ\n\n$entropy_conduit_plural$ เหล่านี้สามารถถูกผลิตได้ในช่วงเวลาปกติและทำงานอย่างเป็นอิสระเพื่อความสะดวกของเรา สำหรับตอนนี้ พวกมันจะยังคงอยู่ในดินแดนของเรา แต่เมื่อเวลาผ่านไป มันอาจเหมาะสมที่จะปล่อยให้พวกมันกระจายไปทั่วดาราจักร ท้ายที่สุดแล้ว จักรวรรดิของเราไม่เคยหยุดการเติบโต\n\n§Hสามารถอัปเกรดสิ่งก่อสร้างยักษ์ใหญ่ได้แล้ว:§! §Y$galactic_crucible_2$§!" # Reaching lv2
+ infernals.1010.a: "การผลิต $entropy_crystals$ จะเร่งความเร็วขึ้น"
+ infernals.1010.b: "เราจำเป็นต้องพิชิตดวงดาวเพิ่มเติม"
+
+ infernals.1015.name: "มันจะร้อนขึ้นแค่ไหนกันนะ?"
+ infernals.1015.desc: "การศึกษาอย่างต่อเนื่องเกี่ยวกับ §Y$entropy_crystals$§! เผยให้เห็นความเป็นไปได้ที่น่าสนใจ: เมื่อมีความเข้มข้นสูง พวกมันสามารถขับเคลื่อนอาวุธสัดส่วนที่เกินจินตนาการ สามารถทำลายล้างดาวเคราะห์ทั้งหมดได้ ด้วยพลังงานดังกล่าว ดาราจักรจะอยู่ภายใต้การปกครองของเรา\n\nทว่าการศึกษาระบบการทหารนี้จะทำลายความไว้ใจอันน้อยนิดที่เหลืออยู่ระหว่างเราและเพื่อนบ้าน และใครจะไปรู้ว่าอาวุธดังกล่าวจะไม่หันเข้าหาเราในสักวัน?\n\nคำพูดสันติภาพที่ว่างเปล่าย่อมไม่เพียงพอ หากเราต้องการพิสูจน์เจตจำนงค์ของเรา เราต้องจำกัดความสามารถของ $galactic_crucible_2$ ต่อสาธารณะ เพื่อให้แน่ใจว่ามันจะไม่สามารถสร้างยุทโธปกรณ์ดังกล่าวได้ มิฉะนั้น มันจะเป็นเพียงเรื่องของเวลาก่อนที่เทคโนโลยีนี้จะถูกแปลงเป็นอาวุธ โดยเรา หรือโดยผู้อื่น\n\n§Hการตัดสินใจนี้จะปลดล็อกโครงการพิเศษ§!" # Reaching lv3 & decision
+ infernals.1015.a: "โหมกระพือไฟแห่งสงคราม!" # evil path
+ infernals.1015.a.desc: "ปลดล็อกระดับวิกฤต $crisis_hyperthermia_level_4$\n" #\n\n§HIssues Special Project:§! §Y$INF_CRISIS_ENTROPY_EVIL$§!
+ infernals.1015.b: "ขอให้เราจำกัดความทะยานอยากของเราไว้บ้าง" # good path
+ infernals.1015.b.desc: "ป้องกันการเข้าถึงระดับวิกฤต $crisis_hyperthermia_level_4$ \n\n§Hเสนอโครงการพิเศษ:§! §Y$INF_CRISIS_ENTROPY_GOOD$§! เพื่อเปลี่ยน §Y$galactic_crucible_2$§! ให้เป็น §Y$galactic_crucible_5$§!"
+
+ infernals.1020.name: "ก้าวเข้าสู่กองไฟ"
+ infernals.1020.desc: "การสืบสวนของเราใน §Y$entropy_crystals$§! และโครงการ §Y$INF_CRISIS_ENTROPY_EVIL$§! ยืนยันสิ่งที่เราคาดการณ์ไว้: ความเป็นไปได้สำหรับอาวุธทำลายล้างมีอยู่จริง ด้วยพลังดังกล่าวในมือของเรา เราไม่จำเป็นต้องเกรงใจใครอีกต่อไปเพื่อเห็นแก่ความสัมพันธ์ทางการทูตที่ราบรื่น\n\nการขยายตัวของ $galactic_crucible_3$ จะเร่งความเร็วขึ้น โดยเน้นเฉพาะด้านการทหาร ยิ่งเราปลดล็อกอาวุธเหล่านี้เร็วขึ้นเท่าใด ความคิดเห็นของดาราจักรก็ย่อมไม่สำคัญมากขึ้นเท่านั้น\n\n§Hสามารถอัปเกรดสิ่งก่อสร้างยักษ์ใหญ่ได้แล้ว:§! §Y$galactic_crucible_4$§!" # Finishing special project for evil path
+ infernals.1020.a: "เราต้องเตรียมความพร้อมสำหรับสงคราม"
+ infernals.1020.a.tt: "- การขยายตัวของ §Y$galactic_crucible_4$§! ควรเป็นเป้าหมายสำคัญ\n- $unlocks_conduit_damage$"
+ infernals.1020.b: "คู่แข่งของเราจะเป็นเชื้อเพลิงให้แก่กองไฟ"
+ infernals.1020.b.tt: "- การขยายตัวของ§Y$galactic_crucible_4$§! ควรเป็นเป้าหมายสำคัญ\n- $unlocks_conduit_damage$"
+
+ infernals.1021.name: "แสงเรืองรองที่คงตัว"
+ infernals.1021.desc: "ระบบ $galactic_crucible_3$ ได้ถูกจำกัดอย่างประสบความสำเร็จ ทำให้มั่นใจได้ว่ามันจะไม่ได้รับการขยายตัวหรือนำไปใช้เพื่อการทำลายล้างอีกต่อไป แม้ว่าการสูญเสียศักยภาพทั้งหมดจะเป็นเรื่องน่าเสียดาย แต่การดำเนินต่อในทิศทางนั้นย่อมเสี่ยงต่อภัยพิบัติ และความล่มสลายของความสัมพันธ์ทางการทูตทั้งหมด\n\nโชคดีที่แม้จะอยู่ในรูปแบบที่จำกัด $galactic_crucible_5$ จะยังคงเป็นแหล่งพลังงานและความเจริญรุ่งเรืองที่สำคัญ เราก้าวถอยหลังก่อนจะข้ามเส้นแบ่งเขตความปลอดภัย เพื่อรับประกันอนาคตที่เราสามารถร่วมมือกับชุมชนดาราจักรในขณะที่ยังได้รับประโยชน์จากวิทยาศาสตร์ที่น่าทึ่งนี้\n\n§Hสามารถอัปเกรดสิ่งก่อสร้างยักษ์ใหญ่ได้แล้ว:§! §Y$galactic_crucible_5$§!" # Finishing special project for good path
+ infernals.1021.a: "พวกเราทุกคนจะได้รับประโยชน์จากการทำงานร่วมกัน"
+ infernals.1021.b: "ในความสามัคคี เราจะพบความเจริญรุ่งเรือง"
+
+ infernals.1025.name: "โอบล้อมแกนกลาง"
+ infernals.1025.desc: "การวิจัยอย่างต่อเนื่องเกี่ยวกับ §Y$entropy_conduit_plural$§! และการแปลงสภาพดวงดาวเป็นดาวยักษ์แดงชี้ให้เห็นว่าเราอาจสามารถเพิ่มระดับปฏิบัติการเพื่อเพิ่มความร้อนของแกนกลางดาราจักรเองได้ กระตุ้นกระแสความร้อนทั่วทั้งดาราจักร แปลงสภาพมันให้เป็นสถานที่ที่เหมาะสมแก่การอยู่อาศัยสำหรับเรามากขึ้น\n\nเราได้ระบุระบบดาวหกแห่งรอบแกนกลางที่สามารถทำหน้าที่เป็นศูนย์กลางปฏิบัติการสำหรับความพยายามนี้ ระบบดาวเหล่านี้อยู่นอกเหนือเครือข่ายไฮเปอร์เลนของดาราจักร แต่ความพยายามกำลังดำเนินอยู่เพื่อสร้างรูหนอนที่มั่นคงและเปิดการเข้าถึง" # Reaching lv4
+ infernals.1025.a: "เราเป็นผู้เดียวที่เหมาะสมที่จะอยู่รอดในเปลวเพลิง"
+ infernals.1025.a.tt: "สายพันธุ์อื่นจะพยายามต่อต้านเรา เตรียมความพร้อมสำหรับสงครามระดับดาราจักร"
+ infernals.1025.b: "ดาราจักรทั้งหมดจะลุกโชนอย่างสามัคคี"
+ infernals.1025.b.tt: "สายพันธุ์อื่นจะพยายามต่อต้านเรา เตรียมความพร้อมสำหรับสงครามระดับดาราจักร"
+
+ infernals.1030.name: "มุ่งสู่การจุดชนวน"
+ infernals.1030.desc: "เบ้าหลอมดาราจักร $galactic_crucible_4$ พร้อมปฏิบัติการแล้ว ด้วยอุโมงค์รูหนอนที่เสร็จสิ้น เราได้เปิดการเข้าถึงระบบดาวทั้งหกแห่งรอบแกนกลางดาราจักร\n\nงานเพื่อเพิ่มความร้อนแก่แกนกลางจะเริ่มขึ้น จักรวรรดิอื่นอาจตรวจพบกิจกรรมของเราและพยายามเข้าถึงระบบดาวเหล่านี้ แต่สำหรับตอนนี้เราถือไพ่เหนือกว่า และแกนดาราจักรจะยอมสยบต่อความต้องการของเรา\n\n§Hใช้รูหนอนเพื่อรักษาความปลอดภัยระบบดาวแกนดาราจักร§!" # Reaching lv5, lanes open in 3 years!
+ infernals.1030.a: "เริ่มการติดตั้งในระบบดาวแกนกลาง"
+ infernals.1030.a.tt: "การติดตั้ง §Y$entropy_conduit_plural$§! ในระบบดาวแกนกลางทั้งหกจะช่วยให้เราเพิ่มความร้อนของทั้งดาราจักรได้ในคราวเดียว เราต้องเริ่มการเตรียมพร้อม"
+ infernals.1030.b: "อนาคตของเรานั้นเจิดจ้าด้วยเปลวเพลิง"
+ infernals.1030.b.tt: "$infernals.1030.a.tt$"
+
+ infernals.1035.name: "สัญญาณเตือนไฟไหม้ดาราจักร"
+ infernals.1035.desc: "จักรวรรดิคู่แข่งได้บีบขยายไฮเปอร์เลนเข้าสู่ดินแดนเตรียมพร้อมของเราใกล้แกนดาราจักร ในขณะที่เรายังคงเพิ่มความร้อนแก่แกนกลางต่อไป เราต้องเตรียมรับการต่อต้าน\n\nแต่เราจะไม่หยุดนิ่ง ความเย็นชื้นที่มืดมิดของอวกาศจะถูกปัดเป่าออกไป แทนที่ด้วยแสงเจิดจ้าของอนาคตที่รุ่งเรืองของเรา"
+# core is now connected with the galaxy!
+ infernals.1035.a: "พวกมันไม่มีวันดับแสงของเราลงได้"
+ infernals.1035.b: "ปล่อยให้พวกมันพุ่งตัวเข้าสู่กองเพลิงแผดเผาของเรา"
+
+ infernals.1040.name: "พายุที่คืบคลาน"
+ infernals.1040.desc: "แกนกลางดาราจักรเริ่มมีความเคลื่อนไหวแล้ว ระดับเอนโทรปีรอบหลุมดำมวลยิ่งยวดพุ่งสูง ปล่อยระลอกคลื่นความร้อนเข้าสู่ระบบดาวใกล้เคียง\n\nในขณะที่ความตื่นตระหนกแผ่ขยายออกไป ทีมวิศวกรผู้กล้าหาญจากหลายโลกได้เปิดเผยไฮเปอร์เลนที่เพิ่งสร้างขึ้นใหม่ซึ่งเชื่อมต่อกับระบบดาวหกแห่งรอบแกนกลาง ระบบดาวเหล่านี้ดูเหมือนจะมีสถานบริการของ §Y[hyperthermia_empire.GetName]§! คอยเพิ่มความร้อนแก่แกนกลางอย่างต่อเนื่อง การแทรกแซงที่ประมาทเลินเล่อนี้ขู่ว่าจะจุดชนวนพายุไฟทั่วทั้งดาราจักร แผดเผาทุกคนที่ไม่สามารถหยุดความทะยานอยากของพวกเขาได้\n\nหากเราต้องการอยู่รอด เราต้องเจาะเข้าสู่ระบบดาวเหล่านี้และช่วงชิงการควบคุมจากมือของพวกมัน วิกฤตได้มาถึงแล้ว—และอุณหภูมิก็ยังคงสูงขึ้นเรื่อย ๆ" # other empires learn about the core, forming a coalition war
+ infernals.1040.a: "เราต้องหยุดยั้งสิ่งนี้!" # generic reply (declares war)
+ infernals.1040.a.tt: "§Lวิกฤตสัดส่วนที่ไม่เคยมีมาก่อนกำลังจะครอบงำดาราจักรของเรา มีเพียงความแข็งแกร่งร่วมของพันธมิตรที่จัดตั้งขึ้นใหม่เท่านั้นที่จะสามารถช่วยเราได้§! \n\nจะจัดตั้ง §Yกลุ่มร่วมพันธมิตร§! ของจักรวรรดิที่ต่อต้านวิกฤต ส่งผลให้เกิดความขัดแย้งทั่วทั้งดาราจักร เราจะ §Rประกาศสงคราม§! ต่อ §Y[hyperthermia_empire.GetName]§!"
+ infernals.1040.b: "เผาผลาญพวกผู้อ่อนแอซะ!" # Genocidals reply
+ infernals.1040.b.tt: "§Lในยามวิกฤต ทุกสายพันธุ์ต้องช่วยเหลือตนเอง เรามีความแข็งแกร่งที่จะแก้ไขสิ่งนี้ด้วยตนเอง§!"
+ infernals.1040.c: "พวกเขาเป็นเหมือนกับพวกเรา" # Infernals reply
+ infernals.1040.c.tt: "§Lวิธีการของ §Y[hyperthermia_empire.GetName]§! สอดคล้องกับนิมิตของดาวดวงใหม่ของเรา ในมุมมองของความสอดคล้องกันนี้ เราอาจได้รับการละเว้นจากภัยพิบัติที่คนอื่นมองว่าเป็นมหันตภัย§!"
+ infernals.1040.d: "ไม่ใช่เรื่องของเรา" # neutral reply
+ infernals.1040.d.tt: "§Lจักรวรรดิที่เล่นกับไฟนั้นไม่ใช่เรื่องแปลกใหม่ ความปั่นป่วนนี้ย่อมผ่านพ้นไปเหมือนทุกสิ่ง ไม่มีเหตุผลที่เราต้องเข้าไปเกี่ยวข้อง§!"
+
+ infernals.1042.name: "การขยายความขัดแย้ง: §Rประกาศวิกฤตแล้ว§!"
+ infernals.1042.desc: "การแปลงสภาพครั้งใหญ่ในประวัติศาสตร์ย่อมต้องการการเสียสละ ทว่าสภาชุมชนดาราจักรมองว่างานของเราเป็นภัยคุกคามแทนที่จะเป็นความจำเป็น กองกำลังพันธมิตรทหารร่วมจึงได้รับการจัดตั้งและระดมกำลังมาเพื่อต่อต้านเรา\n\nเนื่องจากการกวาดล้างเป็นเป้าหมายของพวกเขา เราจึงไม่มีทางเลือกอื่น: การเข้าใกล้แกนดาราจักรหรือ $galactic_crucible_4$ จะพบกับกำลังทหารที่มหาศาล\n\nนิมิตของเราได้จุดชนวนแผดเผาดวงดาวแล้ว ปล่อยให้ผู้ที่ต่อต้านมันเผชิญหน้ากับพายุที่เราเรียกหา\n\n§Hปกป้องระบบดาวแกนดาราจักรและความเสร็จสิ้นจะเป็นของเราอย่างแน่นอน!§!"
+ infernals.1042.a: "ผลลัพธ์ย่อมเป็นเรื่องที่หลีกเลี่ยงไม่ได้"
+
+ infernals.1043.name: "การเรียกระดมพล: §Rประกาศวิกฤตแล้ว§!"
+ infernals.1043.desc: "ในมุมมองของภัยคุกคามที่ทวีความรุนแรงรอบแกนดาราจักร สภาดาราจักรได้มีมติเป็นเอกฉันท์ในการต่อต้าน §Y[hyperthermia_empire.GetName]§! ซึ่งความพยายามอย่างรุนแรงในการเพิ่มอุณหภูมิของดาราจักรเป็นภัยคุกคามต่อทุกชีวิตที่รู้จัก\n\nหากปล่อยให้ความทะยานอยากนี้ดำเนินต่อ อารยธรรมนับไม่ถ้วนจะต้องเผชิญกับการสูญพันธุ์ บัดนี้สิ่งที่เรียกว่า §Y[hyperthermia_empire.GetName]§! ยืนอยู่ตรงข้ามกับกลุ่มร่วมพันธมิตรที่รวมตัวกันด้วยความจำเป็น\n\nการต่อสู้ได้เริ่มขึ้นแล้ว และชีวิตนับล้านล้านแขวนอยู่บนเส้นด้าย\n\n§Hยึดครองระบบดาวแกนดาราจักร หรือไม่เช่นนั้นทุกสิ่งจะสูญสิ้น!§!"
+ infernals.1043.a: "ระดมกำลังพล!"
+
+ infernals.1045.name: "การแข่งกับเวลา"
+ infernals.1045.desc1: "พายุเพลิงปะทุกระแสความร้อนกำลังคืบคลานเข้ามา ในไม่ช้า แกนดาราจักรจะระเบิดออก กวาดล้างศัตรูของเราและสถาปนาอำนาจเหนือหมู่ดาว\n\nแต่ดาราจักรปฏิเสธอนาคตอันรุ่งโรจน์ของเรา ผ่านทางไฮเบอร์เลนที่เปิดขึ้นใหม่ พวกเขาวางแผนที่จะบุกเข้ามาและทำลายทุกสิ่งที่เราสร้าง เพื่ออะไรกัน? เพื่อปกป้องความหนาวเย็นที่มืดมิดและหยุดนิ่งของพวกมันงั้นหรือ?\n\nเราไม่สามารถอนุญาตให้พวกเขาแทรกแซงได้ เราต้องรักษาแนวรบที่แกนดาราจักร จนกระทั่งพายุไฟปะทุขึ้นและลดขนาดพวกเขาให้กลายเป็นเเถ้าถ่าน" # last stage of global situation - crisis
+ infernals.1045.desc2: "แกนดาราจักรร้อนขึ้นเรื่อย ๆ ขับเคลื่อนด้วยความคลั่งไคล้ของ §Y[hyperthermia_empire.GetName]§! ที่ต้องการจุดไฟแผดเผาดวงดาว ในอัตรานี้ พายุเพลิงของพวกเขาจะทำลายการต่อต้านทั้งหมด และกวาดล้างเกือบทุกชีวิตในดาราจักร\n\nพวกเขาไม่สามารถพูดคุยด้วยเหตุผลได้ หากเราต้องการอยู่รอด เราต้องโจมตีที่แหล่งกำเนิด: ระบบดาวแกนดาราจักร ซึ่งพลังงานของพวกเขาแผดเผาอย่างเจิดจ้าที่สุด เมื่อนั้นเราจึงจะสามารถหยุดยั้ง §Y[hyperthermia_empire.GetName]§! ลงได้\n\nชะตากรรมของทั้งดาราจักรแขวนอยู่บนเส้นด้าย ได้เวลาแสดงให้ §Y[hyperthermia_empire.GetName]§! เห็นแล้วว่าพวกที่เล่นกับไฟ... จะถูกไฟเผาเอง" # last stage of global situation - others
+ infernals.1045.a: "เราจะรักษาแนวรบไว้"
+ infernals.1045.a.tooltip: "เราต้องรักษาการควบคุมระบบดาวแกนดาราจักรทั้งหกเพื่อชัยชนะ"
+ infernals.1045.b: "เราจำเป็นต้องดับไฟพวกมันให้ราบคาบถาวร"
+ infernals.1045.b.tooltip: "เราต้องโจมตีระบบดาวแกนดาราจักรทั้งหกและทำลายท่อส่งพลังงานของ §Y[hyperthermia_empire.GetName]§! ที่นั่น ไม่เช่นนั้นเราจะถูกแผดเผาเป็นเถ้าถ่าน"
+
+ infernals.1055.name: "ดาราจักรเป็นของเรา!"
+ infernals.1055.desc: "เราได้โหมกระพือเปลวไฟแห่งชัยชนะจากแกนดาราจักรไปยังดวงดาวนอกสุด พายุเพลิงได้เผาผลาญศัตรูของเราให้กลายเป็นเถ้าถ่าน พวกมันขาดนิมิตและนภากาศในการยอมรับอนาคตอันรุ่งโรจน์ที่เราประกาศ บัดนี้ดาราจักรเป็นของเราแล้ว\n\nในระบบใหม่แห่งไฟและโทสะนี้ ดาวเคราะห์เดือดพล่านด้วยแมกมาและแสงสว่าง แผดเผาด้วยความร้อนที่เพิ่มขึ้นของดาวยักษ์แดง เอนโทรปีกระเพื่อมผ่านทุกระบบดาว เป็นของเราที่จะเก็บเกี่ยวและนำไปใช้งาน ตามที่เราต้องการ ด้วยแต่ละวันที่ผ่านพ้น จักรวรรดิของเราเติบโตมั่งคั่งขึ้น แข็งแกร่งขึ้น... และไม่อาจหยุดยั้งได้\n\nเราได้กลืนกินดาราจักรและเปลี่ยนมันเป็นประภาคารลุกไหม้แห่งอำนาจของเราในความว่างเปล่า และในวันหนึ่ง บางทีเราอาจจะขว้างดาราจักรอื่นเข้าสู่กองไฟเช่นกัน" # crisis won
+ infernals.1055.a: "ดาราจักรใหม่นี้รอคอยให้เราเข้าไปยึดครอง"
+ infernals.1055.b: "ในตอนท้าย เปลวไฟทั้งหมดจะรวมตัวเป็นหนึ่งเดียว"
+ infernals.1055.c: "บ้านอันร้อนแรงของเราไม่ต้องการพวกผู้อ่อนแอไร้น้ำยา" #Scorched world heralds (genocidal Infernal)
+ infernals.1055.d: "ความทรหดอดทนของเราได้รับการชดเชยแล้วในที่สุด" #Infernal Fire Cult
+ infernals.1055.e: "ในที่สุด เราก็ได้ขับไล่ความหนาวมืดมิดออกจากดาราจักรนี้" #Other Infernals
+ infernals.1055.f: "ในที่สุด คู่แข่งที่น่าสมเพชของเราก็กลายเป็นเถ้าถ่าน" #Generic Genocidal
+
+ infernals.1052.name: "ยึดครอง $galactic_crucible_4$ แล้ว"
+ infernals.1052.desc: "ด้วยการยึดครองระบบดาว §H[crucible_system.GetName]§! กองกำลังของเราได้เข้าควบคุมโครงสร้าง $galactic_crucible_4$ ที่กำลังถูกสร้างขึ้นรอบดาวฤกษ์ในท้องถิ่นแล้ว\n\nการสูญเสียสิ่งก่อสร้างยักษ์ใหญ่นี้ทำลายความหวังใด ๆ ที่เหลืออยู่ของผู้สร้างในการเข้ายึดครองดาราจักรด้วยกำลัง"
+ infernals.1052.a: "ทำลายมันทิ้งซะ!"
+ infernals.1052.a.tt: "โครงสร้าง §Y$galactic_crucible_4$§! จะพังพินาศจนไม่สามารถซ่อมแซมได้"
+ infernals.1052.b: "เราสามารถใช้ประโยชน์จากสิ่งนี้ได้"
+ infernals.1052.b.tt: "แปลงสภาพ §Y$galactic_crucible_4$§! ให้เป็น §Y$galactic_crucible_5$§! เพื่อผลิตแร่โลหะผสม $r_alloys$"
+
+ infernals.1053.name: "ยึดครอง $galactic_crucible_4$ แล้ว"
+ infernals.1053.desc: "การยึดครองระบบดาว §H[crucible_system.GetName]§! เปิดเผยแผนการชั่วร้ายของ §H[crucible_builders.GetName]§! ซึ่งรวมถึงการกวาดล้างทั้งดาราจักรด้วยพายุเพลิงที่ไม่เคยปรากฏมาก่อน\n\nสำหรับตอนนี้ เครื่องจักรที่อาจก่อให้เกิดเหตุการณ์สูญพันธุ์ครั้งใหญ่ได้ถูกระงับชั่วคราว ทันทีที่สงครามสิ้นสุดลง เราควรใช้ทรัพยากรและพละกำลังที่เหลืออยู่เพื่อปิดการทำงานของสิ่งก่อสร้างยักษ์ใหญ่นี้เป็นการถาวร"
+ infernals.1053.a: "เราต้องยุติสงครามนี้โดยเร็ว!"
+ infernals.1053.b: "โครงสร้างการก่อสร้างที่น่าทึ่งมาก"
+
+ infernals.1056.name: "การถือกำเนิดใหม่ของดาราจักร"
+ infernals.1056.desc: "ในขณะที่เรากำลังยุ่งอยู่กับการจุดชนวนพายุไฟแผดเผาดาราจักร §Y[hyperthermia_empire.GetName]§! ได้แปลงสภาพดวงดาวเป็นอาวุธเรียบร้อยแล้ว เปลี่ยนโฉมดาราจักรไปตลอดกาล\n\nสำหรับตอนนี้ เราสามารถยอมรับยูโทเปียที่สร้างขึ้นใหม่นี้ แต่เราควรเฝ้าดูความเคลื่อนไหวต่อไปของพวกเขาอย่างใกล้ชิดเมื่อพวกเขากระชับอำนาจในดาราจักร"
+ infernals.1056.a: "อำนาจที่ยิ่งใหญ่นำไปสู่ความขัดแย้ง"
+ infernals.1056.b: "ภัยคุกคามใหม่ได้ถือกำเนิดขึ้นแล้ว"
+ infernals.1056.c: "ทิศทางที่ไม่คาดคิดของเหตุการณ์"
+
+# Relic
+ r_crystallized_singularity: "สภาวะเอกฐานผลึก (Crystallized Singularity)"
+ r_crystallized_singularity_desc: "เมื่อบิดเบี้ยวจากดาราจักรที่ลุกไหม้ สภาวะเอกฐานนี้ปะทุด้วยความร้อนที่ยั่วยวน หากไม่มีการผนึกอย่างระมัดระวัง มันจะดึงดูดผู้แสวงบุญอย่างอธิบายไม่ได้ แม้แต่ในโลกที่แห้งแล้งที่สุด ผู้ที่ยืนอยู่เบื้องหน้ามันจะถูกครอบงำให้โอบรับชีวิตที่เรียบง่ายขึ้น... ใกล้เปลวเพลิงขึ้น"
+ r_crystallized_singularity_effect_tt: "\n- §G10%§! ของรายได้การวิจัยฟิสิกส์ £physics_research£ §Y$physics_research$§! ของเราจะสร้างทรัพยากรพลังงาน $r_energy$ ด้วย"
+ r_crystallized_singularity_ls_effect_tt: "- ปลดล็อกการตัดสินใจ §Y$decision_gh_life_seeding$§! บนโลกที่บุกเบิกอาณานิคมได้ เพื่อสร้างอารยธรรมแรกเริ่มอารยธรรมใหม่"
+ crystallized_singularity_mod: "$r_crystallized_singularity$"
+ crystallized_singularity_mod_desc: "$r_crystallized_singularity_desc$"
+
+ decision_gh_life_seeding: "การหว่านเมล็ดพันธุ์ชีวิต"
+ decision_gh_life_seeding_desc: "ความสำเร็จของเราในการเปลี่ยนโฉมดาราจักรนำไปสู่การสูญสลายอย่างรวดเร็วของสปีชีส์บนดาวเคราะห์ส่วนใหญ่ บัดนี้เป็นสิทธิพิเศษของเราในการสร้างชีวิตขึ้นใหม่ตามภาพลักษณ์ของเรา"
+ decision_gh_life_seeding_limit: "$TRIGGER_FAIL$§Rดาวเคราะห์ดวงนี้มีอารยธรรมแรกเริ่มอยู่แล้ว§!"
+ decision_gh_life_seeding_colony: "$TRIGGER_FAIL$§Rไม่สามารถทำได้ในระบบที่มีอาณานิคมตั้งอยู่§!"
+ decision_gh_life_seeding_effect: "สร้างอารยธรรมแรกเริ่มตามภาพลักษณ์ของเรา \n\n§Hขีดจำกัดการเปิดใช้งาน:§! [from.gh_life_seeder_var] / 3"
+
+# Grand Archive Specimen
+ infernal_burning_gem: "อัญมณีลุกไหม้(เผาแกม)"
+ infernal_burning_gem_desc_short: "หนึ่งในตัวอย่างแรกเริ่มที่สร้างขึ้นระหว่างความพยายามของ [GetName] ในการควบคุมเอนโทรปี"
+ infernal_burning_gem_desc_details: "ดูเหมือนมืดมนอย่างหลอกตาสำหรับระบบจักษุส่วนใหญ่ แสงเรืองรองสีขาวแผ่วเบาของเศษผลึกนี้ซ่อนพลังงานจำนวนมหาศาลที่กักขังไว้ภายใน แม้ว่ามันอาจถูกก้าวข้ามโดยเทคโนโลยีใหม่ ๆ แต่การก่อสร้างและคุณสมบัติของมันยังมีสิ่งให้เรียนรู้อีกมาก"
+
+# Timeline
+ TIMELINE_EVENT_GH_START: "พายุเพลิง\n§L[GetDate]§!"
+ TIMELINE_EVENT_GH_START_TOOLTIP: "§Hสถาปนาตนเป็นวิกฤต§!\n§Yเหตุการณ์วิกฤต§!\n\n[EVENT_TARGET_0.GetName] ได้จุดชนวนอำนาจการปกครอง เริ่มต้นช่วงชิงการควบคุมชะตากรรมของดาราจักร ผู้ที่ไม่ยอมรับนิมิตนี้จะถูกจับด้วยกระแสการพิชิตที่ลุกโชน ทิ้งไว้เพียงเเถ้าถ่านเบื้องหลัง"
+ TIMELINE_EVENT_GH_END: "เปลวไฟแผดเผ\n§L[GetDate]§!"
+ TIMELINE_EVENT_GH_END_TOOLTIP: "§Hปราบปรามดาราจักรสำเร็จ§!\n§Yเหตุการณ์วิกฤต§!\n\nสิ่งที่เริ่มต้นด้วยความทะยานอยากอันลุกโชนได้กลายเป็นชนวนแผดเผาดาราจักร ผู้ที่ต่อต้านเราถูกลดขนาดเป็นเถ้าถ่าน พร้อมกับประวัติศาสตร์ของพวกมัน"
+
+# Hyperthermia Terraformed Stars
+ sc_crisis_binary_1: "$sc_binary_1$"
+ sc_crisis_binary_2: "$sc_binary_1$"
+ sc_crisis_binary_5: "$sc_binary_1$"
+ sc_crisis_binary_7_8_9: "$sc_binary_1$"
+ sc_crisis_binary_10: "$sc_binary_1$"
+ sc_crisis_trinary_1: "$sc_trinary_1$"
+ sc_crisis_trinary_2: "$sc_trinary_1$"
+ sc_crisis_trinary_3: "$sc_trinary_1$"
+ sc_crisis_trinary_4: "$sc_trinary_1$"
+
+ # Synced from vanilla by Stellaris Thai Translator.
+ # These keys were missing from the mod and should be translated on the next pass.
+SHIP_GRAPHICS_EMBER_CRUISER_DESC: "$SHIP_GRAPHICS_CRUISER_DESC$\n\nเดอะ$ember_cruiser$ช่องสัญญาณ§Y$entropy_crystals$§!เพื่อเปลี่ยนความผันผวนของความร้อน ให้กลายเป็นการทําลายล้างโดยตรง"
+SHIP_GRAPHICS_EMBER_BATTLESHIP_DESC: "$SHIP_GRAPHICS_BATTLESHIP_DESC$\n\nเดอะ$ember_battleship$องค์ประกอบถูกหลอมใน§Y$galactic_crucible_4$§!และสามารถจัดเตรียม§Y$LENS_FLARE_BEAM$§!อาวุธ"

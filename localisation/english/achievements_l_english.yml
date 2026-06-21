@@ -1,195 +1,133 @@
 ﻿l_english:
  NEW_ACHIEVEMENT_2_0_NAME:0 "โลกใหม่อันกล้าหาญ"
- NEW_ACHIEVEMENT_2_0_DESC:0 "สร้างอาณานิคมบนดาวเคราะห์"
-
- NEW_ACHIEVEMENT_2_1_NAME:0 "ขุดลึก"
- NEW_ACHIEVEMENT_2_1_DESC:0 "มีรายได้จากแร่ต่อเดือนเกิน 250 หน่วย"
-
- NEW_ACHIEVEMENT_2_2_NAME:0 "การปฏิวัติอุตสาหกรรมครั้งใหม่"
- NEW_ACHIEVEMENT_2_2_DESC:0 "มีรายได้จากแร่ต่อเดือนเกิน 1000 หน่วย"
-
- NEW_ACHIEVEMENT_2_3_NAME:0 "พลังงานเต็มเปี่ยม"
- NEW_ACHIEVEMENT_2_3_DESC:0 "เก็บสะสมพลังงานอย่างน้อย 1000 EC"
-
- NEW_ACHIEVEMENT_2_4_NAME:0 "พลังท่วมท้น"
- NEW_ACHIEVEMENT_2_4_DESC:0 "เก็บสะสมพลังงานอย่างน้อย 5000 EC"
-
- NEW_ACHIEVEMENT_2_5_NAME:0 "กำเนิดสมาพันธ์"
- NEW_ACHIEVEMENT_2_5_DESC:0 "ก่อตั้งสมาพันธ์"
-
- NEW_ACHIEVEMENT_2_6_NAME:0 "ดาวรุ่งแห่งใหม่"
- NEW_ACHIEVEMENT_2_6_DESC:0 "อัปเกรดเมืองหลวงเป็นจักรวรรดิ"
-
- NEW_ACHIEVEMENT_2_8_NAME:0 "ข้ารับใช้แห่งสงคราม"
- NEW_ACHIEVEMENT_2_8_DESC:0 "มีจักรวรรดิอื่นเป็นเมืองขึ้น 3 แห่ง"
-
+ NEW_ACHIEVEMENT_2_0_DESC:0 "ตั้งอาณานิคมบนดาวเคราะห์ดวงหนึ่ง"
+ NEW_ACHIEVEMENT_2_1_NAME:0 "ขุดลึกลงไป"
+ NEW_ACHIEVEMENT_2_1_DESC:0 "มีรายได้แร่รวมต่อเดือนมากกว่า 250"
+ NEW_ACHIEVEMENT_2_2_NAME:0 "การปฏิวัติอุตสาหกรรมอีกครั้ง"
+ NEW_ACHIEVEMENT_2_2_DESC:0 "มีรายได้แร่รวมต่อเดือนมากกว่า 1000"
+ NEW_ACHIEVEMENT_2_3_NAME:0 "เปี่ยมพลัง"
+ NEW_ACHIEVEMENT_2_3_DESC:0 "เก็บ/มีพลังงานเครดิต 1000"
+ NEW_ACHIEVEMENT_2_4_NAME:0 "พลังล้นเหลือ"
+ NEW_ACHIEVEMENT_2_4_DESC:0 "เก็บ/มีพลังงานเครดิต 5000"
+ NEW_ACHIEVEMENT_2_5_NAME:0 "กำเนิดแห่งสหพันธ์"
+ NEW_ACHIEVEMENT_2_5_DESC:0 "ก่อตั้งสหพันธ์"
+ NEW_ACHIEVEMENT_2_6_NAME:0 "ดาวประกายใหม่"
+ NEW_ACHIEVEMENT_2_6_DESC:0 "อัปเกรดเมืองหลวงของคุณเป็นศูนย์กลางจักรวรรดิ"
+ NEW_ACHIEVEMENT_2_8_NAME:0 "ทาสนักรบ"
+ NEW_ACHIEVEMENT_2_8_DESC:0 "มีจักรวรรดิอื่น 3 แห่งเป็นรัฐบรรณาการ"
  NEW_ACHIEVEMENT_2_9_NAME:0 "นักสำรวจ"
- NEW_ACHIEVEMENT_2_9_DESC:0 "สำรวจดาวเคราะห์พื้นฐานครบทุกประเภท"
-
- NEW_ACHIEVEMENT_2_10_NAME:0 "จอมพลสูงสุด"
- NEW_ACHIEVEMENT_2_10_DESC:0 "มีกำลังรบกองเรือรวม 100000"
-
+ NEW_ACHIEVEMENT_2_9_DESC:0 "สำรวจดาวเคราะห์พื้นฐานครบอย่างละหนึ่งประเภท"
+ NEW_ACHIEVEMENT_2_10_NAME:0 "พลเรือเอก"
+ NEW_ACHIEVEMENT_2_10_DESC:0 "กำลังรบรวมของกองยานทั้งหมดในจักรวรรดิเท่ากับ 100000"
  NEW_ACHIEVEMENT_2_11_NAME:0 "สร้างโลกที่ดีกว่า"
- NEW_ACHIEVEMENT_2_11_DESC:0 "ปรับสภาพดาวเคราะห์"
-
- NEW_ACHIEVEMENT_2_12_NAME:0 "โดโม อาริกาโตะ"
- NEW_ACHIEVEMENT_2_12_DESC:0 "สร้างประชากรหุ่นยนต์"
-
- NEW_ACHIEVEMENT_2_13_NAME:0 "สติปัญญาสาว"
- NEW_ACHIEVEMENT_2_13_DESC:0 "ยกระดับสิ่งมีชีวิตหนึ่งสายพันธุ์"
-
- NEW_ACHIEVEMENT_2_14_NAME:0 "เร็วขึ้น แข็งแกร่งขึ้น ดีขึ้น"
+ NEW_ACHIEVEMENT_2_11_DESC:0 "ปรับสภาพดาวเคราะห์ดวงหนึ่ง"
+ NEW_ACHIEVEMENT_2_12_NAME:0 "โดโมะ อาริกาโตะ"
+ NEW_ACHIEVEMENT_2_12_DESC:0 "สร้างประชากรหุ่นยนต์หนึ่งหน่วย"
+ NEW_ACHIEVEMENT_2_13_NAME:0 "ฉลาดจริงนะ"
+ NEW_ACHIEVEMENT_2_13_DESC:0 "ยกระดับสายพันธุ์หนึ่ง"
+ NEW_ACHIEVEMENT_2_14_NAME:0 "เร็วขึ้น แกร่งขึ้น ดียิ่งขึ้น"
  NEW_ACHIEVEMENT_2_14_DESC:0 "ดัดแปลงพันธุกรรมสายพันธุ์หนึ่ง (ไม่ใช่การยกระดับ)"
-
- NEW_ACHIEVEMENT_2_15_NAME:0 "กองเรือยิ่งใหญ่"
- NEW_ACHIEVEMENT_2_15_DESC:0 "สร้างกองเรือที่มีขนาดรวมเกิน 120"
-
- NEW_ACHIEVEMENT_2_16_NAME:0 "บ้านที่อีกฟากหนึ่ง"
- NEW_ACHIEVEMENT_2_16_DESC:0 "พิชิตดาวบ้านเกิดของสายพันธุ์อื่น"
-
- NEW_ACHIEVEMENT_2_17_NAME:0 "ทะลวงไปให้ถึง..."
+ NEW_ACHIEVEMENT_2_15_NAME:0 "กองยานยิ่งใหญ่"
+ NEW_ACHIEVEMENT_2_15_DESC:0 "สร้างกองยานที่มีขนาดกองยานรวมเกิน 120"
+ NEW_ACHIEVEMENT_2_16_NAME:0 "บ้านอีกหลังไกลบ้าน"
+ NEW_ACHIEVEMENT_2_16_DESC:0 "พิชิตโลกบ้านเกิดของอีกสายพันธุ์หนึ่ง"
+ NEW_ACHIEVEMENT_2_17_NAME:0 "ฝ่าไปให้ได้..."
  NEW_ACHIEVEMENT_2_17_DESC:0 "วิจัยเทคโนโลยีหายากหนึ่งอย่าง"
-
- NEW_ACHIEVEMENT_2_18_NAME:0 "...อีกด้านหนึ่ง"
+ NEW_ACHIEVEMENT_2_18_NAME:0 "...สู่ฟากอีกด้าน"
  NEW_ACHIEVEMENT_2_18_DESC:0 "วิจัยเทคโนโลยีหายาก 15 อย่างในเกมเดียว"
-
  NEW_ACHIEVEMENT_2_19_NAME:0 "ความเข้าใจร่วมกัน"
- NEW_ACHIEVEMENT_2_19_DESC:0 "เจรจาข้อตกลงการค้าสำเร็จ"
-
- NEW_ACHIEVEMENT_2_20_NAME:0 "อำนาจสูงสุด"
+ NEW_ACHIEVEMENT_2_19_DESC:0 "เจรจาข้อตกลงการค้าได้สำเร็จ"
+ NEW_ACHIEVEMENT_2_20_NAME:0 "ความเป็นใหญ่"
  NEW_ACHIEVEMENT_2_20_DESC:0 "ชนะสงครามกับจักรวรรดิอื่น"
-
- NEW_ACHIEVEMENT_2_21_NAME:0 "ราชินี"
- NEW_ACHIEVEMENT_2_21_DESC:0 "จับตัวมารดานอกกาแล็กซีได้สำเร็จ"
-
- NEW_ACHIEVEMENT_2_22_NAME:0 "ผนึกมิติร้าว"
- NEW_ACHIEVEMENT_2_22_DESC:0 "ทำลายประตูจากผู้รุกรานต่างกาลเวลาและอวกาศ"
-
- NEW_ACHIEVEMENT_2_23_NAME:0 "วอยท์-คัมป์ฟ"
- NEW_ACHIEVEMENT_2_23_DESC:0 "พัฒนาเทคโนโลยีป้องกันการแทรกซึม"
-
+ NEW_ACHIEVEMENT_2_21_NAME:0 "ราชินีผงาด"
+ NEW_ACHIEVEMENT_2_21_DESC:0 "จับมารดาจักรต่างกาแล็กซีได้สำเร็จ"
+ NEW_ACHIEVEMENT_2_22_NAME:0 "ผนึกรอยแยก"
+ NEW_ACHIEVEMENT_2_22_DESC:0 "ทำลายประตูมิติที่ผู้รุกรานจากกาลเวลาและห้วงอวกาศอื่นใช้"
+ NEW_ACHIEVEMENT_2_23_NAME:0 "วอยต์-คัมพ์ฟ"
+ NEW_ACHIEVEMENT_2_23_DESC:0 "พัฒนาวิธีการป้องกันการแทรกซึมอันชั่วร้าย"
  NEW_ACHIEVEMENT_2_24_NAME:0 "ชัยชนะ"
- NEW_ACHIEVEMENT_2_24_DESC:0 "ชนะเกมด้วยเงื่อนไขใดก็ได้"
-
- NEW_ACHIEVEMENT_2_25_NAME:0 "จงฟังเสียงคำรามของข้า"
- NEW_ACHIEVEMENT_2_25_DESC:0 "ทำให้ไข่ฟักออกมา"
-
- NEW_ACHIEVEMENT_2_26_NAME:0 "การสร้างไร้ขอบเขต"
- NEW_ACHIEVEMENT_2_26_DESC:0 "ให้กำเนิดจักรวาลใหม่"
-
- NEW_ACHIEVEMENT_2_27_NAME:0 "จากที่มันมา"
- NEW_ACHIEVEMENT_2_27_DESC:0 "เอาชนะผู้รุกรานอันน่าสะพรึง"
-
- NEW_ACHIEVEMENT_2_28_NAME:0 "เรือรบยักษ์"
- NEW_ACHIEVEMENT_2_28_DESC:0 "ฟื้นฟูเรือรบโบราณ"
-
- NEW_ACHIEVEMENT_2_29_NAME:0 "สมบัติแห่งดวงดาว"
- NEW_ACHIEVEMENT_2_29_DESC:0 "ได้ถ้วยรางวัลจากสิ่งมีชีวิตท้องฟ้า"
-
+ NEW_ACHIEVEMENT_2_24_DESC:0 "ชนะเกมด้วยเงื่อนไขชัยชนะใดก็ได้"
+ NEW_ACHIEVEMENT_2_25_NAME:0 "ฟังข้าคำราม"
+ NEW_ACHIEVEMENT_2_25_DESC:0 "ฟักไข่"
+ NEW_ACHIEVEMENT_2_26_NAME:0 "การสร้างอันไร้สิ้นสุด"
+ NEW_ACHIEVEMENT_2_26_DESC:0 "กำเนิดจักรวาลใหม่"
+ NEW_ACHIEVEMENT_2_27_NAME:0 "ส่งมันกลับไป"
+ NEW_ACHIEVEMENT_2_27_DESC:0 "เอาชนะผู้รุกรานอันน่าสะพรึงกลัว"
+ NEW_ACHIEVEMENT_2_28_NAME:0 "เดรดนอท"
+ NEW_ACHIEVEMENT_2_28_DESC:0 "ซ่อมเรือรบโบราณให้กลับมาใช้งานได้"
+ NEW_ACHIEVEMENT_2_29_NAME:0 "ผลงานระดับดวงดาว"
+ NEW_ACHIEVEMENT_2_29_DESC:0 "ชิงถ้วยรางวัลจากสิ่งมีชีวิตแห่งดวงดาว"
  NEW_ACHIEVEMENT_2_30_NAME:0 "นักรบแห่งแสง"
- NEW_ACHIEVEMENT_2_30_DESC:0 "ทำลายวิญญาณวารีธ"
-
- NEW_ACHIEVEMENT_2_31_NAME:0 "ปริศนาโบราณ"
+ NEW_ACHIEVEMENT_2_30_DESC:0 "ทำลายเรธ"
+ NEW_ACHIEVEMENT_2_31_NAME:0 "คลี่คลายปริศนา"
  NEW_ACHIEVEMENT_2_31_DESC:0 "เปิดเผยความลับของป้อมปราการโบราณ"
-
  NEW_ACHIEVEMENT_3_0_NAME:0 "ผู้อุปถัมภ์"
- NEW_ACHIEVEMENT_3_0_DESC:0 "สนับสนุนกลุ่มศิลปินเป็นเวลา 10 ปี"
-
- NEW_ACHIEVEMENT_3_1_NAME:0 "อัจฉริยะบ้าคลั่ง"
- NEW_ACHIEVEMENT_3_1_DESC:0 "รับสมัครนักวิทยาศาสตร์จากผู้พิทักษ์ความรู้"
-
+ NEW_ACHIEVEMENT_3_0_DESC:0 "สนับสนุนคณะคณะศิลปินอาร์ติซานเป็นเวลา 10 ปี"
+ NEW_ACHIEVEMENT_3_1_NAME:0 "อัจฉริยะคลุ้มคลั่ง"
+ NEW_ACHIEVEMENT_3_1_DESC:0 "รับนักวิทยาศาสตร์จากเคอร์เนลเข้าร่วม"
  NEW_ACHIEVEMENT_3_2_NAME:0 "ของดี"
- NEW_ACHIEVEMENT_3_2_DESC:0 "ซื้อทรัพยากรหายากจากพ่อค้า"
-
- NEW_ACHIEVEMENT_3_3_NAME:0 "กลับสู่ฝุ่นผง"
- NEW_ACHIEVEMENT_3_3_DESC:0 "ทำลายสถานทูตพิเศษ"
-
- NEW_ACHIEVEMENT_3_4_NAME:0 "ความหวังสุดท้าย"
- NEW_ACHIEVEMENT_3_4_DESC:0 "นำพันธมิตรที่ไม่สังกัดฝ่ายใดไปสู่ชัยชนะต่อจักรวรรดิที่ตื่นขึ้น"
-
- NEW_ACHIEVEMENT_3_5_NAME:0 "ใส่แหวนซะ"
- NEW_ACHIEVEMENT_3_5_DESC:0 "มีส่วนหนึ่งของโลกวงแหวนเป็นเมืองหลวง"
-
- NEW_ACHIEVEMENT_3_6_NAME:0 "ทาสแห่งระบบ"
- NEW_ACHIEVEMENT_3_6_DESC:0 "ในฐานะจักรวรรดิแบบรวมหมู่ มีประชากรทาส 200 จากประชากรทั้งหมด 500"
-
- NEW_ACHIEVEMENT_3_7_NAME:0 "ไม่ไว้หน้าต่างดาว"
- NEW_ACHIEVEMENT_3_7_DESC:0 "ในฐานะจักรวรรดิ xenophobe กำจัดสิ่งมีชีวิตทรงปัญญาทั้งหมดในกาแล็กซี"
-
+ NEW_ACHIEVEMENT_3_2_DESC:0 "ซื้อทรัพยากรหายากจากผู้ค้า"
+ NEW_ACHIEVEMENT_3_3_NAME:0 "กลับคืนสู่ธุลี"
+ NEW_ACHIEVEMENT_3_3_DESC:0 "ทำลายช่องสัญญาณหนึ่งแห่ง"
+ NEW_ACHIEVEMENT_3_4_NAME:0 "ความหวังสุดท้ายและดีที่สุด"
+ NEW_ACHIEVEMENT_3_4_DESC:0 "นำกองกำลังไม่ฝักใฝ่ฝ่ายใดสู่ชัยชนะเหนือจักรวรรดิที่ตื่นขึ้น"
+ NEW_ACHIEVEMENT_3_5_NAME:0 "สวมแหวนให้มัน"
+ NEW_ACHIEVEMENT_3_5_DESC:0 "ให้ริงเวิลด์เซกชันเป็นเมืองหลวงของคุณ"
+ NEW_ACHIEVEMENT_3_6_NAME:0 "ทาสของระบบ"
+ NEW_ACHIEVEMENT_3_6_DESC:0 "ในฐานะจักรวรรดิรวมหมู่ มีประชากรถูกกดเป็นทาสอย่างน้อย 200 หน่วยในจักรวรรดิที่มีประชากรอย่างน้อย 500 หน่วย"
+ NEW_ACHIEVEMENT_3_7_NAME:0 "อย่าไว้ชีวิตต่างเผ่าพันธุ์"
+ NEW_ACHIEVEMENT_3_7_DESC:0 "ในฐานะจักรวรรดิโรค กลัว น้ํากวาดล้างสายพันธุ์มีสติปัญญาอื่นทั้งหมดในกาแล็กซี"
  NEW_ACHIEVEMENT_3_8_NAME:0 "กับดักนักท่องเที่ยว"
- NEW_ACHIEVEMENT_3_8_DESC:0 "ในฐานะจักรวรรดิแบบปัจเจก ครอบครองดาวที่มีสายพันธุ์ต่างกันอย่างน้อย 10 สายพันธุ์"
-
- NEW_ACHIEVEMENT_3_9_NAME:0 "หมดอายุใช้งานตามแผน"
- NEW_ACHIEVEMENT_3_9_DESC:0 "ในฐานะจักรวรรดิ materialist ให้ประชากร 75% เป็นหุ่นยนต์"
-
+ NEW_ACHIEVEMENT_3_8_DESC:0 "ในฐานะจักรวรรดิปัจเจกนิยม เป็นเจ้าของดาวเคราะห์ที่มีอย่างน้อย 10 สายพันธุ์อาศัยอยู่"
+ NEW_ACHIEVEMENT_3_9_NAME:0 "ความล้าสมัยที่วางแผนไว้"
+ NEW_ACHIEVEMENT_3_9_DESC:0 "ในฐานะจักรวรรดิวัตถุนิยม ให้ประชากรอย่างน้อย 75% ในจักรวรรดิเป็นหุ่นยนต์ ในจักรวรรดิที่มีประชากรอย่างน้อย 200 หน่วย"
  NEW_ACHIEVEMENT_3_10_NAME:0 "ผู้พิทักษ์สันติ"
- NEW_ACHIEVEMENT_3_10_DESC:0 "ในฐานะจักรวรรดิ pacifist ทำให้จักรวรรดิอิสระทั้งหมดกลายเป็น pacifist ด้วย"
-
- NEW_ACHIEVEMENT_3_11_NAME:0 "เปิดพรมแดน"
- NEW_ACHIEVEMENT_3_11_DESC:0 "ในฐานะจักรวรรดิ xenophile ทำสนธิสัญญาอพยพกับจักรวรรดิอื่นอย่างน้อย 10 แห่ง"
-
- NEW_ACHIEVEMENT_3_12_NAME:0 "พระเจ้าต้องการ"
- NEW_ACHIEVEMENT_3_12_DESC:0 "ในฐานะจักรวรรดิ spiritualist ครอบครองโลกศักดิ์สิทธิ์ 4 ดวง"
-
- NEW_ACHIEVEMENT_3_13_NAME:0 "พหุวัฒนธรรม"
- NEW_ACHIEVEMENT_3_13_DESC:0 "ให้ผู้นำของมึงเป็นสายพันธุ์ที่ต่างจากสายพันธุ์ก่อตั้ง"
-
- NEW_ACHIEVEMENT_3_14_NAME:0 "เพื่อนเก่า"
- NEW_ACHIEVEMENT_3_14_DESC:0 "ได้รับของขวัญจากจักรวรรดิโบราณ"
-
+ NEW_ACHIEVEMENT_3_10_DESC:0 "ในฐานะจักรวรรดิสันตินิยม ให้จักรวรรดิอิสระอื่นทั้งหมดเป็นสันตินิยมด้วย"
+ NEW_ACHIEVEMENT_3_11_NAME:0 "เปิดพรมแดนสุดๆ"
+ NEW_ACHIEVEMENT_3_11_DESC:0 "ในฐานะจักรวรรดิเซ โน ฟี เลียมีสนธิสัญญาการย้ายถิ่นกับจักรวรรดิอื่นอย่างน้อย 10 แห่ง"
+ NEW_ACHIEVEMENT_3_12_NAME:0 "เดอุส วูลท์"
+ NEW_ACHIEVEMENT_3_12_DESC:0 "ในฐานะจักรวรรดิจิตวิญญาณนิยม เป็นเจ้าของโลกศักดิ์สิทธิ์ 4 ดวง"
+ NEW_ACHIEVEMENT_3_13_NAME:0 "พหุวัฒนธรรมสมบูรณ์"
+ NEW_ACHIEVEMENT_3_13_DESC:0 "ให้ผู้ปกครองของคุณเป็นคนละชนชั้นสายพันธุ์กับสายพันธุ์ผู้ก่อตั้ง"
+ NEW_ACHIEVEMENT_3_14_NAME:0 "สหายเก่า"
+ NEW_ACHIEVEMENT_3_14_DESC:0 "ได้รับของขวัญจากจักรวรรดิร่วงโรย"
  NEW_ACHIEVEMENT_3_15_NAME:0 "แกะกล่อง"
- NEW_ACHIEVEMENT_3_15_DESC:0 "เปิดโลกที่ถูกป้องกันด้วยโล่"
-
- NEW_ACHIEVEMENT_3_16_NAME:0 "กาลเวลาที่สว่างไสว"
- NEW_ACHIEVEMENT_3_16_DESC:0 "ให้ความรู้แก่อารยธรรมยุคสำริด"
-
- NEW_ACHIEVEMENT_3_17_NAME:0 "ล้างแค้น"
- NEW_ACHIEVEMENT_3_17_DESC:0 "ในฐานะสายพันธุ์มนุษย์รูปร่าง infiltrate โลกบ้านเกิดของสายพันธุ์กิ้งก่า pre-FTL"
-
- NEW_ACHIEVEMENT_3_18_NAME:0 "สวรรค์ที่พบ"
- NEW_ACHIEVEMENT_3_18_DESC:0 "ปรับสภาพดาวเคราะห์ให้กลายเป็นดาวไกอา"
-
+ NEW_ACHIEVEMENT_3_15_DESC:0 "เปิดโลกที่ถูกปิดผนึกด้วยโล่"
+ NEW_ACHIEVEMENT_3_16_NAME:0 "ยุคแห่งการรู้แจ้ง"
+ NEW_ACHIEVEMENT_3_16_DESC:0 "ทำให้อารยธรรมยุคสำริดหนึ่งเข้าสู่ความรู้แจ้ง"
+ NEW_ACHIEVEMENT_3_17_NAME:0 "เอาคืน"
+ NEW_ACHIEVEMENT_3_17_DESC:0 "ในฐานะสายพันธุ์มนุษยธรรมแทรกซึมโลกบ้านเกิดของเหล่าซิริลเลียนก่อนความเร็ว"
+ NEW_ACHIEVEMENT_3_18_NAME:0 "พบสวรรค์"
+ NEW_ACHIEVEMENT_3_18_DESC:0 "ปรับสภาพดาวเคราะห์ดวงหนึ่งให้เป็นโลกไกอา"
  NEW_ACHIEVEMENT_3_19_NAME:0 "สิ่งที่มาก่อน"
- NEW_ACHIEVEMENT_3_19_DESC:0 "ค้นหาระบบบ้านเกิดของจักรวรรดิบรรพกาล"
-
+ NEW_ACHIEVEMENT_3_19_DESC:0 "ค้นหาระบบบ้านเกิดของจักรวรรดิตําแหน่ง"
  NEW_ACHIEVEMENT_3_20_NAME:0 "นอกบริบท"
- NEW_ACHIEVEMENT_3_20_DESC:0 "บุกโลก pre-FTL ระหว่างสงครามโลก"
-
- NEW_ACHIEVEMENT_3_21_NAME:0 "จากเวอร์จิลสู่บีทริซ"
- NEW_ACHIEVEMENT_3_21_DESC:0 "คืนชีพสายพันธุ์ที่ตายไปแล้ว"
-
- NEW_ACHIEVEMENT_3_22_NAME:0 "สิ่งที่จะเป็น"
- NEW_ACHIEVEMENT_3_22_DESC:0 "ปิดลูป…หรือไม่ก็ได้"
-
- NEW_ACHIEVEMENT_3_23_NAME:0 "เปี่ยมทรัพยากร"
- NEW_ACHIEVEMENT_3_23_DESC:0 "มีรายได้ต่อเดือนจากทุกทรัพยากรในกาแล็กซี"
-
- NEW_ACHIEVEMENT_3_24_NAME:0 "ดาวถูกกักขัง"
- NEW_ACHIEVEMENT_3_24_DESC:0 "สร้าง Dyson Sphere ครบสมบูรณ์"
-
- NEW_ACHIEVEMENT_3_25_NAME:0 "วิศวกรโลกวงแหวน"
- NEW_ACHIEVEMENT_3_25_DESC:0 "สร้าง Ring World ครบสมบูรณ์"
-
- NEW_ACHIEVEMENT_3_26_NAME:0 "ฉันมองได้ตลอดกาล"
- NEW_ACHIEVEMENT_3_26_DESC:0 "สร้าง Sentry Array ครบสมบูรณ์"
-
- NEW_ACHIEVEMENT_3_28_NAME:0 "ห้องคิด"
- NEW_ACHIEVEMENT_3_28_DESC:0 "สร้าง Science Nexus ครบสมบูรณ์"
-
- NEW_ACHIEVEMENT_3_29_NAME:0 "เหนือม่านหมอก"
- NEW_ACHIEVEMENT_3_29_DESC:0 "เจาะเข้ามิติ Shroud"
-
- NEW_ACHIEVEMENT_3_30_NAME:0 "น้ำตากลางสายฝน"
- NEW_ACHIEVEMENT_3_30_DESC:0 "วิวัฒนาการเป็นเครื่องจักรอมตะสมบูรณ์แบบ"
-
+ NEW_ACHIEVEMENT_3_20_DESC:0 "บุกโลกก่อนความเร็วขณะที่มันกำลังอยู่ท่ามกลางสงครามโลก"
+ NEW_ACHIEVEMENT_3_21_NAME:0 "เมื่อก่อนเวอร์จิล ตอนนี้บีทริซ"
+ NEW_ACHIEVEMENT_3_21_DESC:0 "คืนชีวิตให้สายพันธุ์ที่ตายไปนานแล้ว"
+ NEW_ACHIEVEMENT_3_22_NAME:0 "สิ่งที่เคยเป็น จะเป็นอีก"
+ NEW_ACHIEVEMENT_3_22_DESC:0 "ปิดลูป หรือไม่ก็อย่าปิด"
+ NEW_ACHIEVEMENT_3_23_NAME:0 "พร้อมสรรพ"
+ NEW_ACHIEVEMENT_3_23_DESC:1 "มีรายได้ต่อเดือนมากกว่าหนึ่งสำหรับทุกทรัพยากรในกาแล็กซี"
+ NEW_ACHIEVEMENT_3_24_NAME:0 "ดาวฤกษ์ที่ถูกจองจำ"
+ NEW_ACHIEVEMENT_3_24_DESC:0 "สร้างไดสัน สเปกให้สมบูรณ์"
+ NEW_ACHIEVEMENT_3_25_NAME:0 "วิศวกรริงเวิลด์"
+ NEW_ACHIEVEMENT_3_25_DESC:0 "สร้างริงเวิลด์ให้สมบูรณ์"
+ NEW_ACHIEVEMENT_3_26_NAME:0 "มองเห็นชั่วนิรันดร์"
+ NEW_ACHIEVEMENT_3_26_DESC:0 "สร้างเซนทรีอาร์เรย์ให้สมบูรณ์"
+ NEW_ACHIEVEMENT_3_28_NAME:0 "คลังสมอง"
+ NEW_ACHIEVEMENT_3_28_DESC:0 "สร้างวิทยาศาสตร์ให้สมบูรณ์"
+ NEW_ACHIEVEMENT_3_29_NAME:0 "เหนือม่าน"
+ NEW_ACHIEVEMENT_3_29_DESC:0 "ทะลวงเข้าสู่เดอะชราวด์"
+ NEW_ACHIEVEMENT_3_30_NAME:0 "ดุจน้ำตาในสายฝน"
+ NEW_ACHIEVEMENT_3_30_DESC:0 "วิวัฒน์สู่เครื่องจักรอมตะอันสมบูรณ์แบบ"
  NEW_ACHIEVEMENT_3_31_NAME:0 "วิวัฒนาการที่ควบคุมได้"
- NEW_ACHIEVEMENT_3_31_DESC:0 "ดัดแปลงพันธุกรรมสายพันธุ์ให้มีแต้มคุณสมบัติ 7 แต้ม"
-
- NEW_ACHIEVEMENT_4_0_NAME:0 "มุมมองจากปลายโลก"
- NEW_ACHIEVEMENT_4_0_DESC:0 "สร้างสถานี Habitat ในระบบหลุมดำ"
-
- NEW_ACHIEVEMENT_4_1_NAME:0 "สู่ยูโทเปีย"
- NEW_ACHIEVEMENT_4_1_DESC:0 "มีสิ่งมีชีวิตอย่างน้อย 10 สายพันธุ์อยู่ภายใต้สภาพความเป็นอยู่ยูโทเปีย"
-
- NEW_ACHIEVEMENT_4_2_NAME:0 "นักกินต่างดาว"
- NEW_ACHIEVEMENT_4_2_DESC:0 "เลี้ยงสิ่งมีชีวิตต่างดาวอย่างน้อย 5 สายพันธุ์เป็นปศุสัตว์"
+ NEW_ACHIEVEMENT_3_31_DESC:0 "ดัดแปลงพันธุกรรมสายพันธุ์หนึ่งให้มีคุณลักษณะมูลค่า 7 แต้ม"
+ NEW_ACHIEVEMENT_4_0_NAME:0 "วิวจากปลายโลก"
+ NEW_ACHIEVEMENT_4_0_DESC:0 "สร้างสถานีตารางในระบบหลุมดำ"
+ NEW_ACHIEVEMENT_4_1_NAME:0 "มุ่งสู่ยูโทเปีย"
+ NEW_ACHIEVEMENT_4_1_DESC:0 "มีอย่างน้อย 10 สายพันธุ์อาศัยอยู่ภายใต้มาตรฐานการครองชีพแบบยูโทเปียในจักรวรรดิของคุณ"
+ NEW_ACHIEVEMENT_4_2_NAME:0 "ผู้กินต่างเผ่าพันธุ์"
+ NEW_ACHIEVEMENT_4_2_DESC:0 "เลี้ยงอย่างน้อย 5 สายพันธุ์ที่แตกต่างกันเป็นปศุสัตว์ในจักรวรรดิของคุณ"
+ #NEW_ACHIEVEMENT_4_3_NAME:0 "Does not compute"
+ #NEW_ACHIEVEMENT_4_4_DESC:0 "Shut down the contingency plan"

@@ -1,4 +1,8 @@
 ﻿l_english:
- HUMANOIDS_TITLE: "Humanoids Species Pack"
- DLC_HUMANOID_RECOMMENDATION_DESC:2 "§SHumanoid Species Pack§! is a DLC adding further variety to humanoid portraits and ship models."
- DLC_HUMANOID_RECOMMENDATION_HUMAN_REC:1 "We're recommending §SHumanoid Species Pack§! as it brings greater variety to empires like this one."
+ ########################
+ # Humanoids Species Pack
+ ########################
+
+ HUMANOIDS_TITLE: "Humanoids Species Pack" # Do not translate
+ DLC_HUMANOID_RECOMMENDATION_DESC:2 "§Sมนุษยธรรมเผ่าพันธุ์ฝูง§! คือ DLC ที่เพิ่มความหลากหลายให้กับภาพบุคคลและโมเดลยานของเผ่าพันธุ์มนุษยรูป"
+ DLC_HUMANOID_RECOMMENDATION_HUMAN_REC:1 "เราแนะนำ §Sมนุษยธรรมเผ่าพันธุ์ฝูง§! เพราะมันเพิ่มความหลากหลายให้แก่จักรวรรดิแบบนี้มากยิ่งขึ้น"

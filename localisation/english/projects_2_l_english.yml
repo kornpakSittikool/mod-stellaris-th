@@ -1,73 +1,114 @@
 ﻿l_english:
- AMOEBAS_1_PROJECT:0 "Space Amoeba Observation"
- AMOEBAS_1_PROJECT_DESC:0 "Task a science department with collecting and collating data relating to the Space Amoebas."
- CRYSTALS_1_PROJECT:0 "Crystalline Entity Observation"
- CRYSTALS_1_PROJECT_DESC:0 "Task a science department with collecting and collating data relating to the Crystalline Entities."
- DRONES_1_PROJECT:0 "Mining Drone Observation"
- DRONES_1_PROJECT_DESC:0 "Task a science department with collecting and collating data relating to the Ancient Mining Drones."
- CLOUDS_1_PROJECT:0 "Void Cloud Observation"
- CLOUDS_1_PROJECT_DESC:0 "Task a science department with collecting and collating data relating to the Void Clouds."
- CRYSTAL_CONSTRUCT_PROJECT:0 "The Crystal Construct"
- CRYSTAL_CONSTRUCT_PROJECT_DESC:0 "Task a science department with collecting and collating data relating to the unique Crystalline Construct."
- MINING_BASE_PROJECT:0 "The Processing Hub"
- MINING_BASE_PROJECT_DESC:0 "Task a science department with remotely studying the last known Ancient Mining Drone Processing Hub."
- DEAL_WITH_FLORA:0 "Plant Aggression"
- DEAL_WITH_FLORA_DESC:0 "The planet's flora is remarkably dexterous, alarmingly aggressive, and definitely worthy of closer study."
- OLD_GODS_BENEFACTRESS_PROJECT:0 "Old Gods: The Benefactress"
- OLD_GODS_BENEFACTRESS_PROJECT_DESC:2 "Every surface of the Benefactress' shrine is covered with a complex web of pictograms, seemingly telling a story far more expansive than the lingering fables on [Root.Owner.Capital.GetName].\n\nThough only distantly related to known ancient [Root.Owner.GetSpeciesName] languages: modern technology should allow us to decipher the pictograms, given enough time and resources."
- OLD_GODS_UNDAUNTED_PROJECT:0 "Old Gods: The Undaunted"
- OLD_GODS_UNDAUNTED_PROJECT_DESC:2 "The temple holding the Undaunted's shrine is - true to the myths surrounding him - filled with contraptions of indeterminate origin and purpose. A far cry from the simple puzzle-boxes and tests of strength that once filled his temples on [Root.Owner.Capital.GetName], it was once claimed that his holy texts could only be read by the truly worthy.\n\nOur sophisticated analysis tools should make short work of these ciphers."
- OLD_GODS_PERCIPIENT_PROJECT:0 "Old Gods: The Percipient"
- OLD_GODS_PERCIPIENT_PROJECT_DESC:2 "The walls housing this shrine to the Percipient are coated with thick layers of a mineral-based lacquer, but the shrine itself is bare.\n\nThe tales of the Percipient are told only to those perceptive enough to understand their meaning - it is just a matter of figuring out what needs to be perceived."
- LIMBO_1_PROJECT:0 "In Limbo"
- LIMBO_1_PROJECT_DESC:0 "An alien vault filled with data storage devices practically begs for some archaeological data recovery."
- PROJECTING_MOON_PROJECT:0 "Projecting"
- PROJECTING_MOON_PROJECT_DESC:0 "An unusual planet has an unusual moon; the usual scanning techniques do not give satisfactory results, and a more hands-on approach is needed."
- GRIMACING_PLANET_PROJECT:0 "Grimacing Planet"
- GRIMACING_PLANET_PROJECT_DESC:0 "The violently animated face of this planet can be stabilized into something potentially habitable, if we act soon."
- OLFACTORY_PROJECT:0 "Olfactory Study"
- OLFACTORY_PROJECT_DESC:0 "An alien artifact is suspected of relaying information through aerosolized aromatic compounds."
- ULTIMATE_WEAPON_PROJECT:0 "The Ultimate Weapon"
- ULTIMATE_WEAPON_PROJECT_DESC:0 "A cache of weapons lie hidden somewhere on the planet. If we can find them, they may provide new martial technologies for our Empire."
- REFINE_ROCK_PROJECT:0 "Positron Bombardment"
- REFINE_ROCK_PROJECT_DESC:0 "Controlled dispersal of positrons from orbit may change the minerals native to the planet into a more useful form."
- CRYSTAL_CODEX_PROJECT:0 "Crystal Codex"
- CRYSTAL_CODEX_PROJECT_DESC:0 "A mineral formation houses hologram-encoded information. Its structure is familiar, but the sheer data density makes it a challenge to decode."
- ALIEN_BARRACKS_PROJECT:0 "Alien Barracks"
- ALIEN_BARRACKS_PROJECT_DESC:0 "A closer xeno-socio-archaeological study of these ruins may provide insights into some past alien war machine."
- ROBOT_MINERALS_PROJECT:0 "Reclaimed by Nature"
- ROBOT_MINERALS_PROJECT_DESC:0 "An overgrown facility may house important secrets."
- BALANCE_ECOSYSTEM_PROJECT:0 "Balance Ecosystem"
- BALANCE_ECOSYSTEM_PROJECT_DESC:0 "A plan has been formulated to attempt to balance the planet's lopsided biosphere using only the tools available to a standard Science Ship.\n\nThere may be unforeseen consequences."
- HEAD_IN_SAND_PROJECT:0 "Head in the Sand"
- HEAD_IN_SAND_PROJECT_DESC:0 "A military fleet can attempt to salvage an ever-burrowing ship."
- THE_PRINCE_PROJECT:0 "The Prince"
- THE_PRINCE_PROJECT_DESC:0 "A databank found floating in space houses nothing but a lengthy piece of text, written in a strange, yet familiar, alien language."
- EMERGENCY_BUOY_PROJECT:0 "Emergency Buoy"
- EMERGENCY_BUOY_PROJECT_DESC:0 "A heavily-damaged object seems to act as a repeater for a comms signal."
- WRECKED_FLEET_1:0 "Monumental Transmission"
- WRECKED_FLEET_1_DESC:0 "Decode the message emanating from the monolith."
- WRECKED_FLEET_2:0 "Ancient Alliance Armada"
- WRECKED_FLEET_2_DESC:0 "Deploy engineering teams to restore the salvageable vessels to working order."
- MANUFACTORY_PROJECT:0 "Mining Restoration"
- MANUFACTORY_PROJECT_DESC:0 "Deploy engineering teams to restore an ancient orbital station to working order."
- HELPFUL_DRONES_1_PROJECT:0 "Left Behind"
- HELPFUL_DRONES_1_PROJECT_DESC:0 "Strange readings are coming from the planet's moon. It could be nothing.\n\nBut it could be something. With a ship in orbit acting as a relay, the colony's scientists will carefully scan the moon's surface in order to get to the heart of the matter."
- POLLEN_1_PROJECT:0 "Floral Study"
- POLLEN_1_PROJECT_DESC:0 "Some of the planet's native flora exhibit several potentially interesting properties."
- POLLEN_2_PROJECT:0 "Labor Study"
- POLLEN_2_PROJECT_DESC:0 "Several recent studies from reputable [Root.Owner.GetSpeciesName] seats of learning present a number of alternative ways of arranging a vast workforce. An exhaustive meta-study of these new ideas could provide the answer to the problem of declining productivity in challenging colony environments."
- POLLEN_3_PROJECT:0 "A Sense of Impending Doom"
- POLLEN_3_PROJECT_DESC:0 "The situation on the pollen-infested planet has taken a turn for the potentially dangerous. A speedy assessment of the colony's unique situation and especially its increasingly volatile environmental factors is of the utmost importance.\n\nOnce all threats are known, an action plan can be drafted and executed within hours."
- ROGUE_SCIENTIST_1_PROJECT:0 "Wanderlust: What Was Left Behind"
- ROGUE_SCIENTIST_1_PROJECT_DESC:0 "The Chairperson's unseen departure from this system resulted in a perplexing mass of residual energy signatures being cast upon the solar winds.\n\nHopefully a complete analysis of these energies should point us to the Chairperson's next destination, and if need be, make them easier to track in the future."
- MASSEX_1_PROJECT:0 "Analysis: Broken"
- MASSEX_1_PROJECT_DESC:0 "Reconstruct the traumatic past of this celestial body."
- MASSEX_2_PROJECT:0 "Analysis: Burned"
- MASSEX_2_PROJECT_DESC:0 "Reconstruct the traumatic past of this celestial body."
- MASSEX_3_PROJECT:0 "Analysis: Desolate"
- MASSEX_3_PROJECT_DESC:0 "Reconstruct the traumatic past of this celestial body."
- MASSEX_4_PROJECT:0 "Analysis: Noxious"
- MASSEX_4_PROJECT_DESC:0 "Reconstruct the traumatic past of this celestial body."
- MASSEX_5_PROJECT:0 "Analysis: Chilly"
- MASSEX_5_PROJECT_DESC:0 "Reconstruct the traumatic past of this celestial body."
+
+ ####################################
+ # Special Projects
+ ####################################
+
+ ### Story Events
+
+ AMOEBAS_1_PROJECT:0 "สังเกตการณ์อะมีบาอวกาศ"
+ AMOEBAS_1_PROJECT_DESC:0 "มอบหมายให้แผนกวิทยาศาสตร์รวบรวมและเรียบเรียงข้อมูลเกี่ยวกับอะมีบาอวกาศ"
+
+ CRYSTALS_1_PROJECT:0 "สังเกตการณ์สิ่งมีชีวิตผลึก"
+ CRYSTALS_1_PROJECT_DESC:0 "มอบหมายให้แผนกวิทยาศาสตร์รวบรวมและเรียบเรียงข้อมูลเกี่ยวกับสิ่งมีชีวิตผลึก"
+
+ DRONES_1_PROJECT:0 "สังเกตการณ์โดรนขุดแร่"
+ DRONES_1_PROJECT_DESC:0 "มอบหมายให้แผนกวิทยาศาสตร์รวบรวมและเรียบเรียงข้อมูลเกี่ยวกับโดรนขุดแร่โบราณ"
+
+ CLOUDS_1_PROJECT:0 "สังเกตการณ์เมฆสุญญากาศ"
+ CLOUDS_1_PROJECT_DESC:0 "มอบหมายให้แผนกวิทยาศาสตร์รวบรวมและเรียบเรียงข้อมูลเกี่ยวกับเมฆสุญญากาศ"
+
+ CRYSTAL_CONSTRUCT_PROJECT:0 "โครงสร้างผลึก"
+ CRYSTAL_CONSTRUCT_PROJECT_DESC:0 "มอบหมายให้แผนกวิทยาศาสตร์รวบรวมและเรียบเรียงข้อมูลเกี่ยวกับโครงสร้างผลึกอันเป็นเอกลักษณ์นี้"
+
+ MINING_BASE_PROJECT:0 "ศูนย์ประมวลผล"
+ MINING_BASE_PROJECT_DESC:0 "มอบหมายให้แผนกวิทยาศาสตร์ศึกษาศูนย์ประมวลผลของโดรนขุดแร่โบราณที่ยังเป็นที่รู้จักแห่งสุดท้ายจากระยะไกล"
+
+ ### Anomaly Events
+
+ DEAL_WITH_FLORA:0 "พืชก้าวร้าว"
+ DEAL_WITH_FLORA_DESC:0 "พืชพรรณของดาวเคราะห์ดวงนี้มีความคล่องแคล่วอย่างน่าทึ่ง ก้าวร้าวอย่างน่าตกใจ และสมควรอย่างยิ่งที่จะได้รับการศึกษาอย่างใกล้ชิด"
+
+ OLD_GODS_BENEFACTRESS_PROJECT:0 "เทพเจ้าโบราณ: ผู้เกื้อหนุน"
+ OLD_GODS_BENEFACTRESS_PROJECT_DESC:2 "ทุกพื้นผิวของศาลเจ้าผู้เกื้อหนุนถูกปกคลุมไปด้วยเครือข่ายภาพสัญลักษณ์อันซับซ้อน ซึ่งดูเหมือนจะบอกเล่าเรื่องราวที่กว้างไกลยิ่งกว่านิทานตกค้างที่ยังหลงเหลืออยู่บน [Root.Owner.Capital.GetName]\n\nแม้จะมีความเกี่ยวข้องอย่างห่างๆ กับภาษาโบราณของ [Root.Owner.GetSpeciesName] ที่เรารู้จัก เทคโนโลยีสมัยใหม่ก็น่าจะช่วยให้เราถอดรหัสภาพสัญลักษณ์เหล่านี้ได้ หากมีเวลาและทรัพยากรมากพอ"
+ OLD_GODS_UNDAUNTED_PROJECT:0 "เทพเจ้าโบราณ: ผู้ไม่ครั่นคร้าม"
+ OLD_GODS_UNDAUNTED_PROJECT_DESC:2 "วิหารที่ประดิษฐานศาลเจ้าของผู้ไม่ครั่นคร้ามนั้น—สมกับตำนานที่เล่าขานเกี่ยวกับเขา—เต็มไปด้วยอุปกรณ์ที่ไม่อาจระบุที่มาและจุดประสงค์ได้อย่างชัดเจน มันช่างแตกต่างจากกล่องปริศนาและบททดสอบกำลังอันเรียบง่ายที่ครั้งหนึ่งเคยเติมเต็มวิหารของเขาบน [Root.Owner.Capital.GetName] อย่างสิ้นเชิง ครั้งหนึ่งเคยมีคำกล่าวว่าคัมภีร์ศักดิ์สิทธิ์ของเขานั้น มีเพียงผู้ที่คู่ควรอย่างแท้จริงเท่านั้นจึงจะอ่านได้\n\nเครื่องมือวิเคราะห์อันล้ำสมัยของเราน่าจะจัดการรหัสเหล่านี้ได้ไม่ยาก"
+ OLD_GODS_PERCIPIENT_PROJECT:0 "เทพเจ้าโบราณ: ผู้หยั่งรู้"
+ OLD_GODS_PERCIPIENT_PROJECT_DESC:2 "กำแพงที่โอบล้อมศาลเจ้าแห่งนี้ของผู้หยั่งรู้นั้นถูกเคลือบด้วยชั้นแลคเกอร์จากแร่ธาตุอย่างหนาทึบ แต่ตัวศาลเจ้าเองกลับเปลือยเปล่า\n\nเรื่องราวของผู้หยั่งรู้จะถูกเล่าให้ฟังเฉพาะผู้ที่มีความช่างสังเกตพอจะเข้าใจความหมายของมัน—สิ่งสำคัญคือเราต้องหาว่าสิ่งใดกันแน่ที่ต้องถูกรับรู้"
+
+ LIMBO_1_PROJECT:0 "ค้างคา"
+ LIMBO_1_PROJECT_DESC:0 "ห้องเก็บข้อมูลต่างดาวที่เต็มไปด้วยอุปกรณ์จัดเก็บข้อมูลนั้นแทบจะร้องขอให้เราทำการกู้คืนข้อมูลทางโบราณคดี"
+
+ PROJECTING_MOON_PROJECT:0 "การฉายภาพ"
+ PROJECTING_MOON_PROJECT_DESC:0 "ดาวเคราะห์ที่ไม่ธรรมดามีดวงจันทร์ที่ไม่ธรรมดา เทคนิคการสแกนทั่วไปให้ผลไม่น่าพอใจ และจำเป็นต้องใช้วิธีลงมือใกล้ชิดมากกว่านี้"
+
+ GRIMACING_PLANET_PROJECT:0 "ดาวเคราะห์แสยะ"
+ GRIMACING_PLANET_PROJECT_DESC:0 "ใบหน้าที่เคลื่อนไหวอย่างรุนแรงของดาวเคราะห์ดวงนี้อาจถูกทำให้มั่นคงจนกลายเป็นบางสิ่งที่เหมาะแก่การอยู่อาศัยได้ หากเราลงมือเสียแต่ตอนนี้"
+
+ OLFACTORY_PROJECT:0 "การศึกษากลิ่น"
+ OLFACTORY_PROJECT_DESC:0 "โบราณวัตถุต่างดาวชิ้นหนึ่งถูกสงสัยว่าส่งต่อข้อมูลผ่านสารประกอบอะโรมาติกที่ฟุ้งกระจายในอากาศ"
+
+ ULTIMATE_WEAPON_PROJECT:0 "อาวุธสุดยอด"
+ ULTIMATE_WEAPON_PROJECT_DESC:0 "มีคลังอาวุธซ่อนอยู่ที่ไหนสักแห่งบนดาวเคราะห์ หากเราหาพบ มันอาจมอบเทคโนโลยีทางการทหารใหม่ให้กับจักรวรรดิของเรา"
+
+ REFINE_ROCK_PROJECT:0 "การทิ้งระดมโพซิตรอน"
+ REFINE_ROCK_PROJECT_DESC:0 "การกระจายโพซิตรอนจากวงโคจรอย่างควบคุมได้อาจเปลี่ยนแร่พื้นถิ่นของดาวเคราะห์ให้กลายเป็นรูปแบบที่มีประโยชน์ยิ่งขึ้น"
+
+ CRYSTAL_CODEX_PROJECT:0 "คัมภีร์ผลึก"
+ CRYSTAL_CODEX_PROJECT_DESC:0 "โครงสร้างแร่แห่งหนึ่งบรรจุข้อมูลที่เข้ารหัสด้วยโฮโลแกรมไว้ภายใน โครงสร้างของมันคุ้นตา แต่ความหนาแน่นของข้อมูลมหาศาลทำให้การถอดรหัสเป็นเรื่องท้าทาย"
+
+ ALIEN_BARRACKS_PROJECT:0 "ค่ายทหารต่างดาว"
+ ALIEN_BARRACKS_PROJECT_DESC:0 "การศึกษาซากปรักหักพังเหล่านี้อย่างใกล้ชิดในเชิงซีโน-สังคม-โบราณคดีอาจมอบข้อมูลเชิงลึกเกี่ยวกับเครื่องจักรสงครามของต่างดาวในอดีต"
+
+ ROBOT_MINERALS_PROJECT:0 "ธรรมชาติทวงคืน"
+ ROBOT_MINERALS_PROJECT_DESC:0 "สถานที่ที่ถูกพืชปกคลุมจนรกทึบอาจเก็บซ่อนความลับสำคัญเอาไว้"
+
+ BALANCE_ECOSYSTEM_PROJECT:0 "ปรับสมดุลระบบนิเวศ"
+ BALANCE_ECOSYSTEM_PROJECT_DESC:0 "มีการวางแผนเพื่อพยายามปรับสมดุลชีวมณฑลที่เอนเอียงของดาวเคราะห์ โดยใช้เพียงเครื่องมือที่ยานวิทยาศาสตร์มาตรฐานมีอยู่เท่านั้น\n\nอาจเกิดผลลัพธ์ที่คาดไม่ถึงได้"
+
+ HEAD_IN_SAND_PROJECT:0 "ฝังหัวในทราย"
+ HEAD_IN_SAND_PROJECT_DESC:0 "กองยานทหารสามารถพยายามกู้ซากยานที่กำลังมุดลึกลงไปเรื่อยๆ ได้"
+
+ THE_PRINCE_PROJECT:0 "เจ้าชาย"
+ THE_PRINCE_PROJECT_DESC:0 "ธนาคารข้อมูลที่ถูกพบลอยอยู่ในอวกาศไม่ได้เก็บอะไรไว้นอกจากข้อความยาวเหยียดชิ้นหนึ่ง ซึ่งเขียนด้วยภาษาต่างดาวที่ทั้งแปลกประหลาดแต่ก็คุ้นเคย"
+
+ EMERGENCY_BUOY_PROJECT:0 "ทุ่นฉุกเฉิน"
+ EMERGENCY_BUOY_PROJECT_DESC:0 "วัตถุที่เสียหายอย่างหนักชิ้นหนึ่งดูเหมือนจะทำหน้าที่เป็นตัวทวนสัญญาณสื่อสาร"
+
+ WRECKED_FLEET_1:0 "สัญญาณจากอนุสรณ์"
+ WRECKED_FLEET_1_DESC:0 "ถอดรหัสข้อความที่เล็ดลอดออกมาจากแท่งหินใหญ่"
+
+ WRECKED_FLEET_2:0 "กองเรือพันธมิตรโบราณ"
+ WRECKED_FLEET_2_DESC:0 "ส่งทีมวิศวกรไปซ่อมแซมยานที่ยังพอกู้ได้ให้กลับมาใช้งานได้อีกครั้ง"
+
+ MANUFACTORY_PROJECT:0 "ฟื้นฟูการขุด"
+ MANUFACTORY_PROJECT_DESC:0 "ส่งทีมวิศวกรไปซ่อมแซมสถานีวงโคจรโบราณให้กลับมาใช้งานได้อีกครั้ง"
+
+### Colony Events
+
+ HELPFUL_DRONES_1_PROJECT:0 "สิ่งที่ถูกทิ้งไว้"
+ HELPFUL_DRONES_1_PROJECT_DESC:0 "มีการอ่านค่าประหลาดมาจากดวงจันทร์ของดาวเคราะห์ มันอาจไม่มีอะไรเลย\n\nแต่มันก็อาจเป็นบางอย่างก็ได้ โดยให้ยานในวงโคจรทำหน้าที่เป็นตัวส่งต่อ นักวิทยาศาสตร์ของอาณานิคมจะสแกนพื้นผิวดวงจันทร์อย่างระมัดระวังเพื่อค้นหาความจริงของเรื่องนี้"
+ POLLEN_1_PROJECT:0 "การศึกษาพืชพรรณ"
+ POLLEN_1_PROJECT_DESC:0 "พืชพื้นถิ่นบางชนิดของดาวเคราะห์ดวงนี้แสดงคุณสมบัติที่อาจน่าสนใจอยู่หลายประการ"
+ POLLEN_2_PROJECT:0 "การศึกษาแรงงาน"
+ POLLEN_2_PROJECT_DESC:0 "งานวิจัยล่าสุดหลายชิ้นจากสถาบันการศึกษาชั้นนำของ [Root.Owner.GetSpeciesName] ได้นำเสนอทางเลือกจำนวนหนึ่งในการจัดระเบียบแรงงานมหาศาล การวิเคราะห์เชิงอภิมานอย่างละเอียดของแนวคิดใหม่เหล่านี้อาจให้คำตอบต่อปัญหาผลผลิตที่ถดถอยในสภาพแวดล้อมอาณานิคมอันยากลำบาก"
+ POLLEN_3_PROJECT:0 "ลางร้ายที่ใกล้เข้ามา"
+ POLLEN_3_PROJECT_DESC:0 "สถานการณ์บนดาวเคราะห์ที่ถูกละอองเกสรปกคลุมได้เปลี่ยนทิศทางไปในทางที่อาจเป็นอันตราย การประเมินสถานการณ์เฉพาะของอาณานิคมอย่างรวดเร็ว โดยเฉพาะปัจจัยด้านสิ่งแวดล้อมที่ยิ่งทวีความผันผวน มีความสำคัญอย่างยิ่ง\n\nเมื่อรู้ภัยคุกคามทั้งหมดแล้ว เราก็สามารถร่างและดำเนินแผนปฏิบัติการได้ภายในไม่กี่ชั่วโมง"
+
+### Starting Events
+
+# Wanderlust
+ ROGUE_SCIENTIST_1_PROJECT:0 "ใจใฝ่พเนจร: สิ่งที่ถูกทิ้งไว้"
+ ROGUE_SCIENTIST_1_PROJECT_DESC:0 "การจากไปอย่างไร้ร่องรอยของประธานจากระบบนี้ ทิ้งมวลร่องรอยพลังงานตกค้างอันชวนพิศวงให้ล่องลอยไปตามลมสุริยะ\n\nหวังว่าการวิเคราะห์พลังงานเหล่านี้อย่างสมบูรณ์จะชี้ทางไปยังจุดหมายถัดไปของประธาน และหากจำเป็น ก็จะช่วยให้ติดตามพวกเขาได้ง่ายขึ้นในอนาคต"
+
+# Mass Extinction
+ MASSEX_1_PROJECT:0 "วิเคราะห์: แตกสลาย"
+ MASSEX_1_PROJECT_DESC:0 "สร้างอดีตอันเจ็บปวดของวัตถุท้องฟ้านี้ขึ้นใหม่"
+ MASSEX_2_PROJECT:0 "วิเคราะห์: แผดเผา"
+ MASSEX_2_PROJECT_DESC:0 "สร้างอดีตอันเจ็บปวดของวัตถุท้องฟ้านี้ขึ้นใหม่"
+ MASSEX_3_PROJECT:0 "วิเคราะห์: รกร้าง"
+ MASSEX_3_PROJECT_DESC:0 "สร้างอดีตอันเจ็บปวดของวัตถุท้องฟ้านี้ขึ้นใหม่"
+ MASSEX_4_PROJECT:0 "วิเคราะห์: เป็นพิษ"
+ MASSEX_4_PROJECT_DESC:0 "สร้างอดีตอันเจ็บปวดของวัตถุท้องฟ้านี้ขึ้นใหม่"
+ MASSEX_5_PROJECT:0 "วิเคราะห์: หนาวเย็น"
+ MASSEX_5_PROJECT_DESC:0 "สร้างอดีตอันเจ็บปวดของวัตถุท้องฟ้านี้ขึ้นใหม่"

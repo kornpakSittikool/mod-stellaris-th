@@ -1,7 +1,11 @@
-version="0.76"
+version="0.77.0"
 tags={
 	"Translation"
+	"Interface"
+	"Techtree"
 }
 name="Thai Translation MOD"
+picture="thumbnail.png"
+supported_version="v4.3.*"
 path="mod/thmod/"
-supported_version="4.0.*"
+remote_file_id="2330892068"

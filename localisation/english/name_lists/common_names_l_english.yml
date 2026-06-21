@@ -1,45 +1,74 @@
 ﻿l_english:
- NAME_Constructor:0 "Constructor"
- NAME_Rebellion:0 "Rebel Coalition"
- NAME_Loyalists:0 "Imperial Loyalists"
- NAME_The_Civil_War:0 "The Galactic Rebellion"
- NAME_Declared_Crisis_War:0 "[This.MainDefender.GetAdj] Crisis War"
- NAME_Crisis_Star_Eater:0 "Devourer"
- NAME_GDF:0 "Galactic Defense Force"
- NAME_Imperial_Crusade_War:0 "สงครามครูเสดกาแล็กติกอิมพีเรียม"
- NAME_Ring_Section_A:0 "Ring Section A"
- NAME_Ring_Section_B:0 "Ring Section B"
- NAME_Ring_Section_C:0 "Ring Section C"
- NAME_Ring_Section_D:0 "Ring Section D"
- NAME_Ring_Section_E:0 "Ring Section E"
- NAME_Ring_Section_F:0 "Ring Section F"
- NAME_Ring_Section_G:0 "Ring Section G"
- NAME_Ring_Section_H:0 "Ring Section H"
- NAME_Ring_Section_I:0 "Ring Section I"
- NAME_Ring_Section_K:0 "Ring Section K"
- NAME_Ring_Section_L:0 "Ring Section L"
- NAME_Ring_Section:0 "Ring Section"
- NAME_Habitable_Section_A:0 "เซ็กชันที่อยู่อาศัย A"
- NAME_Habitable_Section_B:0 "เซ็กชันที่อยู่อาศัย B"
- NAME_Habitable_Section_C:0 "เซ็กชันที่อยู่อาศัย C"
- NAME_Habitable_Section_D:0 "เซ็กชันที่อยู่อาศัย D"
- NAME_Galactic_Doorstep:0 "The Black Crown"
- NAME_Gateway_Vermin:0 "Gateway Vermin"
- NAME_Theros:0 "Theros"
- NAME_Melidas:0 "Melidas"
- NAME_Koras:0 "Koras"
- NAME_Haradas:0 "Haradas"
- NAME_Islena:0 "Islena"
- NAME_Irreparable_Damage:0 "Catastrophic Damage"
- NAME_The_Interloper:0 "The Interloper"
- NAME_Sky_Dragon:0 "Sky Dragon"
- NAME_Sky_Dragon_Baby:0 "Sky Dragon Fledgling"
- NAME_Hrozgar_of_the_Endless_Flames:0 "Hrozgar of the Endless Flames"
- NAME_Imperial_Origin_Empire:0 "Holy [origin_imperial_species.GetAdj] Empire"
- NAME_Imperial_Origin_Empire_2:0 "Kingdom of the [origin_imperial_species_2.GetNamePlural]"
- NAME_Imperial_Origin_Empire_3:0 "Prince-Electorate of the [origin_imperial_species_3.GetNamePlural]"
- NAME_Imperial_Origin_Empire_4:0 "[origin_imperial_species_4.GetNamePlural] Palatinate"
- NAME_Imperial_Origin_Empire_5:0 "[origin_imperial_species_5.GetAdj] League"
- NAME_Aix:0 "Aix"
- NAME_Sinople:0 "Sinople"
- NAME_Syamelle:0 "Syamelle"
+# The following names are applied to generic ships, Megastructures, and space creatures ('fauna') which populate the galaxy and are related to features, rather than particular events.
+
+# Generic ships
+ NAME_Constructor:0 "ตัวสร้าง"
+
+# Space Fauna 'countries' (describing e.g. the Tiyanki, Space Crystals, Mining Drones...)
+
+# Galactic Imperium
+ NAME_Rebellion:0 "การรวมตัวของเรเบล" #federation
+ NAME_Loyalists:0 "ผู้ ภักดี ต่อ จักรพรรดิ" #federation
+ NAME_The_Civil_War:0 "การ กบฏ ของ กาแลกติก" #war
+ NAME_Declared_Crisis_War:0 "[This.MainDefender.GetAdj]สงครามวิกฤติ" #war
+ NAME_Crisis_Star_Eater:0 "ผู้ทําลาย"
+ NAME_GDF:0 "หน่วยป้องกันกาแล็กซี่"
+ NAME_Imperial_Crusade_War:0 "สงคราม ครู เสด แห่ง จักรพรรดิ กาแลกติก" #war
+
+#################
+# MEGASTRUCTURES
+#################
+
+# Ring World sections
+ NAME_Ring_Section_A:0 "ริงเซ็กชั่น A"
+ NAME_Ring_Section_B:0 "ริงเซ็กชั่น B"
+ NAME_Ring_Section_C:0 "ช่องวงแหวน C"
+ NAME_Ring_Section_D:0 "ริงเซ็กชั่น D"
+ NAME_Ring_Section_E:0 "ริงเซ็กชั่น E"
+ NAME_Ring_Section_F:0 "ช่องวงแหวน F"
+ NAME_Ring_Section_G:0 "ช่องวงแหวน G"
+ NAME_Ring_Section_H:0 "ช่องวงแหวน H"
+ NAME_Ring_Section_I:0 "แผนกแหวน I"
+ NAME_Ring_Section_K:0 "ช่องวงแหวน K"
+ NAME_Ring_Section_L:0 "ช่องวงแหวน L"
+ NAME_Ring_Section:0 "ส่วนของวงแหวน"
+ NAME_Habitable_Section_A:0 "มาตรา A"
+ NAME_Habitable_Section_B:0 "มาตรา B ที่ใช้บ่อย"
+ NAME_Habitable_Section_C:0 "มาตรา C"
+ NAME_Habitable_Section_D:0 "ส่วน D ที่ใช้บ่อย"
+
+##########
+# ORIGINS
+##########
+
+# Galactic Doorstep
+ NAME_Galactic_Doorstep:0 "บัลลังก์ ดํา" #megastructure
+ NAME_Gateway_Vermin:0 "Name=เกตเวย์เวอร์มินName" #empire
+
+# On the Shoulders of Giants
+ NAME_Theros:0 "เธรอส" #planet
+ NAME_Melidas:0 "เมลิดา" #planet
+ NAME_Koras:0 "ภาษาโครัสName" #planet
+ NAME_Haradas:0 "ฮา รา ดาส" #planet
+ NAME_Islena:0 "เอ ลิ นา" #planet
+
+# Shattered Ring
+ NAME_Irreparable_Damage:0 "ความ เสีย หาย จาก ดาว หาง" #ringworld segment
+ NAME_The_Interloper:0 "เครื่อง ดักแด้" #shattered planet
+
+# Here Be Dragons
+ NAME_Sky_Dragon:0 "มังกรฟ้า"
+ NAME_Sky_Dragon_Baby:0 "Sky Dragon flagling"
+ NAME_Hrozgar_of_the_Endless_Flames:0 "ลูกเห็บ แห่ง เปลว ไฟ"
+
+# Imperial Fiefdom
+ NAME_Imperial_Origin_Empire:0 "พระเจ้า[origin_imperial_species.GetAdj] จักรวรรดิ"
+ NAME_Imperial_Origin_Empire_2:0 "ราช อาณาจักร[origin_imperial_species_2.GetNamePlural]"
+ NAME_Imperial_Origin_Empire_3:0 "หม่อมเจ้า[origin_imperial_species_3.GetNamePlural]"
+ NAME_Imperial_Origin_Empire_4:0 "[origin_imperial_species_4.GetNamePlural]ภาษาพาลิตาตต์Name"
+ NAME_Imperial_Origin_Empire_5:0 "[origin_imperial_species_5.GetAdj]สันนิบาต"
+ NAME_Aix:0 "Aix" #planet
+
+ # Toxic Knights
+ NAME_Sinople:0 "ขอบเขตสี"
+ NAME_Syamelle:0 "เซมาเชล"

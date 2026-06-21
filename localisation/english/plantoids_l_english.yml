@@ -1,235 +1,339 @@
 ﻿l_english:
- PLANTOID_TITLE: "Plantoids Species Pack"
- DLC_PLANTOID_RECOMMENDATION_DESC:1 "§SPlantoid Species Pack§! is a DLC containing portraits of sentient plants, putting down roots across the galaxy."
- DLC_PLANTOID_RECOMMENDATION_PLANTS_REC:1 "We're recommending §SPlantoid Species Pack§! as this empire suits its botanical theme."
+ ########################
+ # Plantoids Species Pack
+ ########################
+
+ PLANTOID_TITLE: "Plantoids Species Pack" # Do not translate
+ DLC_PLANTOID_RECOMMENDATION_DESC:1 "§Sพืชเผ่าพันธุ์ฝูง§! เป็น DLC ที่ประกอบด้วยภาพพอร์ตเทรตของพืชที่มีสติปัญญา คอยปักรากสร้างฐานไปทั่วทั้งดาราจักร"
+ DLC_PLANTOID_RECOMMENDATION_PLANTS_REC:1 "เราขอแนะนำ §Sพืชเผ่าพันธุ์ฝูง§! เนื่องจากจักรวรรดินี้เหมาะสมกับธีมพฤกษศาสตร์ของแพลนทอยด์อย่างยิ่ง"
+
+ ### Fruitful Partnership Origin
+ ## By Giada Zavarise
+
  feeding_station: "สวนผลไม้"
  feeding_station_plural: "สวนผลไม้"
+
  origin_fruitful: "หุ้นส่วนที่ออกดอกออกผล"
  origin_fruitful_desc: "เป็นอารยธรรมที่มีการร่วมทำงานกันกับสิ่งมีชีวิตในอวกาศทำให้เมล็ดพันธ์ที่ช่วยขยายอาณานิคมของพวกเขาได้"
- origin_tooltip_fruitful_effects: "- สัตว์อวกาศ: กระจาย ['concept_seed_pod', Seed Pods] ไปทั่วทั้งกาแล็กซี \n- $AVAILABLE_STARBASE_BUILDINGS$ ['concept_sm_feeder', Starseed Gardens] \n- $AVAILABLE_BOMBARDMENT_STANCE$ ['concept_seed_bombing' ]\n- $HOME_SYSTEM$ ['concept_tiyanki' ] ในระบบดาวเพื่อนบ้าน"
+ origin_tooltip_fruitful_effects: "- สัตว์อวกาศ: กระจาย ['concept_seed_pod', พ็อด] ไปทั่วทั้งกาแล็กซี \n- $AVAILABLE_STARBASE_BUILDINGS$ ['concept_sm_feeder', สวน สัตว์] \n- $AVAILABLE_BOMBARDMENT_STANCE$ ['concept_seed_bombing' ]\n- $HOME_SYSTEM$ ['concept_tiyanki' ] ในระบบดาวเพื่อนบ้าน"
  civic_tooltip_hive_xenophile_or_pacifist: "มีระดับดีกรีของจริยธรรม §Yชอบต่างดาว§!, §Yรักสันติ§!, หรือ §Yเป็นหนึ่งอันเดียวกัน§!"
- START_SCREEN_FRUITFUL_PLANTOID: "If your roots run deep, yet your spirit grows restless, let others carry your aches away. Let animals sniff your flowers, nourish themselves on your fruits, and bathe in the shadow of your leaves. Let them carry pollen and seeds to distant lands, so that your offspring can bury their roots on foreign soil. And when the wind brings you the sound of rustling leaves, you'll know your children have found a new home.\n\nSince time immemorial, we have worked with local fauna to spread our species across [GetHomeWorldName]. So when the time came to uproot ourselves, branches reaching further skyward, it was only natural we would also connect with the fauna of the void. They chew our fruits. They graze our leaves. And they'll carry our children to distant worlds, where they will bloom and be nurtured by alien suns.\n\nLet our seeds spread. Let the galaxy be our garden."
- START_SCREEN_FRUITFUL_FUNGOID: "If your mycelia run deep, yet your spirit grows restless, let others carry your aches away. Let animals sniff your spores, nourish themselves on your stalks, and bathe in the shadow of your mushroom caps. Let them carry spores to distant lands, so that your offspring can bury their roots on foreign soil. And when the earths brings you the thrums of a new mycorrhizal network, you'll know your children have found a home.\n\nSince time immemorial, we have worked with local fauna to spread our species across [GetHomeWorldName]. So when the time came to uproot ourselves, toadstools reaching further skyward, it was only natural we would also connect with the fauna of the void. They chew our fruiting bodies. They graze our gills. And they'll carry our children to distant worlds, where they will bloom and be nurtured by alien suns.\n\nLet our spores spread. Let the galaxy be our mushroom garden."
- sm_feeder: "Starseed Garden"
- sm_feeder_desc: "A vacuum garden for our Starbase, full of plants genetically enhanced to attract spaceborne fauna."
- sm_feeder_tt: "Effects:\n$t$Lures Space Fauna to graze at the Starbase, collecting §YSeed Pods§! for dispersal"
- sm_ring_feeder: "Orbital Garden"
- sm_ring_feeder_desc: "A vacuum garden for our Orbital Ring, blooming with genetically enhanced plantlife designed to attract spaceborne fauna."
+
+ START_SCREEN_FRUITFUL_PLANTOID: "หากรากของคุณหยั่งรากฝังลึก ทว่าจิตวิญญาณของคุณเริ่มกระสับกระส่าย จงปล่อยให้ผู้อื่นแบกรับความเจ็บปวดของคุณไป ปล่อยให้สัตว์ต่างๆ ได้ดมกลิ่นดอกไม้ของคุณ เลี้ยงดูตัวเองด้วยผลไม้ของคุณ และอาบแสงเงาของใบไม้ของคุณ ปล่อยให้พวกมันพัดพาละอองเรณูและเมล็ดพันธุ์ไปยังดินแดนห่างไกล เพื่อให้ลูกหลานของคุณได้ฝังรากลึกลงบนผืนดินต่างถิ่น และเมื่อสายลมพัดพาสัญญาณเสียงใบไม้ไหวมาถึง คุณจะรู้ว่าลูกหลานของคุณได้พบรังนอนแห่งใหม่แล้ว\n\nตั้งแต่ยุคโบราณกาลมา เราได้ทำงานร่วมกับสัตว์ท้องถิ่นเพื่อกระจายเผ่าพันธุ์ของเราไปทั่วดาว [GetHomeWorldName] ดังนั้นเมื่อถึงเวลาที่เราต้องถอนรากถอนโคนตนเอง กิ่งก้านสาขาเอื้อมออกไปหาท้องฟ้า จึงเป็นเรื่องปกติที่เราจะเชื่อมโยงกับสิ่งมีชีวิตแห่งความว่างเปล่าด้วย พวกมันเคี้ยวผลไม้ของเรา แทะเล็มใบไม้ของเรา และพวกมันจะนำพาลูกหลานของเราไปยังโลกดาราที่ห่างไกล ที่ซึ่งพวกเขาจะเบ่งบานและได้รับการเลี้ยงดูจากดวงอาทิตย์ต่างถิ่น\n\nปล่อยให้เมล็ดพันธุ์ของเรากระจายออกไป ปล่อยให้ดาราจักรกลายเป็นสวนของเรา"
+ START_SCREEN_FRUITFUL_FUNGOID: "หากไมซีเลียมของคุณหยั่งรากฝังลึก ทว่าจิตวิญญาณของคุณเริ่มกระสับกระส่าย จงปล่อยให้ผู้อื่นแบกรับความเจ็บปวดของคุณไป ปล่อยให้สัตว์ต่างๆ ได้ดมกลิ่นสปอร์ของคุณ เลี้ยงดูตัวเองด้วยก้านเห็ดของคุณ และอาบแสงเงาของหมวกเห็ดของคุณ ปล่อยให้พวกมันพัดพาสปอร์ไปยังดินแดนห่างไกล เพื่อให้ลูกหลานของคุณได้ฝังรากลึกลงบนผืนดินต่างถิ่น และเมื่อผืนดินนำพาความสั่นสะเทือนของเครือข่ายไมคอร์ไรซาใหม่มาถึง คุณจะรู้ว่าลูกหลานของคุณได้พบรังนอนแห่งใหม่แล้ว\n\nตั้งแต่ยุคโบราณกาลมา เราได้ทำงานร่วมกับสัตว์ท้องถิ่นเพื่อกระจายเผ่าพันธุ์ของเราไปทั่วดาว [GetHomeWorldName] ดังนั้นเมื่อถึงเวลาที่เราต้องถอนรากถอนโคนตนเอง ดอกเห็ดเอื้อมออกไปหาท้องฟ้า จึงเป็นเรื่องปกติที่เราจะเชื่อมโยงกับสิ่งมีชีวิตแห่งความว่างเปล่าด้วย พวกมันเคี้ยวส่วนออกผลของเรา แทะเล็มกลีบสปอร์ของเรา และพวกมันจะนำพาลูกหลานของเราไปยังโลกดาราที่ห่างไกล ที่ซึ่งพวกเขาจะเบ่งบานและได้รับการเลี้ยงดูจากดวงอาทิตย์ต่างถิ่น\n\nปล่อยให้สปอร์ของเรากระจายออกไป ปล่อยให้ดาราจักรกลายเป็นสวนเห็ดของเรา"
+
+ ## Techs
+ sm_feeder: "สวนเมล็ดดารา"
+ sm_feeder_desc: "สวนในสภาวะสุญญากาศสำหรับสถานีดาราจักรของเรา เต็มไปด้วยพืชที่ได้รับการดัดแปลงพันธุกรรมเพื่อดึงดูดสิ่งมีชีวิตในอวกาศ"
+ sm_feeder_tt: "ผลลัพธ์:\n$t$ดึงดูดสิ่งมีชีวิตในอวกาศมาแทะเล็มที่สถานีดาราจักร เพื่อรวบรวมฝักเมล็ดพันธุ์(ดูพอดส์)ไปกระจายพันธุ์ต่อ"
+ sm_ring_feeder: "สวนวงโคจรดารา"
+ sm_ring_feeder_desc: "สวนในสภาวะสุญญากาศสำหรับสถานีอวกาศวงแหวนโคจรของเรา เบ่งบานไปด้วยพืชพรรณที่ได้รับการดัดแปลงพันธุกรรมซึ่งออกแบบมาเพื่อดึงดูดสิ่งมีชีวิตในอวกาศ"
+
  tech_critter_feeder: "สวนผลไม้"
- tech_critter_feeder_desc: "Vacuum gardens full of bio-engineered fruits, genetically enhanced to attract spaceborne fauna."
- sseeder: "Orchard Station"
- has_origin_fruitful_special_project_key: "Empires with the §Y$origin_fruitful$§! Origin can use a §YSpecial Project§!"
- seeded_planet_0_modifier: "Dormant Seed Pods"
- seeded_planet_0_modifier_desc: "Strange seeds from an entirely different ecosystem lie dormant on this planet."
- seeded_planet_0_modifier_tooltip: "$has_origin_fruitful_special_project_key$ to open the Seed Pods and colonize the planet."
- seeded_planet_1_modifier: "Invasive Xenoflora"
- seeded_planet_1_modifier_desc: "Seeds from another land have found fertile soil here, supplanting the local vegetation."
- seeded_planet_1_modifier_tooltip: "$has_origin_fruitful_special_project_key$ to summon armies to appear on this planet during a war."
- seeded_planet_2_modifier: "Spreading Invasive Xenoflora"
- seeded_planet_2_modifier_desc: "Seeds from another land found fertile soil here, supplanting the local vegetation."
+ tech_critter_feeder_desc: "สวนผลไม้สุญญากาศที่เต็มไปด้วยผลไม้จากการดัดแปลงทางพันธุกรรมเพื่อดึงดูดสัตว์อวกาศ"
+
+ sseeder: "สถานีสวนผลไม้"
+
+ has_origin_fruitful_special_project_key: "จักรวรรดิที่มีจุดกำเนิด §Y$origin_fruitful$§! สามารถใช้ §Yโครงการพิเศษ§! ได้"
+
+ seeded_planet_0_modifier: "ฝักเมล็ดพืชที่จำศีล"
+ seeded_planet_0_modifier_desc: "เมล็ดพันธุ์ประหลาดจากระบบนิเวศอื่นโดยสิ้นเชิงนอนจำศีลอยู่บนดาวเคราะห์ดวงนี้"
+ seeded_planet_0_modifier_tooltip: "$has_origin_fruitful_special_project_key$ เพื่อเปิดฝักเมล็ดพืชและก่อตั้งอาณานิคมบนดาวเคราะห์"
+ seeded_planet_1_modifier: "พืชต่างถิ่นที่แพร่กระจาย"
+ seeded_planet_1_modifier_desc: "เมล็ดพันธุ์จากดินแดนอื่นพบดินที่อุดมสมบูรณ์ที่นี่ โดยเข้าแทนที่พืชพรรณท้องถิ่นเดิม"
+ seeded_planet_1_modifier_tooltip: "$has_origin_fruitful_special_project_key$ เพื่ออัญเชิญกองทัพให้ปรากฏบนดาวเคราะห์ดวงนี้ในระหว่างสงคราม"
+ seeded_planet_2_modifier: "พืชต่างถิ่นที่กำลังแพร่กระจาย"
+ seeded_planet_2_modifier_desc: "เมล็ดพันธุ์จากดินแดนอื่นพบดินที่อุดมสมบูรณ์ที่นี่ โดยเข้าแทนที่พืชพรรณท้องถิ่นเดิม"
  seeded_planet_2_modifier_tooltip: "$seeded_planet_1_modifier_tooltip$"
- seeded_planet_3_modifier: "Overwhelming Invasive Xenoflora"
- seeded_planet_3_modifier_desc: "Seeds from another land found fertile soil here, supplanting the local vegetation."
+ seeded_planet_3_modifier: "พืชต่างถิ่นที่แพร่กระจายอย่างล้นหลาม"
+ seeded_planet_3_modifier_desc: "เมล็ดพันธุ์จากดินแดนอื่นพบดินที่อุดมสมบูรณ์ที่นี่ โดยเข้าแทนที่พืชพรรณท้องถิ่นเดิม"
  seeded_planet_3_modifier_tooltip: "$seeded_planet_1_modifier_tooltip$"
- MESSAGE_FRUITFUL_SEED_PLANTED_TITLE: "Seed Pod Planted"
- MESSAGE_FRUITFUL_SEED_PLANTED_OWNER: "Space Fauna have brought our Seed Pods to $PLANET|Y$, in the $SYSTEM|Y$ system, where they generated a new forest."
- MESSAGE_FRUITFUL_SEED_PLANTED_NO_OWNER: "Space Fauna have brought our Seed Pods to $PLANET|Y$, in the $SYSTEM|Y$ system. They will lie dormant until we're ready to open them."
- MESSAGE_FRUITFUL_SEED_LOST_TITLE: "Seed Pod Lost"
- MESSAGE_FRUITFUL_SEED_LOST: "We lost contact with our Seed Pods on $PLANET|Y$. It's likely they got destroyed."
- MESSAGE_FRUITFUL_SEED_CRITTER_TITLE: "Seeds Absorbed"
- MESSAGE_FRUITFUL_SEED_CRITTER: "Space Fauna visiting $SYSTEM|Y$ ate the fruits of our garden, and are now carrying our Seed Pods across the stars."
- OPEN_SEED_PODS_PROJECT: "Open Seed Pods on [this.GetName]"
- OPEN_SEED_PODS_PROJECT_DESC: "Space Fauna have brought our dormant Seed Pods to §H[this.GetName]§!. By aiming a concentrated energy beam at the planet, we can stimulate their growth, turning an uninhabited rock into a verdant new colony."
- WEEDS_ARMY_PROJECT: "Grow Armies on [this.GetName]"
- WEEDS_ARMY_PROJECT_DESC: "Space Fauna have brought our Seed Pods to §H[this.GetName]§! where they were cultivated and cared for by the §H[this.owner.GetName]§!. By aiming a concentrated energy beam towards the planet, we can stimulate growth, turning the forest into §HXenofloran Armies§!. The higher the level of the §HInvasive Xenoflora§! on the planet, the more armies will be spawned."
- FRUITFUL_SEED_POD: "Seed Pod"
- fruitful_army: "Xenofloran Army"
- origin.7100.name: "Seed Dispersal"
- origin.7100.desc: "For the galaxy's spaceborne fauna, we built a garden. We filled it with flowers, fruit and sticky seed pods, ready to latch to the skin of these magnificent creatures. But would these void-dwellers appreciate our banquet? As soon as they bit the first apple, our anxiety dissipated.\n\nSince time immemorial, we have offered fruit and shade to the animals on our planet. In return, they carried our seeds. Now, this ancient pact has been replicated at a galactic scale: spaceborne fauna will carry our §YSeed Pods§! with them as they travel. With a little luck, our seeds will fall on a §Hcolonizable planet§! where they will have everything they need to establish a new garden for our people. We need only direct an energy beam to activate them, allowing us to inhabit new planets without having to send a colony ship."
- origin.7100.tooltip: "When entering a new system, Spaceborne Fauna will have a chance of leaving the §HSeed Pod§! on an habitable planet. Be patient."
- origin.7304.name: "Coordinated Dispersal"
- origin.7304.desc: "Though we can rely on wild space fauna to spread our §YSeed Pods§!, we can do so more reliably with those who have recently joined our fleets.\n\nOur §YStarseed Gardens§! will distribute seeds to creatures within our fold, whom we can then send directly to §Hcolonizable planets§! to establish a new garden."
- origin.7321.name: "Patience Bears Fruit"
- origin.7321.desc: "Our §YSeed Pod§! on §H[from.GetName]§! opened, and the newly born [root.GetSpeciesNamePlural] have begun to dig roots."
- origin.7326.name: "Mysterious Seeds"
- origin.7326.desc.base: "The soil of [this.GetName] is littered by seed that don't appear to be part of the local ecosystem. With minimal amount of light and water, the seeds quickly developed, enveloping the planet in new forest and aiding our colonization efforts."
- origin.7326.desc.knowowner: "$origin.7326.desc.base$\n\nAccording to our genetic analysis, these fast-growing, bio-engineered seeds have been developed by the §Y[seeds_owner.GetName]§!."
- origin.7326.desc.notknowowner: "$origin.7326.desc.base$. Our scientists have been unable to determine the origin of the seeds, but one thing is certain: they are artificial in nature, bio-engineered to quickly take root in alien soil."
- origin.7326.a.desc: "Unlocks the §Y$decision_uproot_weed$§! Decision on this planet."
+
+ MESSAGE_FRUITFUL_SEED_PLANTED_TITLE: "ฝักเมล็ดพันธุ์ถูกนำไปปลูก"
+ MESSAGE_FRUITFUL_SEED_PLANTED_OWNER: "สิ่งมีชีวิตในอวกาศได้นำฝักเมล็ดพันธุ์ของเราไปที่ดาว $PLANET|Y$ ในระบบดาว $SYSTEM|Y$ ซึ่งทำให้เกิดป่าไม้แห่งใหม่ขึ้นมา"
+ MESSAGE_FRUITFUL_SEED_PLANTED_NO_OWNER: "สิ่งมีชีวิตในอวกาศได้นำฝักเมล็ดพันธุ์ของเราไปที่ดาว $PLANET|Y$ ในระบบดาว $SYSTEM|Y$ พวกมันจะนอนจำศีลจนกว่าเราจะพร้อมเปิดใช้งาน"
+
+ MESSAGE_FRUITFUL_SEED_LOST_TITLE: "สูญเสียฝักเมล็ดพันธุ์"
+ MESSAGE_FRUITFUL_SEED_LOST: "เราสูญเสียการติดต่อกับฝักเมล็ดพันธุ์ของเราบนดาว $PLANET|Y$ เป็นไปได้ว่าพวกมันถูกทำลายไปแล้ว"
+
+ MESSAGE_FRUITFUL_SEED_CRITTER_TITLE: "เมล็ดพันธุ์ถูกดูดซับ"
+ MESSAGE_FRUITFUL_SEED_CRITTER: "สิ่งมีชีวิตในอวกาศที่มาเยือนระบบดาว $SYSTEM|Y$ ได้กินผลไม้ในสวนของเรา และขณะนี้กำลังนำพาฝักเมล็ดพันธุ์ของเราข้ามผ่านดวงดาว"
+
+ OPEN_SEED_PODS_PROJECT: "เปิดใช้งานฝักเมล็ดพันธุ์บน [this.GetName]"
+ OPEN_SEED_PODS_PROJECT_DESC: "สิ่งมีชีวิตในอวกาศได้นำฝักเมล็ดพันธุ์ที่จำศีลของเรามายังดาว §H[this.GetName]§! การเล็งลำแสงพลังงานเข้มข้นไปยังดาวเคราะห์ดวงนี้จะสามารถกระตุ้นการเติบโตของพวกมัน เปลี่ยนหินที่ไม่มีผู้อยู่อาศัยให้กลายเป็นดาวอาณานิคมใหม่ที่เขียวชอุ่ม"
+
+ WEEDS_ARMY_PROJECT: "สร้างกองทัพบน [this.GetName]"
+ WEEDS_ARMY_PROJECT_DESC: "สิ่งมีชีวิตในอวกาศได้นำฝักเมล็ดพันธุ์ของเรามายังดาว §H[this.GetName]§! ซึ่งได้รับการเพาะปลูกและดูแลโดย §H[this.owner.GetName]§! การเล็งลำแสงพลังงานเข้มข้นไปยังดาวเคราะห์ดวงนี้จะกระตุ้นการเติบโต เปลี่ยนป่าไม้ให้กลายเป็น §Hกองทัพพืชต่างถิ่น(กองทัพซีโนฟโลรัน)§! ยิ่งระดับของ §Hพืชต่างถิ่นที่แพร่กระจาย§! บนดาวเคราะห์สูงเท่าใด กองทัพก็จะเกิดมามากขึ้นเท่านั้น"
+
+ FRUITFUL_SEED_POD: "ฝักเมล็ดพันธุ์"
+
+ fruitful_army: "กองทัพพืชต่างถิ่น"
+ fruitful_army_desc: "สัญญาณที่เข้ารหัสปลุกพืชต่างถิ่นเหล่านี้ที่หลับใหลมานานให้ตื่นขึ้น เมื่อพวกมันถอนรากขึ้นมา พวกมันจะเดินทัพ โดยใช้รากของตัวเองเป็นอาวุธทุบตีอันน่าเกรงขาม"
+
+ # Events
+ origin.7100.name: "การกระจายพันธุ์ของเมล็ดพืช"
+ origin.7100.desc: "สำหรับสัตว์อวกาศในดาราจักร เราได้สร้างสวนขึ้นมา เราเติมเต็มด้วยดอกไม้ ผลไม้ และฝักเมล็ดพืชที่เหนียวเหนอะหนะ พร้อมที่จะยึดเกาะกับผิวหนังของสิ่งมีชีวิตที่น่าอัศจรรย์เหล่านี้ ทว่าสิ่งมีชีวิตในอวกาศเหล่านี้จะประทับใจกับงานจัดเลี้ยงของเราหรือไม่? ทันทีที่พวกมันแทะผลแอปเปิลผลแรก ความวิตกกังวลของเราก็หายไปสิ้น\n\nตั้งแต่โบราณกาลมา เราได้เสนอผลไม้และร่มเงาให้แก่สัตว์ต่างๆ บนดาวเคราะห์ของเรา ในทางกลับกัน พวกมันก็นำพาเมล็ดพันธุ์ของเราไป บัดนี้ พันธสัญญาโบราณนี้ได้รับการจำลองในระดับดาราจักร: สัตว์อวกาศจะนำฝักเมล็ดพันธุ์ §Yพ็อด§! ของเราติดตัวไปด้วยเมื่อพวกมันออกเดินทาง ด้วยโชคเล็กน้อย เมล็ดพันธุ์ของเราจะตกลงบน §Hดาวเคราะห์ที่อาศัยอยู่ได้§! ที่ซึ่งพวกมันจะมีทุกสิ่งที่จำเป็นในการสร้างสวนแห่งใหม่สำหรับผู้คนของเรา เราเพียงแค่ต้องสั่งการเล็งลำแสงพลังงานเพื่อกระตุ้นการทำงานของมัน ช่วยให้เราเข้าอยู่อาศัยบนดาวเคราะห์ดวงใหม่ได้โดยไม่ต้องส่งยานตั้งอาณานิคมไป"
+ origin.7100.tooltip: "เมื่อเข้าสู่ระบบดาวใหม่ สัตว์อวกาศจะมีโอกาสทิ้งฝักเมล็ดพันธุ์ §HSeed Pod§! ไว้บนดาวเคราะห์ที่สามารถอาศัยอยู่ได้ โปรดอดทนรออย่างใจเย็น"
+
+ origin.7304.name: "ประสานงานการกระจายพันธุ์"
+ origin.7304.desc: "แม้ว่าเราจะสามารถพึ่งพาสัตว์อวกาศตามธรรมชาติเพื่อกระจายฝักเมล็ดพันธุ์ §Yพ็อด§! ของเรา แต่เราก็สามารถทำได้เสถียรยิ่งขึ้นด้วยสิ่งมีชีวิตที่เพิ่งเข้าร่วมกองเรือของเรา\n\nสวนดาราเมล็ดพันธุ์ §Yสวน สัตว์§! ของเราจะแจกจ่ายเมล็ดพันธุ์ให้กับสิ่งมีชีวิตภายใต้การดูแลของเรา ซึ่งเราสามารถส่งไปยัง §Hดาวเคราะห์ที่อาศัยอยู่ได้§! โดยตรงเพื่อก่อตั้งสวนแห่งใหม่"
+
+ origin.7321.name: "ความอดทนนำมาซึ่งผลลัพธ์"
+ origin.7321.desc: "ฝักเมล็ดพันธุ์ §YSeed Pod§! ของเราบนดาว §H[from.GetName]§! ได้เปิดออกแล้ว และประชากร [root.GetSpeciesNamePlural] ที่เพิ่งเกิดมาได้เริ่มหยั่งรากสร้างรังแล้ว"
+
+ origin.7326.name: "เมล็ดพันธุ์ปริศนา"
+ origin.7326.desc.base: "พื้นดินของดาว [this.GetName] เต็มไปด้วยเมล็ดพันธุ์ที่ดูเหมือนจะไม่ได้เป็นส่วนหนึ่งของระบบนิเวศท้องถิ่น ด้วยปริมาณแสงและน้ำเพียงเล็กน้อย เมล็ดพืชก็เติบโตอย่างรวดเร็ว ครอบคลุมดาวเคราะห์ด้วยป่าไม้แห่งใหม่และช่วยส่งเสริมความพยายามในการจัดตั้งอาณานิคมของเรา"
+ origin.7326.desc.knowowner: "$origin.7326.desc.base$\n\nตามการวิเคราะห์ทางพันธุกรรม เมล็ดพันธุ์ดัดแปลงพันธุกรรมที่เติบโตอย่างรวดเร็วเหล่านี้ได้รับการพัฒนาขึ้นโดย §Y[seeds_owner.GetName]§!"
+ origin.7326.desc.notknowowner: "$origin.7326.desc.base$ นักวิทยาศาสตร์ของเราไม่สามารถระบุแหล่งที่มาของเมล็ดพันธุ์ได้ แต่สิ่งหนึ่งที่แน่นอนคือ พวกมันเป็นเมล็ดพันธุ์สังเคราะห์ที่ผ่านการดัดแปลงทางชีวภาพเพื่อหยั่งรากอย่างรวดเร็วในผืนดินต่างดาว"
+ origin.7326.a.desc: "ปลดล็อกการตัดสินใจสั่งการ §Y$decision_uproot_weed$§! บนดาวเคราะห์ดวงนี้"
+
  origin.7327.name: "$origin.7326.name$"
- origin.7327.desc.base: "While passing through the [this.solar_system.GetName] system, a herd of spaceborne fauna let an unidentified object fall onto the surface of [this.GetName]. We quickly reached the impact crater, only to find it filled with unfamiliar greenery. The fallen object resembled a colony ship: a seed pod containing all the necessities to start a new colony, from essential materials to freshly awakened colonists."
- origin.7327.desc.knowowner: "$origin.7326.desc.base$\n\nAccording to our genetic analysis, these unusual seeds have been developed by the §Y[seeds_owner.GetName]§!."
- origin.7327.desc.notknowowner: "$origin.7326.desc.base$\n\nThanks to the communication system in the seed pods, we were able to quickly establish contact with the empire the seed germinated from."
- origin.7327.desc.moreseeds: "The xenoflora already on our planet grow even stronger."
+ origin.7327.desc.base: "ขณะเดินทางผ่านระบบดาว [this.solar_system.GetName] ฝูงสัตว์อวกาศได้ปล่อยวัตถุที่ไม่สามารถระบุได้ตกลงสู่พื้นผิวของดาว [this.GetName] เราไปถึงหลุมอุกกาบาตจากการปะทะอย่างรวดเร็ว และพบว่ามันเต็มไปด้วยพันธุ์ไม้ที่ไม่คุ้นเคย วัตถุที่ตกลงมามีลักษณะคล้ายยานตั้งอาณานิคม: ฝักเมล็ดพันธุ์ที่บรรจุสิ่งจำเป็นทั้งหมดเพื่อเริ่มอาณานิคมใหม่ ตั้งแต่วัสดุที่จำเป็นไปจนถึงผู้ตั้งถิ่นฐานที่เพิ่งตื่นจากการหลับใหล"
+ origin.7327.desc.knowowner: "$origin.7326.desc.base$\n\nตามการวิเคราะห์ทางพันธุกรรม เมล็ดพันธุ์ที่ผิดปกติเหล่านี้ได้รับการพัฒนาขึ้นโดย §Y[seeds_owner.GetName]§!"
+ origin.7327.desc.notknowowner: "$origin.7326.desc.base$\n\nด้วยระบบการสื่อสารในฝักเมล็ดพันธุ์ เราจึงสามารถสร้างการติดต่อกับจักรวรรดิที่เมล็ดพันธุ์นี้แตกหน่อออกมาได้อย่างรวดเร็ว"
+ origin.7327.desc.moreseeds: "พืชต่างถิ่นที่มีอยู่บนดาวเคราะห์ของเราเติบโตแข็งแกร่งยิ่งขึ้น"
+
  origin.7328.name: "$origin.7321.name$"
- origin.7328.desc: "Our colony ship just landed §H[from.GetName]§!, but our people were already there, lying dormant in the soil. The additional [root.owner.GetSpeciesNamePlural] and resources contained in the §YSeed Pod§! will help our colonists develop the planet.\n\nMay their roots spread far and wide."
- origin.7400.name: "Outpost Deployed!"
- origin.7400.desc: "Our distant [owner.GetColonistPlural] on §Y[Root.GetName]§! deployed an §Y$starbase_outpost$§! around the star, gaining control of the §Y[Root.GetStarName]§! system."
- origin.7500.name: "Safety For The Spaceborne Fauna"
- origin.7500.desc: "Our relationship with spaceborne creatures is fairly unique, but we are not alone in respecting their right to exist; a resolution that has just passed in the Galactic Community will help protect the lives of these wondrous creatures."
- origin.7510.name: "Danger For The Spaceborne Fauna"
- origin.7510.desc: "Spaceborne creatures have always be our friends, but not all members of the Galactic Community share our love for the void-dwellers. The resolution they just passed puts the livelihood of our friends - and ours - at a risk."
- origin.7600.name: "You Reap What You Sow"
- origin.7600.desc: "Our enemies think we will bend to their strength, like reeds blown down by the wind. They forget that plants have thorns.\n\nOur soldiers sleep in their ground. Should the need arise, we can turn our §HInvasive Xenoflora§! into armies, to protect what is ours and to strangle what they call their own. We need only to direct an energy beam to the desired planet in order to begin our invasion."
- origin.7710.name: "You Reap What You Sow"
- origin.7710.desc: "The §HInvasive Xenoflora§! on §H[from.GetName]§! suddenly sprouted limbs, turning into an army. The planet is under attack!"
- MESSAGE_FRUITFUL_WEED_ARMY_TITLE: "Army Sprouted"
- MESSAGE_FRUITFUL_WEED_ARMY: "The seeds on $PLANET|Y$ have grown into an army."
- opinion_nice_forests: "Helpful Gardeners"
- opinion_cut_our_forests: "Cut Our Garden"
- opinion_voted_to_kill_tiyanki: "Voted To Harm Space Fauna"
- opinion_voted_to_help_tiyanki: "Voted To Protect Space Fauna"
- fruitful_partnership_chain_title: "Seed Dispersal"
- fruitful_partnership_chain_desc: "Spaceborne fauna will carry our §YSeed Pods§! to distant lands. With a touch of starlight, our seeds can bloom into a new colony."
- fruitful_partnership_war_chain_title: "Seeds Of War"
- fruitful_partnership_war_chain_desc: "In times of war, our §YSeed Pods§! can blossom into armies, ready to defend our planets or to invade distant targets."
- decision_uproot_weed: "Uproot Weeds"
- decision_uproot_weed_desc: "Remove the $seeded_planet_2_modifier$."
- bombardment_seed_bombing: "Seed Bombing"
- bombardment_seed_bombing_desc: "$bombardment_seed_bombing$ carpets the planet with hyper-fertilized seed balls, causing an exploding growth.\n- §ENo§! damage to §YArmies§!\n- §HHeavy§! damage to §YPlanets§!\n- §ENo§! damage to §YPops§!\n- Will bombard undefended planets\n- Spawns blockers on the planet"
- d_seed_bombing_plantoid_blocker: "£blocker£ Explosive Sylvan Growth"
- d_seed_bombing_plantoid_blocker_desc: "This region of the planet has been infested by a constantly growing forest of alien flora."
- d_seed_bombing_fungoid_blocker: "£blocker£ Explosive Fungal Growth"
- d_seed_bombing_fungoid_blocker_desc: "This region of the planet has been infested by a constantly growing forest of alien fungi."
+ origin.7328.desc: "ยานตั้งอาณานิคมของเราเพิ่งร่อนลงจอดบนดาว §H[from.GetName]§! แต่ผู้คนของเราอยู่ที่นั่นแล้ว นอนจำศีลอยู่ในผืนดิน ประชากร [root.owner.GetSpeciesNamePlural] และทรัพยากรเพิ่มเติมในฝักเมล็ดพันธุ์ §YSeed Pod§! จะช่วยให้ผู้ตั้งถิ่นฐานพัฒนาดาวเคราะห์ดวงนี้ได้\n\nขอให้รากของพวกเขาแผ่ขยายออกไปไกลแสนไกล"
+
+ origin.7400.name: "จัดตั้งด่านหน้าพัฒนา!"
+ origin.7400.desc: "ประชากรผู้ตั้งถิ่นฐานห่างไกลของเราบนดาว §Y[Root.GetName]§! ได้จัดตั้ง §Y$starbase_outpost$§! รอบดาวฤกษ์ ทำให้สามารถเข้าควบคุมระบบดาว §Y[Root.GetStarName]§! ได้สำเร็จ"
+
+ origin.7500.name: "ความปลอดภัยสำหรับสัตว์อวกาศ"
+ origin.7500.desc: "ความสัมพันธ์ของเรากับสิ่งมีชีวิตในอวกาศค่อนข้างมีเอกลักษณ์เฉพาะตัว แต่เราไม่ได้อยู่อย่างโดดเดี่ยวในการเคารพสิทธิ์การมีอยู่ของพวกมัน มติที่เพิ่งผ่านในประชาคมกาแล็กติกจะช่วยปกป้องชีวิตของสิ่งมีชีวิตที่น่ามหัศจรรย์เหล่านี้"
+
+ origin.7510.name: "อันตรายสำหรับสัตว์อวกาศ"
+ origin.7510.desc: "สิ่งมีชีวิตในอวกาศเป็นเพื่อนของเราเสมอมา แต่ไม่ใช่สมาชิกทุกคนในประชาคมกาแล็กติกจะแบ่งปันความรักเช่นเดียวกับเรา มติที่พวกเขาเพิ่งผ่านทำให้การดำรงชีวิตของเพื่อนเรา — และของเรา — ตกอยู่ในความเสี่ยง"
+
+ origin.7600.name: "หว่านสิ่งใดได้สิ่งนั้น"
+ origin.7600.desc: "ศัตรูของเราคิดว่าเราจะยอมจำนนต่อความแข็งแกร่งของพวกเขา ดั่งต้นอ้อที่ลู่ตามลม พวกเขาลืมไปว่าต้นไม้ก็มีหนาม\n\nทหารของเรานอนหลับอยู่ในผืนดินของพวกเขา หากมีความจำเป็นเกิดขึ้น เราสามารถเปลี่ยน §Hพืชต่างถิ่นที่แพร่กระจาย§! ให้กลายเป็นกองทัพ เพื่อปกป้องสิ่งที่เป็นของเราและบดขยี้สิ่งที่เป็นของพวกเขา เราเพียงแค่ต้องสั่งการเล็งลำแสงพลังงานไปยังดาวเคราะห์เป้าหมายเพื่อเริ่มการบุกโจมตีของเรา"
+
+ origin.7710.name: "หว่านสิ่งใดได้สิ่งนั้น"
+ origin.7710.desc: "§Hพืชต่างถิ่นที่แพร่กระจาย§! บนดาว §H[from.GetName]§! จู่ๆ ก็งอกกิ่งก้านแขนขาและเปลี่ยนสภาพเป็นกองทัพ ดาวเคราะห์กำลังถูกโจมตี!"
+
+ MESSAGE_FRUITFUL_WEED_ARMY_TITLE: "กองทัพพืชงอกขึ้นมา"
+ MESSAGE_FRUITFUL_WEED_ARMY: "เมล็ดพันธุ์บนดาว $PLANET|Y$ ได้เติบโตขึ้นจนกลายเป็นกองทัพ"
+
+ opinion_nice_forests: "คนสวนที่เป็นมิตร"
+ opinion_cut_our_forests: "ตัดแต่งสวนของเรา"
+
+ opinion_voted_to_kill_tiyanki: "โหวตทำร้ายสัตว์อวกาศ"
+ opinion_voted_to_help_tiyanki: "โหวตปกป้องสัตว์อวกาศ"
+
+ fruitful_partnership_chain_title: "การกระจายพันธุ์ของเมล็ดพืช"
+ fruitful_partnership_chain_desc: "สัตว์อวกาศจะนำฝักเมล็ดพันธุ์ §Yพ็อด§! ของเราไปยังดินแดนห่างไกล ด้วยสัมผัสของแสงดาว เมล็ดพันธุ์ของเราสามารถเบ่งบานกลายเป็นอาณานิคมใหม่ได้"
+
+ fruitful_partnership_war_chain_title: "เมล็ดพันธุ์แห่งสงคราม"
+ fruitful_partnership_war_chain_desc: "ในยามสงคราม ฝักเมล็ดพันธุ์ §Yพ็อด§! ของเราสามารถเติบโตเป็นกองทัพ พร้อมที่จะปกป้องดาวเคราะห์ของเราหรือบุกรุกเป้าหมายที่อยู่ห่างไกล"
+
+ decision_uproot_weed: "ถอนพืชวัชพืชต่างถิ่นออก"
+ decision_uproot_weed_desc: "กำจัดสถานะ $seeded_planet_2_modifier$ ออกจากดาวเคราะห์ดวงนี้"
+
+ ## Seed Bombing
+ bombardment_seed_bombing: "การระเบิดเมล็ดพันธุ์"
+ bombardment_seed_bombing_desc: "การทิ้งระเบิดเมล็ดพันธุ์ ($bombardment_seed_bombing$) ปูพรมดาวเคราะห์ด้วยลูกเมล็ดพันธุ์ที่ผ่านการเสริมปุ๋ยเคมีขั้นสูง ทำให้เกิดการเติบโตอย่างระเบิดเร่งด่วน\n- §Eไม่สร้าง§! ความเสียหายต่อ §Yกองทัพ§!\n- สร้างความเสียหายระดับ §Hหนัก§! ต่อ §Yดาวเคราะห์§!\n- §Eไม่สร้าง§! ความเสียหายต่อ §Yประชากร (ประชากร)§!\n- จะระเบิดโจมตีดาวเคราะห์ที่ไม่มีการป้องกัน\n- ก่อให้เกิดสิ่งกีดขวางบนดาวเคราะห์"
+
+ d_seed_bombing_plantoid_blocker: "การเติบโตของป่าไม้ป่าเถื่อนอย่างล้นหลาม"
+ d_seed_bombing_plantoid_blocker_desc: "พื้นที่ส่วนนี้ของดาวเคราะห์ถูกครอบงำด้วยป่าไม้พืชต่างดาวที่เติบโตอย่างต่อเนื่องไม่หยุดยั้ง"
+
+ d_seed_bombing_fungoid_blocker: "การเติบโตของเชื้อราอย่างระเบิดล้นหลาม"
+ d_seed_bombing_fungoid_blocker_desc: "พื้นที่ส่วนนี้ของดาวเคราะห์ถูกครอบงำด้วยเห็ดราต่างดาวที่เติบโตอย่างต่อเนื่องไม่หยุดยั้ง"
+
  d_seed_bombing_blocker_custom_tooltip: "$d_decrepit_dwellings_custom_tooltip$\n"
- origin.7201.name: "Explosive Growth"
- origin.7201.desc: "Our colony on §H[this.GetName]§! is being bombarded with hyper-fertilized balls of seeds. New forests are sprouting everywhere, cracking floors, ruining buildings and filling the [this.GetPlanetHabitat] with rapid-growing xenoflora."
- MESSAGE_FRUITFUL_SEED_BOMBING_TITLE: "Seed Bombing"
- MESSAGE_FRUITFUL_SEED_BOMBING: "Seed bombing created a new blocker on $PLANET|Y$."
- story.101.desc.fruitful: "If pacified, they could prove themselves ideal carriers for our Seed Pods."
- story.107.fruitful.desc: "While they are mostly carnivorous, the meaty, bulbous fruits our researchers developed appeal to their tastes."
- story.107.a.fruitful.tooltip: "Our §H$sm_feeder$§! are now capable of attracting §HSpace Amoeba§! fleets."
- story.201.desc.fruitful: "We're unsure these creatures are capable of eating, but if so, they could prove useful carrier for our seeds. Pacifying them would allow us to conduct further studies."
- story.207.fruitful.desc: "Developing a palatable fruit for these creatures has been a challenge. We're not sure if they're eating the glass-like pomes we created or if they just like to carry them around, enamored by their glossy surfaces. That's enough for our needs."
- story.207.a.fruitful.tooltip: "Our §H$sm_feeder$§! are now capable of attracting §HCrystalline Entity§! fleets."
+
+ origin.7201.name: "การเติบโตอย่างรวดเร็วและระเบิดล้นหลาม"
+ origin.7201.desc: "อาณานิคมของเราบนดาว §H[this.GetName]§! กำลังถูกถล่มด้วยลูกบอลเมล็ดพันธุ์ที่ได้รับการปฏิสนธิปุ๋ยขั้นสูง ป่าไม้ใหม่ๆ กำลังงอกเงยไปทั่ว พื้นดินแตกร้าว ทำลายอาคารบ้านเรือน และทำให้ [this.GetPlanetHabitat] เต็มไปด้วยพืชพรรณต่างดาวที่เติบโตอย่างรวดเร็ว"
+ MESSAGE_FRUITFUL_SEED_BOMBING_TITLE: "การทิ้งระเบิดเมล็ดพันธุ์"
+ MESSAGE_FRUITFUL_SEED_BOMBING: "การทิ้งระเบิดเมล็ดพันธุ์ทำให้เกิดสิ่งกีดขวางใหม่บนดาว $PLANET|Y$"
+
+ ## Critters interactions
+
+ # Amoebas
+ story.101.desc.fruitful: "หากทำให้พวกมันสงบลงได้ พวกมันอาจเป็นพาหะนำพาฝักเมล็ดพันธุ์ของเราได้อย่างสมบูรณ์แบบที่สุด"
+ story.107.fruitful.desc: "แม้ว่าพวกมันจะเป็นสัตว์กินเนื้อเป็นส่วนใหญ่ แต่ผลไม้เนื้อหนาที่เป็นทรงกลมที่เราพัฒนาขึ้นก็สามารถดึงดูดรสนิยมของพวกมันได้ดี"
+ story.107.a.fruitful.tooltip: "สวนดาราเมล็ดพันธุ์ §H$sm_feeder$§! ของเราขณะนี้สามารถดึงดูดกองเรือ §Hสเปซอะมีบา§! ได้แล้ว"
+
+ # Crystals
+ story.201.desc.fruitful: "เราไม่แน่ใจว่าสิ่งมีชีวิตเหล่านี้สามารถกินอาหารได้หรือไม่ แต่หากทำได้ พวกมันอาจพิสูจน์ได้ว่าเป็นพาหะที่มีประโยชน์สำหรับเมล็ดพันธุ์ของเรา การทำให้พวกมันสงบลงจะช่วยให้เราทำการศึกษาเพิ่มเติมได้"
+ story.207.fruitful.desc: "การพัฒนาผลไม้รสเลิศสำหรับสิ่งมีชีวิตเหล่านี้ถือเป็นความท้าทาย เราไม่แน่ใจว่าพวกมันกินผลไม้คล้ายแก้วที่เราสร้างขึ้น หรือพวกมันแค่ชอบพกพาพวกมันไปมาเนื่องจากหลงใหลในผิวสัมผัสที่เป็นเงางาม แต่แค่นั้นก็เพียงพอต่อความต้องการของเราแล้ว"
+ story.207.a.fruitful.tooltip: "สวนดาราเมล็ดพันธุ์ §H$sm_feeder$§! ของเราขณะนี้สามารถดึงดูดกองเรือ §Hความจุแบบคริสตัล§! ได้แล้ว"
+
+ # Study the Tyanki and get their tech
  origin.7000.name: "$story.501.name$"
- origin.7000.desc.common: "and we already learned much about these docile creatures.\n\nCapable of accessing some lower dimension of subspace, these spaceborne lifeforms roam from system to system with remarkable ease. They graze on gases common to the upper layers of many gas giants, but have taken a liking to our fruits. They will rarely, if ever, attack, even when provoked.\n\nThe perfect carrier for our seeds: calm, innocuous, almost boring. Do they hide any secret?"
- origin.7000.desc.default: "The §YTiyanki§! are the first alien species we encountered, $origin.7000.desc.common$"
- origin.7000.desc.beastmasters: "The §YTiyanki§! are a new alien species we encountered, $origin.7000.desc.common$"
- origin.7000.a: "Dedicate further time to their study."
- origin.7000.b: "We have other priorities."
- TIYANKIS_PROJECT: "Tiyanki Observation"
- TIYANKIS_PROJECT_DESC: "Dedicating some space station personnel to the study of the Tiyankis could give us further insights into the life of these pacific, mysterious voidborne creatures."
+ origin.7000.desc.common: "และเราได้เรียนรู้อะไรมากมายเกี่ยวกับสิ่งมีชีวิตที่เชื่องเหล่านี้แล้ว\n\nมีความสามารถในการเข้าถึงซับสเปซมิติที่ต่ำกว่า สิ่งมีชีวิตในอวกาศเหล่านี้จะเร่ร่อนจากระบบดาวหนึ่งไปยังอีกระบบดาวหนึ่งได้อย่างง่ายดายอย่างน่าทึ่ง พวกมันแทะเล็มก๊าซในชั้นบรรยากาศชั้นบนของดาวยักษ์ก๊าซหลายดวง แต่ก็ชอบผลไม้ของเราเป็นพิเศษ พวกมันจะไม่ค่อยเข้ามาโจมตีแม้ว่าจะถูกยั่วยุก็ตาม\n\nพาหะที่สมบูรณ์แบบสำหรับเมล็ดพันธุ์ของเรา: สงบ ไม่เป็นอันตราย และดูธรรมดา พวกมันมีความลับอะไรซ่อนอยู่หรือไม่?"
+ origin.7000.desc.default: "§Yเทียนิกิ§! เป็นสิ่งมีชีวิตต่างดาวสายพันธุ์แรกที่เราเผชิญหน้า $origin.7000.desc.common$"
+ origin.7000.desc.beastmasters: "§Yเทียนิกิ§! เป็นสิ่งมีชีวิตต่างดาวสายพันธุ์ใหม่ที่เราเผชิญหน้า $origin.7000.desc.common$"
+ origin.7000.a: "อุทิศเวลาเพิ่มเติมเพื่อการศึกษาพวกมัน"
+ origin.7000.b:"เรามีเรื่องอื่นที่สำคัญกว่าต้องทำ"
+
+ TIYANKIS_PROJECT: "การเฝ้าสังเกตการณ์เทียนิกิ"
+ TIYANKIS_PROJECT_DESC: "การอุทิศบุคลากรบางส่วนของสถานีอวกาศเพื่อศึกษาเทียนิกิจะมอบข้อมูลเชิงลึกเพิ่มเติมเกี่ยวกับชีวิตของสิ่งมีชีวิตในอวกาศที่รักสงบและลึกลับเหล่านี้"
+
  origin.7005.name: "$story.501.name$"
- origin.7005.desc: "By studying the feeding habits of our voidborne friends, our scientists have made a scientific breakthrough. $tech_space_whale_weapon_1_desc$. This technology will doubtlessly prove useful."
+ origin.7005.desc: "ด้วยการศึกษาพฤติกรรมการกินอาหารของเพื่อนในอวกาศของเรา นักวิทยาศาสตร์ของเราได้ค้นพบทางวิศวกรรมที่ยิ่งใหญ่ $tech_space_whale_weapon_1_desc$ เทคโนโลยีนี้จะพิสูจน์ได้ว่ามีประโยชน์อย่างไม่ต้องสงสัย"
+
+ ### Civics
+
  civic_idyllic_bloom:0 "ธรรมชาติบานสะพรั่ง"
- civic_idyllic_bloom_desc:0 "This society has long dedicated itself to environmental care and improvement, striving to create a true paradise for its inhabitants."
- civic_hive_idyllic_bloom:0 "Mycorrhizal Ideal"
- civic_hive_idyllic_bloom_desc:0 "The Hive Mind cares for the environment, building a paradise in pursuit of synergistic perfection."
+ civic_idyllic_bloom_desc:0 "สังคมนี้อุทิศตนให้กับการดูแลรักษาสิ่งแวดล้อมและการปรับปรุงธรรมชาติมาเป็นเวลานาน เพื่อพยายามสร้างสวรรค์ที่แท้จริงให้แก่ผูอยู่อาศัย"
+ civic_hive_idyllic_bloom:0 "ธรรมชาติในอุดมคติเกสตัลต์"
+ civic_hive_idyllic_bloom_desc:0 "จิตสำนึกร่วม(หัวเราะ)คอยดูแลสิ่งแวดล้อม สรรสร้างสรวงสวรรค์เพื่อแสวงหาความสมบูรณ์แบบร่วมกัน"
  civic_wilderness_idyllic_bloom: "$civic_hive_idyllic_bloom$"
- civic_wilderness_idyllic_bloom_desc: "This Wilderness desires a truly synergistic state of perfection, and so empowers its floral and fungal symbionts to transform the world around them."
- civic_tooltip_idyllic_bloom_effects:2 "Can build £building£ §Y$building_gaiaseeders$§! on your and your vassal's worlds ideal to your starting species.\n$building_gaiaseeders_all_desc$\nAs you unlock improved £society£ §YTerraforming§! technologies, £building£ §Y$building_gaiaseeders$§! can be constructed on additional planet types."
+ civic_wilderness_idyllic_bloom_desc: "ความถิ่นทุรกันดารนี้ปรารถนาสภาวะที่สมบูรณ์ร่วมกันอย่างแท้จริง จึงมอบพลังให้แก่พืชและเชื้อราเพื่อแปลงโฉมโลกรอบตัวพวกมัน"
+ civic_tooltip_idyllic_bloom_effects:2 "สามารถสร้างสิ่งก่อสร้าง £building£ §Y$building_gaiaseeders$§! บนดาวเคราะห์ของคุณและดาวเคราะห์บริวารที่เหมาะสมที่สุดกับเผ่าพันธุ์เริ่มต้นของคุณ\n$building_gaiaseeders_all_desc$\nเมื่อคุณปลดล็อกเทคโนโลยีปรับเปลี่ยนดาวเคราะห์ £society£ §Yการแปลงรูปแบบ§! ขั้นสูง จะสามารถสร้างสิ่งก่อสร้าง £building£ §Y$building_gaiaseeders$§! บนดาวเคราะห์ประเภทอื่นๆ เพิ่มเติมได้"
+
  disables_idyllic_bloom:0 "§Rการเลือกการยกระดับนี้จะปิดการใช้งานคุณสมบัติพลเมือง$civic_idyllic_bloom$§!"
+
  civic_tooltip_not_idyllic_bloom: "ไม่มีพลเมือง ['concept_idyllic_bloom_civics']"
- concept_idyllic_bloom_civics: "Idyllic Bloom"
+ concept_idyllic_bloom_civics:" เบ่งบานแสนสุข"
  concept_idyllic_bloom_civics_desc: "คุณสมบัติพลเมือง $concept_idyllic_bloom_civics$ ประกอบด้วย\n- ['civic:civic_idyllic_bloom']$NEW_LINE$- ['civic:civic_hive_idyllic_bloom']"
- gaia_seeder_bloomed_pops_effect: "Having completed transformation of [This.GetName] into a $pc_gaia$, the Gaia Seeder will now transform our population to better adapt them to this world.\n\nIncreases the effects of the §Y$trait_plantoid_bloomed$§! and §Y$trait_plantoid_budding$§! Traits by §G+50%§!."
- gaia_seeder_bloom_timer_tooltip: "\nThe next Bloom on §Y[This.GetName]§! will occur on §Y[This.gaia_seeder_bloom_timer]§!."
- MESSAGE_POPS_IDYLLIC_BLOOMED_TITLE: "Pops Bloomed"
- MESSAGE_POPS_IDYLLIC_BLOOMED: "Our Gaia Seeder on $PLANET|Y$ has released another Bloom, improving our £pop£ Pops."
- gaiaseeders_tomb_world:0 "$TRIGGER_FAIL$Requires £society£ §Y$tech_climate_restoration$§! to build on §YTomb Worlds§!."
- gaiaseeders_same_climate_start:0 "$TRIGGER_FAIL$Requires £society£ §Y$tech_terrestrial_sculpting$§! to build on"
- gaiaseeders_different_climate_start:0 "$TRIGGER_FAIL$Requires £society£ §Y$tech_ecological_adaptation$§! to build on"
- gaiaseeders_wet:0 "§YWet§!"
- gaiaseeders_dry:0 "§YDry§!"
- gaiaseeders_cold:0 "§YCold§!"
- gaiaseeders_same_climate_wet:0 "$gaiaseeders_same_climate_start$ $gaiaseeders_wet$ §YPlanets§!."
- gaiaseeders_same_climate_dry:0 "$gaiaseeders_same_climate_start$ $gaiaseeders_dry$ §YPlanets§!."
- gaiaseeders_same_climate_cold:0 "$gaiaseeders_same_climate_start$ $gaiaseeders_cold$ §YPlanets§!."
- gaiaseeders_different_climate_wet:0 "$gaiaseeders_different_climate_start$ $gaiaseeders_dry$ or $gaiaseeders_cold$ §YPlanets§!."
- gaiaseeders_different_climate_dry:0 "$gaiaseeders_different_climate_start$ $gaiaseeders_same_climate_wet$ or $gaiaseeders_cold$ §YPlanets§!."
- gaiaseeders_different_climate_cold:0 "$gaiaseeders_different_climate_start$ $gaiaseeders_same_climate_wet$ or $gaiaseeders_same_climate_dry$ §YPlanets§!."
- gaiaseeders_special_habitability_preference:0 "$gaiaseeders_different_climate_start$ $gaiaseeders_wet$, $gaiaseeders_dry$ or $gaiaseeders_cold$ §YPlanets§!."
- building_gaiaseeders:0 "Gaia Seeders"
+
+ gaia_seeder_bloomed_pops_effect: "เมื่อเสร็จสิ้นการปรับสภาพของดาว [This.GetName] ให้กลายเป็น $pc_gaia$ แล้ว เครื่อง=ไดเรกทอรีจะทำการปรับประชากรของเราให้เหมาะสมกับโลกใบนี้ดีขึ้น\n\nเพิ่มผลลัพธ์ของคุณลักษณะประชากร §Y$trait_plantoid_bloomed$§! และ §Y$trait_plantoid_budding$§! ขึ้น §G+50%§!"
+ gaia_seeder_bloom_timer_tooltip: "\nการเบ่งบานครั้งต่อไปบนดาว §Y[This.GetName]§! จะเกิดขึ้นในวันที่ §Y[This.gaia_seeder_bloom_timer]§!."
+ MESSAGE_POPS_IDYLLIC_BLOOMED_TITLE: "ประชากรเบ่งบานเต็มที่"
+ MESSAGE_POPS_IDYLLIC_BLOOMED: "เครื่อง=ไดเรกทอรีของเราบนดาว $PLANET|Y$ ได้ปล่อยการเบ่งบานออกมาอีกครั้ง ช่วยปรับปรุงประชากร £pop£ ของเรา"
+
+ gaiaseeders_tomb_world:0 "$TRIGGER_FAIL$ต้องการเทคโนโลยี £society£ §Y$tech_climate_restoration$§! เพื่อก่อสร้างบน §Yโลกสุสาน(ทรอมเวิลด์)§!."
+ gaiaseeders_same_climate_start:0 "$TRIGGER_FAIL$ต้องการเทคโนโลยี £society£ §Y$tech_terrestrial_sculpting$§! เพื่อก่อสร้างบน"
+ gaiaseeders_different_climate_start:0 "$TRIGGER_FAIL$ต้องการเทคโนโลยี £society£ §Y$tech_ecological_adaptation$§! เพื่อก่อสร้างบน"
+ gaiaseeders_wet:0 "§Yสภาพอากาศชื้น§!"
+ gaiaseeders_dry:0 "§Yสภาพอากาศแห้ง§!"
+ gaiaseeders_cold:0 "§Yสภาพอากาศหนาว§!"
+ gaiaseeders_same_climate_wet:0 "$gaiaseeders_same_climate_start$ ดาวเคราะห์ $gaiaseeders_wet$"
+ gaiaseeders_same_climate_dry:0 "$gaiaseeders_same_climate_start$ ดาวเคราะห์ $gaiaseeders_dry$"
+ gaiaseeders_same_climate_cold:0 "$gaiaseeders_same_climate_start$ ดาวเคราะห์ $gaiaseeders_cold$"
+ gaiaseeders_different_climate_wet:0 "$gaiaseeders_different_climate_start$ ดาวเคราะห์ $gaiaseeders_dry$ หรือ $gaiaseeders_cold$"
+ gaiaseeders_different_climate_dry:0 "$gaiaseeders_different_climate_start$ ดาวเคราะห์ $gaiaseeders_same_climate_wet$ หรือ $gaiaseeders_cold$"
+ gaiaseeders_different_climate_cold:0 "$gaiaseeders_different_climate_start$ ดาวเคราะห์ $gaiaseeders_same_climate_wet$ หรือ $gaiaseeders_same_climate_dry$"
+ gaiaseeders_special_habitability_preference:0 "$gaiaseeders_different_climate_start$ ดาวเคราะห์ $gaiaseeders_wet$, $gaiaseeders_dry$ หรือ $gaiaseeders_cold$"
+
+ building_gaiaseeders:0 "เครื่องผู้ปล่อยข้อมูล"
  building_gaiaseeders_1:0 "$building_gaiaseeders$ - ช่วงที่ 1"
  building_gaiaseeders_2:0 "$building_gaiaseeders$ - ช่วงที่ 2"
  building_gaiaseeders_3:0 "$building_gaiaseeders$ - ช่วงที่ 3"
  building_gaiaseeders_4:0 "$building_gaiaseeders$ - ช่วงสุดท้าย"
- building_gaiaseeders_all_desc:0 "Facilities spread across the planet progressively bring it closer to becoming a §YGaia World§!, through 4 upgrade phases."
+ building_gaiaseeders_all_desc:0 "สิ่งอำนวยความสะดวกในการแพร่กระจายเมล็ดพันธุ์ทั่วทั้งดาวเคราะห์ ค่อยๆ ปรับปรุงดาวเคราะห์ให้ใกล้เคียงกับการเป็น §Yโลกกายา§! ผ่าน 4 ระยะการปรับปรุง"
  building_gaiaseeders_1_desc:0 "$building_gaiaseeders_all_desc$\n\nระยะนี้เป็นช่วงเริ่มต้นของการเติบโต"
  building_gaiaseeders_2_desc:0 "$building_gaiaseeders_all_desc$\n\nระยะนี้เปลี่ยนไปสู่ความเป็นอยู่อาศัย"
  building_gaiaseeders_3_desc:0 "$building_gaiaseeders_all_desc$\n\nระยะนี้เน้นความเป็นอยู่อาศัย"
  building_gaiaseeders_4_desc:0 "$building_gaiaseeders_all_desc$"
- building_gaiaseeders_4_effect_desc:0 "Terraforms the planet into a §YGaia World§! on completion."
+ building_gaiaseeders_4_effect_desc:0 "ปรับเปลี่ยนดาวเคราะห์ให้เป็น §Yโลกกายา§! เมื่อทำเสร็จสิ้น"
+
  building_gaiaseeders_pc_gaia: "$building_gaiaseeders_4$"
  building_gaiaseeders_pc_gaia_desc: "$building_gaiaseeders_4_desc$"
- plant.100.name:0 "Idyllic Perfection"
- plant.100.desc:1 "Through our superior bio-engineering, considerable investments, and years of hard labor, our Gaia Seeding project on §Y[Root.GetName]§! has come to fruition.\n\nFrom this day on, §Y[Root.GetName]§! must be considered a true gem among planets, to admire, or perhaps envy."
- plant.100.a:0 "Let the celebrations begin!"
- plant.100.b:0 "We did well, time to focus elsewhere now."
- plant.105.desc:0 "Through our superior bio-engineering, considerable investments, and years of hard labor, our Gaia Seeding project on §Y[From.Planet.GetName]§! has come to fruition.\n\nFrom this day on, §Y[From.Planet.GetName]§! must be considered a true gem among planets, to admire, or perhaps envy. We are sure that our vassals appreciate our efforts."
- plant.110.desc:0 "Our Overlord have completed their strange project on §Y[from.from.planet.GetName]§!, transforming it into a Gaia world. Thanks to them we can now put the idyllic climate and vast open spaces of this paradise to good use."
- plant.110.desc.hydrocentric:0 "Our Overlord have completed their strange project on §Y[from.from.planet.GetName]§!. The planet is ruined! They have covered the oceans with plains and rolling hills. The once humid atmosphere has grown barren and dry. Even worse, when we voiced our concerns they were rejected out of hand! The Overlords say that they have made our world "prettier.""
- plant.110.a:0 "How dare they!"
- plant.110.b:0 "How thoughtful!"
- plant.110.c:0 "What a curious decision."
- celebrate_idyllic_bloom:0 "Celebrating Idyllic Transformation"
- celebrate_idyllic_bloom_desc:0 "A planet-wide celebration is taking place following the successful transformation of this world into an idyllic paradise."
- terraformed_our_ocean_world:0 "Terraformed Ocean World"
- terraformed_our_ocean_world_desc:0 "Our Overlord has terraformed a beautiful ocean world into a nasty Gaia one. What terrible taste."
- thankful_for_gaia:0 "Thankful for Gaia"
- thankful_for_gaia_desc:0 "Our Overlord has recently terraformed one of our planets into a gaia world. How kind of them!"
+
+ plant.100.name:0 "ความสมบูรณ์แบบตามอุดมคติ"
+ plant.100.desc:1 "ด้วยการดัดแปลงพันธุกรรมขั้นสูง การลงทุนจำนวนมาก และแรงงานหนักหลายปี โครงการปรับเปลี่ยนดาวเคราะห์การปล่อยข้อมูลของเราบนดาว §Y[Root.GetName]§! ได้บรรลุผลสำเร็จเป็นที่เรียบร้อยแล้ว\n\nตั้งแต่วันนี้เป็นต้นไป ดาว §Y[Root.GetName]§! จะได้รับการยกย่องว่าเป็นอัญมณีที่แท้จริงในหมู่ดาวเคราะห์ ทั้งสำหรับการชื่นชมหรืออาจก่อให้เกิดความริษยา"
+ plant.100.a:0 "เริ่มพิธีเฉลิมฉลองกันเลย!"
+ plant.100.b:0 "เราทำได้ดีมาก ถึงเวลาไปเน้นงานด้านอื่นต่อแล้ว"
+
+ plant.105.desc:0 "ด้วยการดัดแปลงพันธุกรรมขั้นสูง การลงทุนจำนวนมาก และแรงงานหนักหลายปี โครงการปรับเปลี่ยนดาวเคราะห์การปล่อยข้อมูลของเราบนดาว §Y[From.Planet.GetName]§! ได้บรรลุผลสำเร็จเป็นที่เรียบร้อยแล้ว\n\nตั้งแต่วันนี้เป็นต้นไป ดาว §Y[From.Planet.GetName]§! จะได้รับการยกย่องว่าเป็นอัญมณีที่แท้จริงในหมู่ดาวเคราะห์ ทั้งสำหรับการชื่นชมหรืออาจก่อให้เกิดความริษยา เรามั่นใจว่าบริวารของเราจะซาบซึ้งในความพยายามนี้"
+
+ plant.110.desc:0 "ผู้ปกครองของเราได้ดำเนินโครงการที่แปลกประหลาดบนดาว §Y[from.from.planet.GetName]§! เสร็จสิ้นแล้ว โดยเปลี่ยนให้เป็นโลกสวรรค์โลกกายาด้วยเหตุนี้เราจึงสามารถใช้ประโยชน์จากสภาพภูมิอากาศในอุดมคติและพื้นที่กว้างใหญ่ของสวรรค์แห่งนี้ได้ดี"
+ plant.110.desc.hydrocentric:0 "ผู้ปกครองของเราได้ดำเนินโครงการที่แปลกประหลาดบนดาว §Y[from.from.planet.GetName]§! เสร็จสิ้น โลกของเราถูกทำลายสิ้น! พวกเขาปูผืนมหาสมุทรด้วยที่ราบและเนินเขา อัญมณีแห่งความชื้นแฉะเปลี่ยนเป็นแห้งแล้งและเป็นทะเลทราย ยิ่งไปกว่านั้น เมื่อเราทักท้วง พวกเขาก็เพิกเฉยทิ้งคำร้องเรา! ผู้ปกครองกลับอ้างว่าพวกเขาช่วยทำให้โลกของเรา \"สวยงามยิ่งขึ้น\""
+
+ plant.110.a:0 "พวกเขากล้าดียังไง!"
+ plant.110.b:0 "ช่างรอบคอบจริงๆ!"
+ plant.110.c:0 "ช่างเป็นการตัดสินใจที่แปลกประหลาดยิ่งนัก"
+
+ celebrate_idyllic_bloom:0 "การฉลองการเปลี่ยนสภาพเป็นดินแดนในอุดมคติ"
+ celebrate_idyllic_bloom_desc:0 "การเฉลิมฉลองทั่วทั้งดาวเคราะห์เกิดขึ้นหลังจากการเปลี่ยนสภาพโลกนี้ให้เป็นสวรรค์ในอุดมคติได้สำเร็จ"
+ terraformed_our_ocean_world:0 "ปรับเปลี่ยนมหาสมุทรดาราของเรา"
+ terraformed_our_ocean_world_desc:0 "ผู้ปกครองของเราได้เปลี่ยนโลกมหาสมุทรที่งดงามให้เป็นโลกไกอา รสนิยมช่างแย่จริงๆ"
+
+ thankful_for_gaia:0 "ซาบซึ้งใจสำหรับโลกไกอา"
+ thankful_for_gaia_desc:0 "ผู้ปกครองของเราได้เปลี่ยนดาวเคราะห์ดวงหนึ่งของเราให้กลายเป็นโลกไกอา ช่างมีเมตตาเสียจริง!"
+
+ ### Traits by Byron Aytoun
+
  trait_plantoid_phototrophic:0 "สังเคราะห์แสง"
- trait_plantoid_phototrophic_desc:0 "§LThis species is sustained by a combination of both food and sunlight.§!\n"
- TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT:0 "Replaces §Y50%§! of $r_food$ (or $r_minerals$) Upkeep with $r_energy$ Upkeep"
+ trait_plantoid_phototrophic_desc:0 "§Lสายพันธุ์นี้ดำรงชีพด้วยการรวมกันของทั้งอาหารและแสงอาทิตย์§!\n"
+ TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT:0 "ทดแทนความต้องการอาหาร $food_with_icon$ (หรือเทียบเท่า) ในค่าบำรุงรักษา §Y50%§! ด้วยค่าบำรุงรักษาพลังงาน $energy_with_icon$"
+
  trait_plantoid_radiotrophic:0 "สังเคราะห์รังสี"
- trait_plantoid_radiotrophic_desc:0 "§LThis species is sustained by a combination of both food and low-energy radiation, and as such can thrive on the most inhospitable of worlds.§!"
- TRAIT_PLANTOID_RADIOTROPHIC_EFFECT:1 "$TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT$\n    - This £energy£ §YEnergy§! Upkeep is removed for Pops living on §YTomb Worlds§!.\n    - Pop Growth Speed on §YTomb Worlds§! §G+10%§!\n    - Tomb World Habitability: §G+10%§!"
+ trait_plantoid_radiotrophic_desc:0 "§Lสายพันธุ์นี้ดำรงชีพด้วยการรวมกันของอาหารและรังสีพลังงานต่ำ และด้วยเหตุนี้จึงสามารถเจริญเติบโตได้ดีในโลกที่เลวร้ายที่สุด§!"
+ TRAIT_PLANTOID_RADIOTROPHIC_EFFECT:1 "$TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT$\n$t$- ค่าบำรุงรักษาพลังงาน £energy£ นี้จะได้รับการยกเว้นสำหรับประชากรที่อาศัยอยู่บน §Yโลกสุสาน(ทรอมเวิลด์)§!.\n$t$- ความเร็วการเติบโตของประชากรบนโลกสุสาน §G+10%§!\n$t$- ความสามารถในการอยู่อาศัยบนโลกสุสาน: §G+10%§!"
  trait_harvested_radiotrophic:0 "$trait_plantoid_radiotrophic$"
  trait_harvested_radiotrophic_desc:0 "$trait_plantoid_radiotrophic_desc$"
  trait_lithoid_radiotrophic:0 "$trait_plantoid_radiotrophic$"
  trait_lithoid_radiotrophic_desc:0 "$trait_plantoid_radiotrophic_desc$"
- TRAIT_LITHOID_RADIOTROPHIC_EFFECT:1 "Replaces §Y50%§! of Base £minerals£ §YMinerals§! Upkeep with £energy£ §YEnergy§! Upkeep.\nThis £energy£ §YEnergy§! Upkeep is removed for Pops living on §YTomb Worlds§!.\nPop Growth Speed on §YTomb Worlds§! §G+10%§!\nTomb World Habitability: §G+10%§!"
+ TRAIT_LITHOID_RADIOTROPHIC_EFFECT:1 "ทดแทนความต้องการแร่ธาตุพื้นฐาน £minerals£ ในค่าบำรุงรักษา §Y50%§! ด้วยค่าบำรุงรักษาพลังงาน £energy£\nค่าบำรุงรักษาพลังงาน £energy£ นี้จะได้รับการยกเว้นสำหรับประชากรที่อาศัยอยู่บน §Yโลกสุสาน(ทรอมเวิลด์)§!.\nความเร็วการเติบโตของประชากรบนโลกสุสาน §G+10%§!\nความสามารถในการอยู่อาศัยบนโลกสุสาน: §G+10%§!"
+
  trait_plantoid_budding:0 "แตกหน่อ"
- trait_plantoid_budding_desc:0 "§Lเผ่าพันธุ์นี้มีความสามารถในการขยายพันธุ์โดยการแตกหน่อ นอกเหนือจากการปฏิสนธิของเมล็ดหรือสปอร์ตามปกติ§!"
- trait_lithoid_budding:0 "Crystallization"
- trait_lithoid_budding_desc:0 "§LWith crystalline growths, this species is capable of generating self replicating lattices of themselves, in addition to the more usual reproductive methods.§!"
- TRAIT_PLANTOID_BUDDING_EFFECT: "Every $pop_group_unit$ £pop£ §HPops§! working as a slave or better produces 0.02 £mod_logistic_growth_mult£ §Y$MOD_BONUS_POP_GROWTH$§!.\n\nThis stacks with other sources of $MOD_BONUS_POP_GROWTH$ such as £building£ §Y$building_clone_vats$§! or £job_spawning_drone£ §Y$job_spawning_drone_plural$§!."
+ trait_plantoid_budding_desc:0 "§Lเผ่าพันธุ์นี้มีความสามารถในการขยายพันธุ์โดยการแตกหน่อ นอกเหนือจากการปฏิสนธิของเมล็ดหรือสปอร์ตามปกติ§!"
+ trait_plantoid_budding_portrait_override_tt: "หรือสายพันธุ์ใดๆ ที่ขยายพันธุ์ผ่านการปักชำพืชพรรณ"
+ trait_lithoid_budding:0 "การก่อผลึกแก้ว"
+ trait_lithoid_budding_desc:0 "§Lด้วยการเจริญเติบโตของผลึกแก้ว สายพันธุ์นี้สามารถสร้างโครงข่ายจำลองตัวเองนอกเหนือจากการขยายพันธุ์ตามปกติ§!"
+ TRAIT_PLANTOID_BUDDING_EFFECT: "ทุกๆ ประชากร £pop£ ในกลุ่มประชากร $pop_group_unit$ ที่ทำงานเป็นทาสหรือดีกว่า จะผลิตความเร็วการเติบโตแบบโลจิสติกส์ £mod_logistic_growth_mult£ §Y$MOD_BONUS_POP_GROWTH$§! จำนวน 0.02\n\nสิ่งนี้จะสะสมร่วมกับแหล่งกระตุ้นอื่นๆ เช่น อู่โคลนนิ่ง £building£ §Y$building_clone_vats$§! หรือโดรนวางไข่ £job_spawning_drone£ §Y$job_spawning_drone_plural$§!"
  TRAIT_LITHOID_BUDDING_EFFECT:0 "$TRAIT_PLANTOID_BUDDING_EFFECT$"
+
  trait_advanced_phototrophic:0 "$trait_plantoid_phototrophic$"
- trait_advanced_phototrophic_desc:0 "§LThrough advanced genetic engineering, this species is now partially sustained by sunlight.§!"
- TRAIT_ADVANCED_PHOTOTROPHIC_EFFECT:0 "Replaces §Y50%§! of Base £food£ §YFood§! or £minerals£ §YMineral§! Upkeep with £energy£ §YEnergy§! Upkeep."
+ trait_advanced_phototrophic_desc:0 "§Lด้วยวิศวกรรมพันธุศาสตร์ขั้นสูง เผ่าพันธุ์นี้ในเวลานี้สามารถดำรงชีพด้วยแสงแดดบางส่วน§!"
+ TRAIT_ADVANCED_PHOTOTROPHIC_EFFECT:0 "ทดแทนความต้องการอาหาร £food£ หรือแร่ธาตุ £minerals£ พื้นฐานในค่าบำรุงรักษา §Y50%§! ด้วยค่าบำรุงรักษาพลังงาน £energy£"
+
  trait_advanced_radiotrophic:0 "$trait_plantoid_radiotrophic$"
- trait_advanced_radiotrophic_desc:0 "§LThrough advanced genetic engineering, this species is now partially sustained by low-energy radiation, and as such can thrive on the most inhospitable of worlds.§!"
- TRAIT_ADVANCED_RADIOTROPHIC_EFFECT:0 "$TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT$\nThis £energy£ §YEnergy§! Upkeep is removed for Pops living on §YTomb Worlds§!."
+ trait_advanced_radiotrophic_desc:0 "§Lด้วยวิศวกรรมพันธุศาสตร์ขั้นสูง เผ่าพันธุ์นี้ในเวลานี้สามารถดำรงชีพด้วยรังสีพลังงานต่ำ และด้วยเหตุนี้จึงสามารถเจริญเติบโตได้ดีในโลกที่เลวร้ายที่สุด§!"
+ TRAIT_ADVANCED_RADIOTROPHIC_EFFECT:0 "$TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT$\nค่าบำรุงรักษาพลังงาน £energy£ นี้จะได้รับการยกเว้นสำหรับประชากรที่อาศัยอยู่บน §Yโลกสุสาน(ทรอมเวิลด์)§!."
+
  trait_advanced_budding:0 "$trait_plantoid_budding$"
- trait_advanced_budding_desc:0 "§LChanges to their DNA sequence allow this species to reproduce by budding, in addition to the more conventional methods.§!"
- trait_plantoid_bloomed: "Bloomed"
- trait_plantoid_bloomed_desc: "This species has been exposed to the transformational effects of a Gaia Seeder, causing it to sprout mutualistic blooms of lichen when living on Gaia Worlds."
- plantoid_bloomed_trait_tooltip: "Effects on Gaia Worlds:\n$t$$mod_planet_jobs_produces_mult$: §G+10%§!\n$t$$MOD_LOGISTIC_GROWTH_MULT$: §G+10%§!\n$t$$MOD_POP_AMENITIES_USAGE_MULT$: §G-10%§!\n$t$$MOD_POP_HOUSING_USAGE_MULT$: §G-10%§!\n\nThese effects are increased by a £building£ $building_gaiaseeders_4$."
+ trait_advanced_budding_desc:0 "§Lการปรับเปลี่ยนลำดับดีเอ็นเอช่วยให้สายพันธุ์นี้ขยายพันธุ์โดยการแตกหน่อเพิ่มเติมจากวิธีดั้งเดิม§!"
+
+ trait_plantoid_bloomed: "เบ่งบานเต็มที่"
+ trait_plantoid_bloomed_desc: "สายพันธุ์นี้ได้รับการสัมผัสกับเอฟเฟกต์การแปลงสภาพของเครื่อง=ไดเรกทอรีทำให้สามารถแตกตุ่มเบ่งบานร่วมกันของไลเคนได้ยามที่อยู่อาศัยบนโลกโลกา"
+ planetoid_bloomed_trait_tooltip: "เอฟเฟกต์บนโลกกายาเวิลด์:$TABBED_NEW_LINE$$MOD_POP_BONUS_WORKFORCE_MULT$: §G+10%§!$TABBED_NEW_LINE$$MOD_LOGISTIC_GROWTH_MULT$: §G+10%§!\n$t$$MOD_POP_AMENITIES_USAGE_MULT$: §G-10%§!$TABBED_NEW_LINE$$MOD_POP_HOUSING_USAGE_MULT$: §G-10%§!\n\nเอฟเฟกต์เหล่านี้จะได้รับผลคูณเพิ่มจากการก่อสร้างอาคาร £building£ $building_gaiaseeders_4$."
+ ### Catalytic Processing by Byron Aytoun
+
+ # Regular
  civic_catalytic_processing:0 "ตัวเร่งปฏิกิริยาแปรสภาพ"
- civic_catalytic_processing_desc:0 "By focusing their industrial efforts on catalytic chemistry, this civilization has unlocked the key to using organic materials in the construction of spacebound structures."
- civic_tooltip_catalytic_processing_effects:0 "$t$- §Y$job_foundry_plural_with_icon$§! are replaced with §Y$job_catalytic_technician_plural_with_icon$§!\n$t$- [foundry.GetIcon] [artisan.GetIcon] §YIndustrial Jobs§! have their $r_minerals$ Upkeep replaced with $r_food$ Upkeep."
- civic_corporate_catalytic_processing:1 "Catalytic Recyclers"
- civic_corporate_catalytic_processing_desc:0 "This Megacorporation seeks to maximize profits by recycling excess organic matter into advanced resources suitable for spacebound structures."
- civic_tooltip_catalytic_processing_corporate_effects:0 "$civic_tooltip_catalytic_processing_effects$ $TABBED_NEW_LINE$- The £building£ §Y$building_private_shipyards$§! $megacorp_civic_branch_office_building_effect$"
+ civic_catalytic_processing_desc:0 "ด้วยการมุ่งเน้นงานอุตสาหกรรมในด้านเคมีเร่งปฏิกิริยา อารยธรรมนี้ได้ค้นพบกุญแจสำคัญในการใช้อินทรียสารในการก่อสร้างสิ่งก่อสร้างในห้วงอวกาศ"
+ civic_tooltip_catalytic_processing_effects:0 "$t$- อาชีพ §Y$job_foundry_plural_with_icon$§! จะถูกแทนที่ด้วยอาชีพ §Y$job_catalytic_technician_plural_with_icon$§!\n$t$- อาชีพ [foundry.GetIcon] [artisan.GetIcon] §Yอุตสาหกรรม§! จะถูกแทนที่ค่าบำรุงรักษาแร่ธาตุ $r_minerals$ ด้วยการบริโภคอาหาร $r_food$"
+
+ # Corporate
+ civic_corporate_catalytic_processing:1 "ธุรกิจรีไซเคิลอินทรียสาร"
+ civic_corporate_catalytic_processing_desc:0 "บริษัทเมกะคอร์ปนี้แสวงหากำไรสูงสุดโดยการนำอินทรียสารส่วนเกินมาแปรรูปเป็นทรัพยากรขั้นสูงที่เหมาะสำหรับงานก่อสร้างสิ่งก่อสร้างในห้วงอวกาศ"
+ civic_tooltip_catalytic_processing_corporate_effects:0 "$civic_tooltip_catalytic_processing_effects$ $TABBED_NEW_LINE$- สิ่งก่อสร้าง £building£ §Y$building_private_shipyards$§! มอบผลลัพธ์ $megacorp_civic_branch_office_building_effect$"
+
+ # Hive Mind
  civic_hive_catalytic_processing:1 "แปรรูปอินทรียสาร"
- civic_hive_catalytic_processing_desc:0 "The Hive Mind reprocesses excess organic matter into advanced resources suitable for spacebound structures."
- civic_tooltip_hive_catalytic_processing_effects:0 "$t$- [alloy_drone.GetIcon] §Y$job_alloy_drone_plural$§! are replaced with §Y$job_catalytic_drone_plural_with_icon$§!\n$t$- [fabricator.GetIcon] [artisan_drone.GetIcon] §YIndustrial Jobs§! have their $r_minerals$ Upkeep replaced with $r_food$ Upkeep."
- catalytic_gestalt_additional_effects: "\n[artisan_drone.GetIcon] §Y[artisan_drone.GetNamePlural]§! have their $r_minerals$ Upkeep replaced with $r_food$ Upkeep."
- civic_machine_catalytic_processing:1 "Organic Retrofitting"
- civic_machine_catalytic_processing_desc:0 "The Machine Intelligence reprocesses redundant organic matter into advanced resources suitable for spacebound structures."
- civic_tooltip_machine_catalytic_processing_effects:0 "$t$- [fabricator.GetIcon] §Y$job_fabricator_plural$§! are replaced with §Y$job_catalytic_drone_plural_with_icon$§!\n$t$- [fabricator.GetIcon] [artisan_drone.GetIcon] §YIndustrial Jobs§! have their $r_minerals$ Upkeep replaced with $r_food$ Upkeep."
+ civic_hive_catalytic_processing_desc:0 "จิตสำนึกร่วม(หัวเราะ)ดำเนินการแปรรูปอินทรียสารส่วนเกินเป็นทรัพยากรขั้นสูงที่เหมาะสำหรับงานก่อสร้างสิ่งก่อสร้างในห้วงอวกาศ"
+ civic_tooltip_hive_catalytic_processing_effects:0 "$t$- อาชีพ [alloy_drone.GetIcon] §Y$job_alloy_drone_plural$§! จะถูกแทนที่ด้วยอาชีพ §Y$job_catalytic_drone_plural_with_icon$§!\n$t$- อาชีพ [fabricator.GetIcon] [artisan_drone.GetIcon] §Yอุตสาหกรรม§! จะถูกแทนที่ค่าบำรุงรักษาแร่ธาตุ $r_minerals$ ด้วยการบริโภคอาหาร $r_food$"
+
+ catalytic_gestalt_additional_effects: "\n[artisan_drone.GetIcon] §Y[artisan_drone.GetNamePlural]§! จะมีค่าบำรุงรักษาแร่ธาตุ $r_minerals$ แทนที่ด้วยอาหาร $r_food$"
+
+ # Machine Intelligence
+ civic_machine_catalytic_processing:1 "ปรับปรุงกระบวนการอุตสาหกรรมอินทรีย์"
+ civic_machine_catalytic_processing_desc:0 "จักรกลอัจฉริยะ(สายข่าว)แปรรูปอินทรียสารส่วนเกินเป็นทรัพยากรขั้นสูงที่เหมาะสำหรับงานก่อสร้างสิ่งก่อสร้างในห้วงอวกาศ"
+ civic_tooltip_machine_catalytic_processing_effects:0 "$t$- อาชีพ [fabricator.GetIcon] §Y$job_fabricator_plural$§! จะถูกแทนที่ด้วยอาชีพ §Y$job_catalytic_drone_plural_with_icon$§!\n$t$- อาชีพ [fabricator.GetIcon] [artisan_drone.GetIcon] §Yอุตสาหกรรม§! จะถูกแทนที่ค่าบำรุงรักษาแร่ธาตุ $r_minerals$ ด้วยการบริโภคอาหาร $r_food$"
+
  civic_tooltip_not_catalytic: "ไม่มีพลเมือง ['concept_catalytic_civics']"
  concept_catalytic_civics: "ตัวเร่งปฏิกิริยาแปรสภาพ"
- concept_catalytic_civics_desc: "$concept_catalytic_civics$ Civics consists of \n- ['civic:civic_catalytic_processing']$NEW_LINE$- ['civic:civic_corporate_catalytic_processing']$NEW_LINE$- ['civic:civic_hive_catalytic_processing']$NEW_LINE$- ['civic:civic_machine_catalytic_processing']"
+ concept_catalytic_civics_desc: "$concept_catalytic_civics$ ประกอบด้วย \n- ['civic:civic_catalytic_processing']$NEW_LINE$- ['civic:civic_corporate_catalytic_processing']$NEW_LINE$- ['civic:civic_hive_catalytic_processing']$NEW_LINE$- ['civic:civic_machine_catalytic_processing']"
+
+ # Regular & Corporate
  job_catalytic_technician:0 "ช่างเทคนิคเร่งปฏิกิริยา"
  job_catalytic_technician_plural:0 "ช่างเทคนิคเร่งปฏิกิริยา"
  job_catalytic_technician_plural_with_icon: "£job_catalytic_technician£ $job_catalytic_technician_plural$"
- job_catalytic_technician_desc:0 "Highly trained workers are needed to turn raw organic matter into durable alloys necessary for advanced construction."
+ job_catalytic_technician_desc:0 "คนงานที่ได้รับการฝึกฝนมาเป็นอย่างดีจำเป็นสำหรับการเปลี่ยนวัตถุดิบอินทรีย์ให้เป็นโลหะผสมที่ทนทานสำหรับการก่อสร้างขั้นสูง"
  job_catalytic_technician_effect_desc:0 "£job_catalytic_technician£ $job_catalytic_technician_plural$ เปลี่ยน £food£ §Y$food$§! เป็น £alloys£ §Y$alloys$§!"
  mod_job_catalytic_technician_add:0 "งาน$job_catalytic_technician$"
  mod_job_catalytic_technician_per_pop:0 "§G+1§! อาชีพ$job_catalytic_technician$ ต่อ $VALUE$ ประชากร"
  mod_job_catalytic_technician_per_pop_short:0 "\n§G+1§! £mod_job_catalytic_technician_add£ ต่อ $VALUE$ £pop£"
+
+ # Gestalt
  catalytic_drone: "$job_catalytic_drone$"
  job_catalytic_drone:0 "โดรนเร่งปฏิกิริยา"
  job_catalytic_drone_plural:0 "โดรนเร่งปฏิกิริยา"
  job_catalytic_drone_plural_with_icon: "£job_catalytic_drone£ $job_catalytic_drone_plural$"
- job_catalytic_drone_desc:0 "Valuable organic compounds are processed into durable alloys for naval development and advanced construction by highly-specialized Catalytic Drones."
- job_catalytic_drone_effect_desc:0 "£job_catalytic_drone£ §Y$job_catalytic_drone_plural$§! turn £food£ §Y$food$§! into £alloys£ §Y$alloys$§!"
+ job_catalytic_drone_desc:0 "สารประกอบอินทรีย์อันมีค่าจะได้รับการแปรรูปให้เป็นโลหะผสมที่ทนทานสำหรับการพัฒนากองเรือและการก่อสร้างขั้นสูงโดยโดรนเร่งปฏิกิริยาที่เชี่ยวชาญพิเศษ"
+ job_catalytic_drone_effect_desc:0 "£job_catalytic_drone£ §Y$job_catalytic_drone_plural$§! เปลี่ยน £food£ §Y$food$§! เป็น £alloys£ §Y$alloys$§!"
  mod_job_catalytic_drone_add:0 "งาน$job_catalytic_drone$"
  mod_job_catalytic_drone_per_pop:0 "§G+1§! อาชีพ$job_catalytic_drone$ ต่อ $VALUE$ ประชากร"
  mod_job_catalytic_drone_per_pop_short:0 "\n§G+1§! £mod_job_catalytic_drone_add£ ต่อ $VALUE$ £pop£"
+
+ ### Invasive Species trait
  trait_invasive: "เผ่าพันธุ์ที่แพร่กระจายอย่างรวดเร็ว"
- TRAIT_INVASIVE_EFFECT: "§YCan only select negative or botanical traits§!\n\n    - Habitability: §G+5%§! for each negative trait selected\n    - Pop Growth Speed: §G+5%§! for each negative trait selected"
- trait_invasive_desc: "Rapid reproduction. High dispersal ability. Zero useful capabilities."
+ TRAIT_INVASIVE_EFFECT: "§Yสามารถเลือกได้เฉพาะคุณลักษณะเชิงลบหรือคุณลักษณะด้านพืชพรรณพฤกษศาสตร์เท่านั้น§!\n\n - ความสามารถอยู่อาศัยได้: §G+5%§! สำหรับคุณลักษณะเชิงลบแต่ละอันที่เลือก\n - ความเร็วการเติบโตของประชากร: §G+5%§! สำหรับคุณลักษณะเชิงลบแต่ละอันที่เลือก"
+ trait_invasive_desc: "การขยายพันธุ์อย่างรวดเร็ว ขีดความสามารถการแพร่กระจายสูง ขีดความสามารถที่เป็นประโยชน์เป็นศูนย์"
+
+ # Synced from vanilla by Stellaris Thai Translator.
+ # These keys were missing from the mod and should be translated on the next pass.
+ plantoid_bloomed_trait_tooltip: "ผล กระทบ ต่อ โลก ของ กายา:$TABBED_NEW_LINE$$MOD_POP_BONUS_WORKFORCE_MULT$: §G+10%§!$TABBED_NEW_LINE$$MOD_LOGISTIC_GROWTH_MULT$: §G+10%§!\n$t$$MOD_POP_AMENITIES_USAGE_MULT$: §G-10%§!$TABBED_NEW_LINE$$MOD_POP_HOUSING_USAGE_MULT$: §G-10%§!\n\nผลกระทบเหล่านี้เพิ่มขึ้นโดย£building£ $building_gaiaseeders_4$."

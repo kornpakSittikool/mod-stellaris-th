@@ -1,78 +1,133 @@
 ﻿l_english:
+ ####################################
+ # Alpha Naming Convention - WILL LIKELY BE CHANGED IF SECTIONS ARE REDESIGNED
+ #
+ # Mid sections have a flavor-name fitting to number of weapon/utility slots followed by the key-word "Core"
+ # Front sections have a flavor-name followed by the key-word "Breaker"
+ # Rear sections have a flavor-name followed by the key-word "Bulwark"
+ #
+ ####################################
+
+
+ ####################################
+ # Juggernaut
+ ####################################
+
  CORE_JUGGERNAUT_SECTION:0 "จักเกอร์น็อท"
- TITAN_BOW:0 "Titan Bow"
- TITAN_MID:0 "Titan Core"
- TITAN_STERN:1 "Titan Stern"
- BIO_TITAN_BOW: "$TITAN_BOW$"
- BIO_TITAN_MID: "$TITAN_MID$"
- BIO_TITAN_STERN: "$TITAN_STERN$"
- BATTLESHIP_BOW_L1M1S2:1 "Broadside Bow"
- BATTLESHIP_BOW_L1S4:1 "Titan Breaker"
- BATTLESHIP_BOW_L2:1 "Artillery Bow"
- BATTLESHIP_BOW_M1S2SHB:1 "Hangar Bow"
- BATTLESHIP_BOW_M2S4:1 "Spinal Mount Bow"
- BATTLESHIP_BOW_M3S2:1 "Soul Breaker"
- BATTLESHIP_MID_L2S4:1 "Nova Core"
- BATTLESHIP_MID_L1M4:1 "Stormbringer Core"
- BATTLESHIP_MID_L2M2:1 "Broadside Core"
- BATTLESHIP_MID_L3:1 "Artillery Core"
- BATTLESHIP_MID_M4SHB:1 "Hangar Core"
- BATTLESHIP_MID_S4LHB:1 "Carrier Core"
- BATTLESHIP_STERN_M1S2:1 "Aeon Bulwark"
- BATTLESHIP_STERN_L1:1 "Artillery Stern"
- BATTLESHIP_STERN_M2:1 "Broadside Stern"
- BATTLESHIP_STERN_S4:1 "Zenith Bulwark"
- COLONIZER_MID_M1S1:1 "Colony Ship"
- COLONIZER_MID_S3:0 "Seed Core"
- COLONIZER_MID_MU1:0 "Gaia Core"
- CONSTRUCTOR_MID_M1S1:1 "Construction Ship"
- CONSTRUCTOR_MID_S3:0 "Developer Core"
- CONSTRUCTOR_MID_MU1:0 "Fuser Core"
- CORVETTE_MID_M1S1:3 "Torpedo Boat"
- CORVETTE_MID_S3:1 "Interceptor"
- CORVETTE_MID_S1:1 "Shifter Core"
- CORVETTE_MID_S2PD1:0 "Picket Ship"
- CRUISER_BOW_L1:1 "Artillery Bow"
- CRUISER_BOW_M1S2:3 "Torpedo Bow"
- CRUISER_BOW_M2:1 "Broadside Bow"
- CRUISER_MID_S2HB:1 "Hangar Core"
- CRUISER_MID_L1M1:1 "Artillery Core"
- CRUISER_MID_M3:1 "Broadside Core"
- CRUISER_MID_M2S2:3 "Torpedo Core"
- CRUISER_STERN_M1:1 "Broadside Stern"
- CRUISER_STERN_S2:1 "Gunship Stern"
- DESTROYER_BOW_M1S2:1 "Gunship Bow"
- DESTROYER_BOW_S3:1 "Picket Ship Bow"
- DESTROYER_BOW_L1:1 "Artillery Bow"
- DESTROYER_STERN_PD2:0 "Picket Ship Stern"
- DESTROYER_STERN_S2:0 "Interceptor Ship Stern"
- DESTROYER_STERN_M1:1 "Gunship Stern"
- SCIENCE_MID_M1S1:1 "Science Ship"
- SCIENCE_MID_S3:0 "Trailblazer Core"
- SCIENCE_MID_MU1:0 "Insight Core"
- LIGHT_MILITARY_STATION_SECTION:0 "Light Station Section"
- PD_MILITARY_STATION_SECTION:0 "Point-Defense Station Section"
- MEDIUM_MILITARY_STATION_SECTION:0 "Medium Station Section"
- MISSILE_MILITARY_STATION_SECTION:0 "Missile Station Section"
- HEAVY_MILITARY_STATION_SECTION:0 "Heavy Station Section"
- HANGAR_MILITARY_STATION_SECTION:0 "Hangar Station Section"
- LIGHT_LARGE_MILITARY_STATION_SECTION:0 "Light Station Section"
- MEDIUM_LARGE_MILITARY_STATION_SECTION:0 "Medium Station Section"
- HEAVY_LARGE_MILITARY_STATION_SECTION:0 "Heavy Station Section"
- HANGAR_LARGE_MILITARY_STATION_SECTION:0 "Hangar Station Section"
- OUTPOST_STATION_SECTION:0 "Frontier Outpost Core"
- MISSILE_DEFAULT:1 "Torpedo Section"
- DEFAULT_CONSTRUCTION_SECTION:1 "Construction Ship"
- DEFAULT_COLONIZATION_SECTION:1 "Colony Ship"
- DEFAULT_SCIENCESHIP_SECTION:1 "Science Ship"
- DEFAULT_ORBITAL_STATION_SECTION:0 "Orbital Station Frame"
- DEFAULT_MINING_STATION_SECTION:0 "Mining Station Frame"
- DEFAULT_RESEARCH_STATION_SECTION:0 "Research Station Frame"
- DEFAULT_WORMHOLE_STATION_SECTION:0 "Wormhole Station Frame"
- DEFAULT_MILITARY_STATION_SECTION:0 "Basic Military Platform"
- DEFAULT_TRANSPORT_SECTION:1 "Transport Ship"
+
+ ####################################
+ # Titan
+ ####################################
+
+ TITAN_BOW:0 "หัวเรือไททัน"
+ TITAN_MID:0 "แกนกลางไททัน"
+ TITAN_STERN:1 "ท้ายเรือไททัน"
+ BIO_TITAN_BOW: "หัวเรือไททันชีวภาพ"
+ BIO_TITAN_MID: "แกนกลางไททันชีวภาพ"
+ BIO_TITAN_STERN: "ท้ายเรือไททันชีวภาพ"
+
+ ####################################
+ # Battleship
+ ####################################
+ BATTLESHIP_BOW_L1M1S2:1 "หัวเรือบรอดไซด์"
+ BATTLESHIP_BOW_L1S4:1 "ผู้ทำลายไททัน"
+ BATTLESHIP_BOW_L2:1 "หัวเรือปืนใหญ่"
+ BATTLESHIP_BOW_M1S2SHB:1 "หัวเรือโรงเก็บยาน"
+ BATTLESHIP_BOW_M2S4:1 "หัวเรือป้อมกระดูกสันหลัง"
+ BATTLESHIP_BOW_M3S2:1 "ผู้ทำลายวิญญาณ"
+ BATTLESHIP_MID_L2S4:1 "แกนโนวา"
+ BATTLESHIP_MID_L1M4:1 "แกนสตอร์มบรินเจอร์"
+ BATTLESHIP_MID_L2M2:1 "แกนบรอดไซด์"
+ BATTLESHIP_MID_L3:1 "แกนปืนใหญ่"
+ BATTLESHIP_MID_M4SHB:1 "แกนโรงเก็บยาน"
+ BATTLESHIP_MID_S4LHB:1 "แกนเรือบรรทุก"
+ BATTLESHIP_STERN_M1S2:1 "ปราการเอออน"
+ BATTLESHIP_STERN_L1:1 "ท้ายเรือปืนใหญ่"
+ BATTLESHIP_STERN_M2:1 "ท้ายเรือบรอดไซด์"
+ BATTLESHIP_STERN_S4:1 "ปราการเซนิธ"
+
+ ####################################
+ # Colonizer
+ ####################################
+ COLONIZER_MID_M1S1:1 "ยานอาณานิคม"
+ COLONIZER_MID_S3:0 "แกนเมล็ดพันธุ์"
+ COLONIZER_MID_MU1:0 "แกนไกอา"
+
+ ####################################
+ # Constructor
+ ####################################
+ CONSTRUCTOR_MID_M1S1:1 "ยานก่อสร้าง"
+ CONSTRUCTOR_MID_S3:0 "แกนนักพัฒนา"
+ CONSTRUCTOR_MID_MU1:0 "แกนหลอมรวม"
+
+ ####################################
+ # Corvette
+ ####################################
+ CORVETTE_MID_M1S1:3 "เรือตอร์ปิโด"
+ CORVETTE_MID_S3:1 "อินเตอร์เซ็ปเตอร์"
+ CORVETTE_MID_S1:1 "แกนชิฟเตอร์"
+ CORVETTE_MID_S2PD1:0 "เรือพิทักษ์"
+
+ ####################################
+ # Cruiser
+ ####################################
+ CRUISER_BOW_L1:1 "หัวเรือปืนใหญ่"
+ CRUISER_BOW_M1S2:3 "หัวเรือตอร์ปิโด"
+ CRUISER_BOW_M2:1 "หัวเรือบรอดไซด์"
+ CRUISER_MID_S2HB:1 "แกนโรงเก็บยาน"
+ CRUISER_MID_L1M1:1 "แกนปืนใหญ่"
+ CRUISER_MID_M3:1 "แกนบรอดไซด์"
+ CRUISER_MID_M2S2:3 "แกนตอร์ปิโด"
+ CRUISER_STERN_M1:1 "ท้ายเรือบรอดไซด์"
+ CRUISER_STERN_S2:1 "ท้ายเรือกันชิป"
+
+ ####################################
+ # Destroyer
+ ####################################
+ DESTROYER_BOW_M1S2:1 "หัวเรือกันชิป"
+ DESTROYER_BOW_S3:1 "หัวเรือพิทักษ์"
+ DESTROYER_BOW_L1:1 "หัวเรือปืนใหญ่"
+ DESTROYER_STERN_PD2:0 "ท้ายเรือพิทักษ์"
+ DESTROYER_STERN_S2:0 "ท้ายเรืออินเตอร์เซ็ปเตอร์"
+ DESTROYER_STERN_M1:1 "ท้ายเรือกันชิป"
+
+ ####################################
+ # Science
+ ####################################
+ SCIENCE_MID_M1S1:1 "ยานวิทยาศาสตร์"
+ SCIENCE_MID_S3:0 "แกนนักบุกเบิก"
+ SCIENCE_MID_MU1:0 "แกนหยั่งรู้"
+
+ ####################################
+ # Science
+ ####################################
+ LIGHT_MILITARY_STATION_SECTION:0 "ส่วนสถานีเบา"
+ PD_MILITARY_STATION_SECTION:0 "ส่วนสถานีป้องกันจุด"
+ MEDIUM_MILITARY_STATION_SECTION:0 "ส่วนสถานีกลาง"
+ MISSILE_MILITARY_STATION_SECTION:0 "ส่วนสถานีมิสไซล์"
+ HEAVY_MILITARY_STATION_SECTION:0 "ส่วนสถานีหนัก"
+ HANGAR_MILITARY_STATION_SECTION:0 "ส่วนสถานีโรงเก็บยาน"
+ LIGHT_LARGE_MILITARY_STATION_SECTION:0 "ส่วนสถานีเบา"
+ MEDIUM_LARGE_MILITARY_STATION_SECTION:0 "ส่วนสถานีกลาง"
+ HEAVY_LARGE_MILITARY_STATION_SECTION:0 "ส่วนสถานีหนัก"
+ HANGAR_LARGE_MILITARY_STATION_SECTION:0 "ส่วนสถานีโรงเก็บยาน"
+ OUTPOST_STATION_SECTION:0 "แกนด่านหน้า"
+
+ ####################################
+ # Other
+ ####################################
+ MISSILE_DEFAULT:1 "ส่วนตอร์ปิโด"
+ DEFAULT_CONSTRUCTION_SECTION:1 "ยานก่อสร้าง"
+ DEFAULT_COLONIZATION_SECTION:1 "ยานอาณานิคม"
+ DEFAULT_SCIENCESHIP_SECTION:1 "ยานวิทยาศาสตร์"
+ DEFAULT_ORBITAL_STATION_SECTION:0 "โครงสถานีวงโคจร"
+ DEFAULT_MINING_STATION_SECTION:0 "โครงสถานีขุดแร่"
+ DEFAULT_RESEARCH_STATION_SECTION:0 "โครงสถานีวิจัย"
+ DEFAULT_WORMHOLE_STATION_SECTION:0 "โครงสถานีรูหนอน"
+ DEFAULT_MILITARY_STATION_SECTION:0 "แท่นทหารพื้นฐาน"
+ DEFAULT_TRANSPORT_SECTION:1 "ยานขนส่ง"
  SHIP_COLOSSUS_SECTION:0 "โคลอสซัส"
- GHOST_SHIP_SECTION:0 "Ghost Ship Frame"
- lost_swarm_adult:0 "Locust"
- lost_swarm_adult_cap: "$lost_swarm_adult$"
- lost_swarm_adult_plural:0 "Locusts"
+ GHOST_SHIP_SECTION:0 "โครงยานผีสิง"
+ lost_swarm_adult:0 "ตั๊กแตน"
+ lost_swarm_adult_cap: "ตั๊กแตน"
+ lost_swarm_adult_plural:0 "ฝูงตั๊กแตน"
